@@ -1,17 +1,18 @@
-#################
-CHESTER Datasheet
-#################
+#########################################
+HARDWARIO IOT KIT DEVELOPER DOCUMENTATION
+#########################################
 
 .. important::
 
-   In this section, you will find an online datasheet for the **HARDWARIO** product **CHESTER**. In case, you are searching for the product homepage, click on `this link <https://www.hardwario.com/chester/>`_.
+   In this section, you will find developer documentation for the **HARDWARIO** product **IOT KIT**.
 
-.. toctree::
+
+..   .. toctree::
    :caption: Contents:
    :numbered:
    :maxdepth: 2
 
-   overview
+..   overview
    parameters
    expansion
    backend
