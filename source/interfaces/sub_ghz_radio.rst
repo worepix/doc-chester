@@ -13,9 +13,9 @@ Since this frequency band is used for signal messages, you will not encounter in
 
     HARDWARIO IoT Kit uses SPIRIT1 radio transceiver from STMicroelectronics.
 
-.. image:: _static/sub_ghz_radio/_interfaces_sub-ghz-radio_SPIRIT1.jpg
+.. image:: ../_static/interfaces/sub_ghz_radio/sub-ghz-radio_SPIRIT1.jpg
    :align: center
-   :width: 300
+   :scale: 51%
    :alt: SPIRIT1
 
 *******************
@@ -105,10 +105,108 @@ By using Power Module or micro USB cable to power Core Module constantly you can
     }
 
 **Set listening timeout for sleeping node**
+
 In the firmware you can set the time that the sleeping node will listen after every send message from Node to the Gateway.
 You set it by calling bc_radio_set_rx_timeout_for_sleeping_node API.
 
 This way let's say you send the measured temperature every 10 minutes and in your Node-RED or server code you will react to this
 MQTT temperature message and immediately response with MQTT message to toggle the relay.
 We did some tests and 400 ms is more then enough timeout for Node-RED to send the response MQTT message.
+
+This solution adds to the power consumption and you have to find right balance between battery life and response time the relay can be switched.
+
+.. code-block:: c
+
+    /* Temperature event handler, this will just send the value through the radio *
+     * and allow the Core Module to switch to Listening mode for 400ms            */
+    void tmp112_event_handler(bc_tmp112_t *self, bc_tmp112_event_t event, void *event_param)
+    {
+        float value;
+        event_param_t *param = (event_param_t *)event_param;
+
+        if (event == BC_TMP112_EVENT_UPDATE)
+        {
+            bc_radio_pub_temperature(param->channel, &value);
+            param->value = value;
+            values.temperature = value;
+        }
+    }
+
+    void application_init(void)
+    {
+
+        static bc_tmp112_t temperature;
+        bc_tmp112_init(&temperature, BC_I2C_I2C0, 0x49);
+        bc_tmp112_set_event_handler(&temperature, tmp112_event_handler, NULL);
+        bc_tmp112_set_update_interval(&temperature, 60 * 1000);               // Update every 10 minutes
+
+        bc_radio_init(BC_RADIO_MODE_NODE_SLEEPING);
+        bc_radio_pairing_request("relay", VERSION);
+        bc_radio_set_rx_timeout_for_sleeping_node(400);
+    }
+
+**Synchronized clock of nodes**
+
+With `RTC support in SDK <https://sdk.hardwario.com/group__bc__rtc.html>`_ it is possible to synchronize the clock of the nodes and create
+a firmware that will for example listen for 1 second in every 10 minutes.
+This way the node does not need to send packet like in previous solution, but it needs to be perfectly time-synchronized with the gateway and Node-RED.
+
+****************
+Radio Parameters
+****************
++----------------------------------------+----------------+
+| Parameter                              | Value          |
++========================================+================+
+| Communication frequency (Europe)       | 868.0 MHz      |
++----------------------------------------+----------------+
+| Communication frequency (U.S.)         | 915.0 MHz      |
++----------------------------------------+----------------+
+| Modulation Type                        | GFSK           |
++----------------------------------------+----------------+
+| Modulation Rate                        | 19.2 kbps      |
++----------------------------------------+----------------+
+| TX Frequency Deviation                 | 20 kHz         |
++----------------------------------------+----------------+
+| TX Transmit Power                      | 11.6 dBm       |
++----------------------------------------+----------------+
+| RX Filter Bandwidth                    | 100 kHz        |
++----------------------------------------+----------------+
+
+*************************************
+Using 915 MHz for US, Canada & others
+*************************************
+For parts of the world where the ISM band is 915 MHz, you cannot use default 868 MHz communication frequency.
+During the code compilation you have to pass ``BAND`` parameter to the ``make`` like this:
+
+.. code-block:: console
+
+    make BAND=915
+
+Right now it is not possible to use ``bcf`` tool because all the firmwares are pre-compiled with 868 MHz band.
+Make sure you also compile **Radio Dongle** firmware with this parameter.
+
+****************
+Packet Structure
+****************
++--------+--------+--------+--------+-------------+--------+
+| PRE(4) | SYN(4) | LEN(1) | DST(1) | DATA(0..60) | CRC(2) |
++--------+--------+--------+--------+-------------+--------+
+
+Explanation of the fields:
+
+- **PRE(4)**
+    This part is called **preamble** and consists of alternating sequence of zeroes and ones (32 bits).
+- **SYN(4)**
+    This part is called **synchronization word** and has a fixed value of ``0x88888888``.
+- **LEN(1)**
+    This part determines the length of the ``DATA`` plus 1 (``DST`` field is also counted).
+- **DST(1)**
+    This is destination address (for logic network addressing).
+- **DATA(0..60)**
+    Variable length payload data field.
+- **CRC(2)**
+    Checksum calculated over all fields excluding ``PRE`` and ``SYN`` fields. The polynomial of the CRC engine is ``0x1021``.
+
+
+
 

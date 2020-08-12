@@ -28,7 +28,8 @@ author = 'HARDWARIO'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_copybutton'
+    'sphinx_copybutton',
+    'sphinxcontrib.contentui',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

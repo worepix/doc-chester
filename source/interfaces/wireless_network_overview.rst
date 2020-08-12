@@ -67,7 +67,7 @@ HARDWARIO Sigfox Module article!!!!!!!!!!!!!!!!!!!!!!!!!!! TODO
 Because Sigfox is global network, you don't have to deal with SIM cards or roaming.
 You do not have to buy or manage gateway. You just use already working infrastructure.
 
-Check Sigfox `coverage map <https://www.sigfox.com/en/coverage>`_ to see if your area is covered.
+Check `Sigfox coverage map <https://www.sigfox.com/en/coverage>`_ to see if your area is covered.
 
 **Parameters:**
 
@@ -75,6 +75,7 @@ Check Sigfox `coverage map <https://www.sigfox.com/en/coverage>`_ to see if your
 - Packet size: 12 bytes
 
 **References:**
+
 - `Sigfox Projects on GitHub <github.com/hardwario?q=sigfox>`_
 
 NB-IoT network

@@ -8,11 +8,23 @@ HARDWARIO IoT Kit Developer Documentation
    If you want to get information on how to buy a kit, you can visit the `product homepage <https://www.hardwario.com/kit/>`_.
 
 .. toctree::
-   :caption: Contents:
-   :numbered:
+   :caption: Interfaces
    :maxdepth: 2
 
-   mqtt_protocol
-   mqtt_topics
-   wireless_network_overview
-   sub_ghz_radio
+   interfaces/mqtt_protocol
+   interfaces/mqtt_topics
+   interfaces/wireless_network_overview
+   interfaces/sub_ghz_radio
+   interfaces/sigfox_iot_radio
+   interfaces/lora_iot_radio
+   interfaces/serial_port_json
+
+.. toctree::
+   :caption: Integrations
+   :maxdepth: 2
+
+   integrations/grafana
+   integrations/blynk
+   integrations/ifttt
+   integrations/anemone
+
