@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'CHESTER'
+project = 'HARDWARIO IoT Kit'
 copyright = '2020, HARDWARIO'
 author = 'HARDWARIO'
 
@@ -28,6 +28,7 @@ author = 'HARDWARIO'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
