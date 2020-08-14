@@ -8,6 +8,12 @@ HARDWARIO IoT Kit Developer Documentation
    If you want to get information on how to buy a kit, you can visit the `product homepage <https://www.hardwario.com/kit/>`_.
 
 .. toctree::
+   :caption: Basics
+   :maxdepth: 2
+
+   basics/module_overview
+
+.. toctree::
    :caption: Interfaces
    :maxdepth: 2
 
@@ -27,4 +33,13 @@ HARDWARIO IoT Kit Developer Documentation
    integrations/blynk
    integrations/ifttt
    integrations/anemone
+   integrations/ubidots
+   integrations/homekit_siri
+   integrations/alexa
 
+.. toctree::
+   :caption: Hardware
+   :maxdepth: 2
+
+   hardware/basic
+   hardware/pinout

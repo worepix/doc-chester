@@ -18,7 +18,7 @@ padding: 0 20px;
 }
 
 .wy-side-nav-search>a{
-    content:url('../hw-logo-white.svg');
+    content:url('../general/hw-logo-white.svg');
     max-width: 100%;
     margin: 0!important;
 }
