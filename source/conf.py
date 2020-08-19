@@ -31,7 +31,7 @@ author = 'HARDWARIO'
 extensions = [
     'sphinx_copybutton',
     'sphinxcontrib.contentui',
-    'sphinxcontrib.yt'
+    'sphinxcontrib.yt',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

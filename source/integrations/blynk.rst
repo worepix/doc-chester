@@ -5,7 +5,7 @@ Blynk - Mobile App Builder
 `The Blynk <http://www.blynk.cc/>`_ is a mobile front end builder and signaling relay (MQTT). This let's you quicky create control and display for your IoT things.
 Here we will guide you the process of putting together the hardware and connecting it to the cloud.
 The cloud in turn gets interconnected with the project on your phone withing the Blynk app.
-The local side of the project is hosted on the BigClown Raspian which has all the necessary components prepared for interconnection.
+The local side of the project is hosted on the HARDWARIO Raspian which has all the necessary components prepared for interconnection.
 When everything will be finished then you would have an ability to turn on and off the relay, switch the LED strip on and off,
 change the light intensity using slider and also you would be able to watch the temperature (and other values collected) acompanied by graphs.
 
@@ -61,6 +61,10 @@ Node-RED setup
 
 In node red, install the Blynk package ``node-red-contrib-blynk-ws`` if you cannot see **Blynk** nodes.
 Also follow one of the project tutorials above where installation and creating and connecting of nodes is explained.
+
+Here you can watch a video with the Blynk Example:
+
+.. youtube:: https://www.youtube.com/watch?v=cVC_tFuCYTM&list=PLfRfhTxkuiVw0s9UQ8x5irref-EBwOghF&index=5
 
 **********************************
 ZeRGBA to hex RGB values - Example
