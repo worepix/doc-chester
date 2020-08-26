@@ -16,6 +16,9 @@ The chip does not have to be powered when being accessed from the NFC side.
     NFC (or Near Field Communication) is a great technology for transferring data on a short distance (a couple of centimeters).
     This attribute makes this technology appealing for security key provisioning. Many smartphones are today equipped with the NFC technology.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/nfc-tag/>`_       | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-nfc>`_       | `SDK Library <https://sdk.hardwario.com/group__bc__tag__nfc>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_nfc.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_nfc.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -31,12 +34,3 @@ Features
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 16 x 16 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/nfc-tag/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-nfc>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__tag__nfc>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_nfc.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_nfc.c>`_

@@ -21,8 +21,8 @@ Firmware flashing
 With these tools you can flash new firmware.
 Tools can automatically download pre-compiled firmware from GitHub and you can also choose your own ``*.bin`` file to flash.
 
-- BigClown Playground is a GUI multi-platform tool.
-- BigClown Flasher (``bcf``) command line tool.
+- HARDWARIO Playground is a GUI multi-platform tool.
+- HARWDARIO Flasher (``bcf``) command line tool.
 
 !!!!!!!!!!!TODO!!!!!!!!!!!!!
 
@@ -74,6 +74,7 @@ There are the main reasons for choosing this technology:
 - Simple and understandable syntax
 
 .. note::
+
     Effective use of hardware resources is important for developing of low-power devices. This is primary goal of HARDWARIO ecosystem.
 
 You can choose from wide variety of systems and tools. Windows, macOS a Ubuntu (and other Debian derivatives) are supported.

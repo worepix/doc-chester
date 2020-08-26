@@ -35,6 +35,10 @@ Measuring Total VOC (TVOC) level can helps to increase the efficiency of ventila
 |                  |                    |                               | |                                               |                        |
 +------------------+--------------------+-------------------------------+-------------------------------------------------+------------------------+
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/voc-tag/>`_       | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-voc>`_       | `SDK Library <https://sdk.hardwario.com/group__bc__sgp30>`_   | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_sgp30.h>`_   | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_sgp30.c>`_   |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
+
 ********
 Features
 ********
@@ -50,12 +54,3 @@ Features
 - Operating temperature range: -45 to 85 °C
 - Mechanical dimensions: 16 x 16 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/voc-tag/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-voc>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__sgp30>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_sgp30.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_sgp30.c>`_

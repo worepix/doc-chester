@@ -11,6 +11,9 @@ The **GPS Module** allows you to know the exact position of your device.
 It is using **SAM-M8Q** module from **ublox**. It understands 3 global positioning standards GPS, Galileo and GLONASS.
 The 2.5 m position accuracy is possible thanks to combining position from all three standards together.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/gps-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-gps>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__gps.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_gps.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_gps.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -26,12 +29,3 @@ Features
 - Operating voltage range: 2.7 V to 3.6 V
 - Operating temperature range: -40 to 85 °C
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/gps-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-gps>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__module__gps.html>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_gps.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_gps.c>`_

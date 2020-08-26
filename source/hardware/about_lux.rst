@@ -16,6 +16,10 @@ This sensor is digital and calibrated. It communicates using an I²C bus and fea
 
     The spectral response of the sensor tightly matches the photopic response of the human eye and includes **significant infrared rejection**.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/lux-meter-tag/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-lux-meter>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__tag__lux__meter>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_lux_meter.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_lux_meter.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+
 ********
 Features
 ********
@@ -31,13 +35,3 @@ Features
 - Operating voltage range: 1.6 V to 3.6 V
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 16 x 16 mm
-
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/lux-meter-tag/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-lux-meter>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__tag__lux__meter>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_lux_meter.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_lux_meter.c>`_

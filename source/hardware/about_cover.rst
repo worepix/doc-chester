@@ -11,6 +11,9 @@ The **Cover Module** is a simple mechanical part that helps to cover the front f
 It looks great when combined with one of our 3D-printed enclosure.
 You simple snap it in the HARDWARIO socket header using the bottom pins.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/cover-module/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-cover>`_  |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -21,9 +24,3 @@ Features
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 88 x 55 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/cover-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-cover>`_

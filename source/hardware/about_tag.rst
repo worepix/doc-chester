@@ -18,6 +18,9 @@ It also features pull-up resistors on SDA/SCL signals of I2C1 bus.
     But sometimes the number of positions is not enough, the socket is not available, or you need to extend the I²C bus with an additional channel.
     And that's when the Tag Module can help.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/tag-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-tag>`_    |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -30,9 +33,3 @@ Features
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 44 x 55 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/tag-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-tag>`_

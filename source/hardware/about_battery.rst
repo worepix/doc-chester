@@ -19,6 +19,9 @@ You can find the external input on the two pins in the middle. These pins are co
 
 Another useful feature is a **prototyping area** for soldering your circuits.
 
++--------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/battery-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-battery>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__battery>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_battery.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_battery.c>`_ |
++--------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -38,12 +41,3 @@ Features
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 88 x 55 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/battery-module//>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-battery>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__module__battery>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_battery.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_battery.c>`_

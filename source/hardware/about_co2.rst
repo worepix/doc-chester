@@ -16,11 +16,14 @@ Its nominal concentration is about 400 ppm (0.04 %). There are many occurrences 
 
 .. important::
 
-    The high concentration of CO₂ leads to acidity and various health related problems.
+    The high concentration of CO₂ leads to acidity and various health-related problems.
 
 We have equipped the LP8 sensor with additional circuitry for efficient power management and I²C-only interfacing.
 This module also features three 5-pin sockets allowing you to connect HARDWARIO tags.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/co2-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-co2>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__co2>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_co2.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_co2.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -43,14 +46,5 @@ Features
 
 .. caution::
 
-    Accuracy ±50 ppm is achieved after 24 days of operation and auto calibration process.
+    Accuracy ±50 ppm is achieved after 24 days of operation and auto-calibration process.
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/co2-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-co2>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__module__co2>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_co2.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_co2.c>`_

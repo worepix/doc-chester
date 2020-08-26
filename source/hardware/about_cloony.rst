@@ -19,6 +19,9 @@ There are two basic difference from the **Core Module**. First, it does not have
 Second, it does not have any USB interface. Programming can be done either using an SWD debugger,
 or using a UART bootloader (you need RESET, BOOT, TXD2 and RXD2 signals).
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/cloony/>`_        | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-cloony>`_        |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -34,9 +37,3 @@ Features
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 23 x 23 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/cloony/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-cloony>`_

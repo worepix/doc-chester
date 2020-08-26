@@ -12,6 +12,9 @@ You can use this module to run a HTTP webserver or as an MQTT client connecting 
 It is using WizNet W5500 chip that is using SPI to communicate with Core Module.
 Optionally this module can have active PoE module that fully supports IEEE 802.3af standard.
 
++----------------------------------------------------------------------------------------------------+
+| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-ethernet>`_ |
++----------------------------------------------------------------------------------------------------+
 
 ********
 Features

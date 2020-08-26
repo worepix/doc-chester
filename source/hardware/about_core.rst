@@ -39,7 +39,7 @@ The **Core Module** can communicate wirelessly with another **Core Module**, or 
 GPIO Pin Mapping
 ****************
 
-Table below explains mapping between pin numbers and real `STM32L083CZ <https://www.st.com/en/microcontrollers-microprocessors/stm32l083cz.html>`_ GPIO pin names:
+The table below explains mapping between pin numbers and real `STM32L083CZ <https://www.st.com/en/microcontrollers-microprocessors/stm32l083cz.html>`_ GPIO pin names:
 
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+
 | Pin            | Signal         | MCU Pin                                                                | 5 V tolerant                               |
@@ -84,8 +84,12 @@ Table below explains mapping between pin numbers and real `STM32L083CZ <https://
 
 .. important::
 
-    - Maximum current for a single pin is 16 mA.
-    - Maximum current fo all GPIOs combined is 90 mA.
+    - The maximum current for a single pin is 16 mA.
+    - The maximum current fo all GPIOs combined is 90 mA.
+
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/core-module/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-core>`_   |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -108,10 +112,3 @@ Features
 - Operating voltage range: 2.0 V to 3.6 V
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 33 x 55 mm
-
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/core-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-core>`_

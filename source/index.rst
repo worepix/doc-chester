@@ -12,8 +12,10 @@ HARDWARIO IoT Kit Developer Documentation
    :maxdepth: 2
 
    basics/playground
+   basics/about_hardwario_kit
    basics/module_overview
    basics/enclosures
+   basics/projects
 
 
 .. toctree::
@@ -39,6 +41,9 @@ HARDWARIO IoT Kit Developer Documentation
    integrations/ubidots
    integrations/homekit_siri
    integrations/alexa
+   integrations/google_assistant
+   integrations/firebase
+   integrations/google_sheets
 
 .. toctree::
    :caption: Hardware

@@ -11,9 +11,7 @@ The **Mini Cover Module** is a simple mechanical part that helps to cover the fr
 It looks great when combined with one of our 3D-printed enclosure.
 You simple snap it in the BigClown socket header using the bottom pins.
 
-*********
-Resources
-*********
++-----------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/mini-cover-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-cover-mini>`_ |
++-----------------------------------------------------------+------------------------------------------------------------------------------------------------------+
 
-- `E-Shop <https://shop.hardwario.com/mini-cover-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-cover-mini>`_

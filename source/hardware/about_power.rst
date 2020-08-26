@@ -20,6 +20,10 @@ This feature guarantees the input voltage range to always stay within the proper
 
     The maximum allowed current is 6 A.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/power-module/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-power>`_  | `SDK Library <https://sdk.hardwario.com/group__bc__module__power>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_power.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_power.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+
 ********
 Features
 ********
@@ -37,12 +41,3 @@ Features
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 88 x 55 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/power-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-power>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__module__power>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_power.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_power.c>`_

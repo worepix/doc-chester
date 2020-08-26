@@ -14,6 +14,9 @@ It also features a **prototyping area** for soldering your circuits.
 This module can be used as a stand on a desk (four rubber feet assure stable position on a surface),
 mounted on a **DIN rail** using special plastic clips, or it can be put on a wall or other vertical surfaces using a double-sided tape.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/base-module/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-base>`_   |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -25,10 +28,3 @@ Features
 - Plastic clips for a DIN rail mount (optional accessory)
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 88 x 55 mm
-
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/base-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-base>`_

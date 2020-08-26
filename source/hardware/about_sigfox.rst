@@ -29,6 +29,9 @@ That means it is up to you to define the structure of the data.
 On a Sigfox backend, you can specify the so-called callback, the service that will be called when data arrive from a device.
 For example, you can define a webhook to your server - the HTTP POST call with JSON body.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/sigfox-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-sigfox>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__sigfox>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_sigfox.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_sigfox.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -45,12 +48,3 @@ Features
 - Operating temperature range: -20 to 70 °C
 - Dimensions: 33 x 55 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/sigfox-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-sigfox>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__module__sigfox>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_sigfox.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_sigfox.c>`_

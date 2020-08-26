@@ -22,7 +22,9 @@ The two terminals - A on the left, B on the right - are connected to the HARDWAR
 
     The VCC middle pin is possible to control by software. You can enable 3 V on this pin.
 
-
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/sensor-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-sensor>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__sensor>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_sensor.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_sensor.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -48,12 +50,3 @@ Examples interfaces:
 - Operating temperature range: -20 to 70 °C
 - Dimensions: 33 x 55 mm
 
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/sensor-module/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-sensor>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__module__sensor>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_sensor.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_sensor.c>`_

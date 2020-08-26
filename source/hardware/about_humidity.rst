@@ -17,6 +17,10 @@ It communicates using an I²C bus and features a very low power operation and sh
 
     Values below this range (dry air) can lead to various health issues. On the other hand, the values above this range may result in troubles with moisture.
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/humidity-tag/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-humidity>`_  | `SDK Library <https://sdk.hardwario.com/group__bc__tag__humidity>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_humidity.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_humidity.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+
 ********
 Features
 ********
@@ -31,12 +35,4 @@ Features
 - Operating temperature range: -40 to 125 °C
 - Mechanical dimensions: 16 x 16 mm
 
-*********
-Resources
-*********
 
-- `E-Shop <https://shop.hardwario.com/humidity-tag/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-humidity>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__tag__humidity>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_humidity.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_humidity.c>`_

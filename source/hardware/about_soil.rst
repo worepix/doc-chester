@@ -43,6 +43,10 @@ Measuring is done by two copper strips inside the inner layers of the 4 layer PC
    :scale: 51%
    :alt: Sensor Module Connection
 
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/soil-sensor/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-soil-sensor>`_   | `SDK Library <https://sdk.hardwario.com/group__bc__soil__sensor.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_soil_sensor.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_soil_sensor.c>`_ |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
 ********
 Features
 ********
@@ -56,13 +60,3 @@ Features
 - Operating voltage range: 2.8 V to 5.5 V
 - Operating temperature range: -40 to +85 °C
 - Protection marking IP 68
-
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/soil-sensor/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-soil-sensor>`_
-- `SDK Library <https://sdk.hardwario.com/group__bc__soil__sensor.html>`_
-- `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_soil_sensor.h>`_
-- `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_soil_sensor.c>`_

@@ -2,10 +2,10 @@
 About Radio Dongle
 ##################
 
-.. image:: ../_static/hardware/about_1-wire/1-wire-module.png
+.. image:: ../_static/hardware/about_dongle/usb-dongle.png
    :align: center
    :scale: 51%
-   :alt: 1-wire
+   :alt: Radio Dongle
 
 The **Radio Dongle** is the main element of the HARDWARIO radio network.
 This product works as a **gateway for the HARWDARIO nodes**. It looks like a USB stick.
@@ -18,6 +18,10 @@ Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also featu
 .. note::
 
     You can upload firmware into it over USB using the HARDWARIO Firmware Tool (works on Windows, macOS, and Linux). Or by using HARDWARIO Playground.
+
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| `E-Shop <https://shop.hardwario.com/radio-dongle/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-usb-dongle>`_    |
++-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ********
 Features
@@ -34,10 +38,3 @@ Features
 - Operating voltage range: 4.5 V to 5.5 V
 - Operating temperature range: -20 to 70 °C
 - Mechanical dimensions: 25 x 60 mm
-
-*********
-Resources
-*********
-
-- `E-Shop <https://shop.hardwario.com/radio-dongle/>`_
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-usb-dongle>`_
