@@ -93,8 +93,8 @@ Step 5: After finishing the installation, launch the HARDWARIO Toolchain using o
    :alt: CMD Toolchain
 
 
-Step 6: Continue on the document Toolchain Guide. You may also try !!!!!!TODO!!!!!!!!!!!!!
-******************************************************************************************
+Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
+*******************************************************************************************
 
 - Integration with Visual Studio Code !!!!!!TODO!!!!!!
 
@@ -179,8 +179,8 @@ Step 8: Install HARDWARIO Firmware Tool
 
     sudo pip3 install --upgrade --no-cache-dir bcf
 
-Step 9: Continue on the document Toolchain Guide. You may also try !TODO!
-*************************************************************************
+Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
+*******************************************************************************************
 
 - Integration with Visual Studio Code !!!!TODO!!!!!!
 
@@ -276,8 +276,8 @@ Step 10: Add user to dialout group
 
     sudo adduser $USER dialout
 
-Step 9: Continue on the document Toolchain Guide. You may also try: !!TODO!!!
-*****************************************************************************
+Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
+********************************************************************************************
 
 - Integration with Visual Studio Code !!!TODO!!!!
 
@@ -389,8 +389,8 @@ Step 6: Install HARDWARIO Firmware Tool
 
     sudo pip3 install --upgrade --no-cache-dir bcf
 
-Step 7: Continue on the document Toolchain Guide. You may also try !TODO!
-*************************************************************************
+Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
+*******************************************************************************************
 
 - Integration with Visual Studio Code !!!TODO!!!!
 

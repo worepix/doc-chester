@@ -2,9 +2,8 @@
 How to: Temperature sensor
 ##########################
 
-Core module comes with integrated temperature sensor TMP112. It is high accuracy and low power sensor connected via I2C bus (see address space).
+Core module comes with integrated temperature sensor TMP112. It is high accuracy and low power sensor connected via I2C bus (see :doc:`address space <../../hardware/i2c_addresses>`).
 If you want to take a look how TMP112 is connected, please take a look at `schematic <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-core>`_.
-!!!!!!!!!!!!!!!!TODO!!!!!!!!!!!
 
 .. tip::
 
@@ -32,7 +31,7 @@ We can make manual measurement whenever we want to. This is achieved by calling 
 
 **With Scheduler, repeatedly**
 
-Thanks to the Scheduler you can define, when the periodic measurement should happen. !!!!!!!!TODO!!!!!!
+Thanks to the :doc:`Scheduler <../scheduler>` you can define, when the periodic measurement should happen.
 For this, we have the ``bc_tmp112_set_update_interval(bc_tmp112_t *self, bc_tick_t interval)`` function.
 
 - ``*self`` is an address to an TMP112 instance

@@ -15,7 +15,7 @@ All addresses are provided in a 7-bit format.
 +================+================+===========================================================+=========================================================+
 | 0x08           | NT3H2011       | `NFC Tag <https://shop.hardwario.com/nfc-tag/>`_                       | Changed from default to avoid collision    |
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+
-| 0x19           | LIS2DH12       | `Core Module <https://shop.hardwario.com/core-module/>`_               | Channel I2C0                               |
+| 0x19           | LIS2DH12       | `Core Module <https://shop.hardwario.com/core-module/>`__              | Channel I2C0                               |
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+
 | 0x20           | TCA9534        | IQRF Module                                                            |                                            |
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+
@@ -66,7 +66,7 @@ All addresses are provided in a 7-bit format.
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+
 | 0x49           | TMP112         | `Temperature Tag <https://shop.hardwario.com/temperature-tag/>`_       | Alternate address                          |
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+
-| 0x49           | TMP112         | | `Core Module <https://shop.hardwario.com/core-module//>`_            | Channel I2C0                               |
+| 0x49           | TMP112         | | `Core Module <https://shop.hardwario.com/core-module//>`__           | Channel I2C0                               |
 |                |                | | `Cloony <https://shop.hardwario.com/cloony/>`_                       |                                            |
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+
 | 0x4b           | TLA2021        | RS-485 Module ADC                                                      | Channel I2C0                               |
@@ -85,7 +85,7 @@ All addresses are provided in a 7-bit format.
 | 0x60           | MPL3115A2      | | `Barometer Tag <https://shop.hardwario.com/barometer-tag/>`_         |                                            |
 |                |                | | `Climate Module <https://shop.hardwario.com/climate-module/>`_       |                                            |
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+
-| 0x64           | ATSHA204A      | | `Core Module <https://shop.hardwario.com/core-module//>`_            | Channel I2C0                               |
+| 0x64           | ATSHA204A      | | `Core Module <https://shop.hardwario.com/core-module//>`__           | Channel I2C0                               |
 |                |                | | `Radio Dongle <https://shop.hardwario.com/radio-dongle/>`_           |                                            |
 |                |                | | `Cloony <https://shop.hardwario.com/cloony/>`_                       |                                            |
 +----------------+----------------+------------------------------------------------------------------------+--------------------------------------------+

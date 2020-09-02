@@ -7,7 +7,7 @@ explains the structure of the created project and the typical development cycle.
 
 .. warning::
 
-    This document assumes that you have necessary tools installed according to the document Toolchain Setup. !!!!TODO!!!!
+    This document assumes that you have necessary tools installed according to the document :doc:`Toolchain Setup <toolchain_setup>`.
 
 ***********
 Hello World
@@ -83,7 +83,7 @@ Normally, the development cycle is the repetition of the following 4 steps:
     | **Flashing Core Module R1 & R2**
     | For differences of flashing older **Core Module 1** and newer **Core Module 2** please read **Core Module R1 and R2 comparison** in the **Hardware** section
 
-If you need to debug your application, please follow the document Debugging. !!TODO!!!!!!!!!!!!!
+If you need to debug your application, please follow the document :doc:`Debugging <debugging>`.
 
 ************
 How It Works
@@ -102,7 +102,7 @@ You can also **clone** the skeleton repository manually:
 
 .. code-block:: console
 
-    git clone --recursive git@github.com:bigclownlabs/bcf-skeleton.git hello-world
+    git clone --recursive git@github.com:hardwario/bcf-skeleton.git hello-world
 
 The command above should give similar output:
 
@@ -115,7 +115,7 @@ The command above should give similar output:
     Receiving objects: 100% (152/152), 31.95 KiB | 0 bytes/s, done.
     Resolving deltas: 100% (63/63), done.
     Submodule 'sdk' (https://github.com/hardwario/bc-sdk.git) registered for path 'sdk'
-    Cloning into '/home/bigclown/bc/bcf-skeleton/sdk'...
+    Cloning into '/home/hardwario/bc/bcf-skeleton/sdk'...
     remote: Counting objects: 5375, done.
     remote: Compressing objects: 100% (192/192), done.
     remote: Total 5375 (delta 151), reused 222 (delta 87), pack-reused 5069

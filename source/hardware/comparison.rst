@@ -28,7 +28,7 @@ Improvements
 
 - No need to press any button to start firmware update.
 - Faster firmware uploads over **FTDI** chip
-- Smaller firmwares because USB stack is now handled by **FTDI** chip.
+- Smaller firmware because USB stack is now handled by **FTDI** chip.
 - Simple debugging over serial port. The UART2 is connected to the FTDI so you can use `bc_log_* <https://sdk.hardwario.com/group__bc__log.html>`_ functions.
 - No issues with DFU drivers on Windows.
 

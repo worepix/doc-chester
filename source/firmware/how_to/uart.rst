@@ -3,7 +3,7 @@ How to: UART interface
 ######################
 
 Core Module has 3 UARTs you can use. The signal for each channel is named TXD**x**, RXD**x** where **x** is **0**, **1** or **2**.
-Please refer to the module drawing pinout where you find the signals positions. !!!!!!!!!TODO!!!!!!!!
+Please refer to the :doc:`module drawing pinout <../../hardware/pinout>` where you find the signals positions.
 
 .. tip::
 
@@ -20,8 +20,8 @@ Please refer to the module drawing pinout where you find the signals positions. 
 Initialization and write
 ************************
 
-First you have to set up the UART channel, baudrate and frame format. Then you can send the data.
-The transmittion can be synchronous which blocks the code until all the data are send,
+First you have to set up the UART channel, baud rate and frame format. Then you can send the data.
+The transmission can be synchronous which blocks the code until all the data are send,
 or asynchronous where you don't wait for transmission and you can get a callback event ``BC_UART_EVENT_ASYNC_WRITE_DONE`` informing, that the data were sent.
 
 

@@ -4,7 +4,7 @@ Toolchain Guide
 
 .. warning::
 
-    This document assumes that you have necessary tools installed according to the document Toolchain Setup. !!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!
+    This document assumes that you have necessary tools installed according to the document :doc:`Toolchain Setup <toolchain_setup>`.
 
     All of the steps below assume work with **HARDWARIO Toolchain** in Windows or with the **Terminal** application in macOS or Ubuntu.
 

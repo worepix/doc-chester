@@ -26,7 +26,7 @@ with function pointers for different drawing methods.
 Using GFX with LCD Module
 *************************
 
-`Example project <https://github.com/hardwario/bcf-infra-grid-lcd-mirror/tree/master/app>`_
+`Example project <https://github.com/hardwario/bcf-infra-grid-lcd-mirror/tree/master/app>`__
 
 In the latest SDK the LCD Module is now using GFX under the hood, but you can still use old ``bc_lcd_module_draw_..`` functions.
 You can get the LCD Module driver and use the GFX API.
@@ -56,7 +56,7 @@ In other custom drivers you have to create the instance, not just the pointer of
 Using GFX with SSD1303 OLED
 ***************************
 
-`Example project <https://github.com/blavka/bcf-example-gfx-ssd1306/tree/master/app>`_
+`Example project <https://github.com/blavka/bcf-example-gfx-ssd1306/tree/master/app>`__
 
 .. code-block:: c
     :linenos:

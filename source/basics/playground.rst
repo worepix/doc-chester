@@ -63,7 +63,7 @@ The node alias is later used in MQTT message topic (``node/climate-monitor:0/..`
 Functions
 *********
 
-This tab is the `Node-RED <https://nodered.org/about/>`_ visual programming tool. See Projects !!!!TODO!!!!!!!!!!!!!!!! how to use this visual programming tool.
+This tab is the `Node-RED <https://nodered.org/about/>`_ visual programming tool. See :doc:`Projects <projects>` how to use this visual programming tool.
 
 .. image:: ../_static/basics/playground/playground_node-red_flow.png
    :align: center
@@ -119,4 +119,4 @@ Cannot find the Radio Dongle or Core Module in the device list
 
 - On Windows 7 and macOS please install the `FTDI VCP drivers <https://www.ftdichip.com/Drivers/VCP.htm>`_
 - On Ubuntu you need to be in ``dialout`` user group. Please use command ``sudo usermod -a -G dialout $USER`` and restart computer
-- HARDWARIO Playground cannot flash older Core Module Revision 1. Please use the ``bcf`` tool. See version comparison !!TODO!!!!!!
+- HARDWARIO Playground cannot flash older Core Module Revision 1. Please use the ``bcf`` tool. :doc:`See version comparison <../hardware/comparison>`

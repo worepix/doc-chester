@@ -115,7 +115,7 @@ HARDWARIO IoT Kit Developer Documentation
    firmware/how_to/gfx
    firmware/how_to/gpio
    firmware/how_to/i2c
-
+   firmware/how_to/lcd
    firmware/how_to/led
    firmware/how_to/lora
    firmware/how_to/pir
@@ -128,7 +128,7 @@ HARDWARIO IoT Kit Developer Documentation
    firmware/how_to/spi
    firmware/how_to/servo
    firmware/how_to/sigfox
-
+   firmware/how_to/led_strip
    firmware/how_to/soil
    firmware/how_to/temperature
    firmware/how_to/uart

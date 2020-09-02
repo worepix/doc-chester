@@ -56,6 +56,6 @@ In the example below we set the relay to off state after initialization. To swit
 LED / LED Strip Control
 ***********************
 
-We have separate tutorial how to control our LED strip. !!!!!!TODO!!!!!!
+We have :doc:`separate tutorial <led_strip>` how to control our LED strip.
 
 

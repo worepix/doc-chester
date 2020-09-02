@@ -5,7 +5,7 @@ How to: PWM
 Pulse Width Modulation (PWM) is a method to create analog-like signal from the microcontroller digital output.
 It will achieve that by fast toggling of the pin with different ration of logic **HIGH** and **LOW**. This ratio is called **duty cycle**.
 
-Please check the Core Module pinout to see which pins allows PWM. !!!!!!!!TODO!!!!!!!!!!!
+Please check the :doc:`Core Module pinout <../../hardware/pinout>` to see which pins allows PWM.
 
 .. tip::
 

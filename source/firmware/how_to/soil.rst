@@ -2,7 +2,7 @@
 How to: Soil Moisture Sensor
 ############################
 
-Soil Moisture sensor measures moisture and temperature. See also About Soil Moisture Sensor article. !!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!
+Soil Moisture sensor measures moisture and temperature. See also :doc:`About Soil Moisture Sensor <../../hardware/about_soil>` article.
 
 .. tip::
 

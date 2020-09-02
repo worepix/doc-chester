@@ -13,7 +13,7 @@ You can plug it to your desktop, Raspberry Pi, or Turris Omnia.
 Also, you can look at it as an access point for up to 32 HARDWARIO nodes.
 
 This item is fully compatible with the **Core Module**. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM.
-Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also features two security chips - to have enough space for up to 32 BigClown nodes.
+Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also features two security chips - to have enough space for up to 32 HARDWARIO TOWER nodes.
 
 .. note::
 

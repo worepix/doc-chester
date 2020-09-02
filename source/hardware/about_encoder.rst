@@ -35,7 +35,7 @@ Features
 - Rotary encoder PEC12R (Bourns)
 - 12 positions per revolution
 - Integrated push-button switch
-- 3x connector for BigClown Tag
+- 3x connector for HARDWARIO TOWER Tag
 - Operating temperature range: -20 to 70 °C
 - Minimum lifetime: 30,000 revolution cycles
 - Dimensions: 88 x 55 mm

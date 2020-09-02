@@ -3,7 +3,7 @@ How to: I²C Bus
 ###############
 
 This is the main bus HARDWARIO TOWER uses to communicate with the most of the sensors and modules.
-All sensors and modules have their own addres in the BigClown I²C address space. !!!!!!TODO!!!!!!!!!!!!!!!!
+All sensors and modules have their own addres in the :doc:`HARDWARIO I²C address space <../../hardware/i2c_addresses>`.
 
 Normally you don't need to use I²C API, because all the sensors have their own libraries that gives you the measured data.
 You will need I²C APIs in case you implement your own I²C sensor or chip.
