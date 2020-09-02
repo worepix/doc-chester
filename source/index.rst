@@ -44,10 +44,11 @@ HARDWARIO IoT Kit Developer Documentation
    integrations/google_assistant
    integrations/firebase
    integrations/google_sheets
+   integrations/azure
 
 .. toctree::
    :caption: Hardware
-   :maxdepth: 2
+   :maxdepth: 1
 
    hardware/basic
    hardware/pinout
@@ -96,8 +97,43 @@ HARDWARIO IoT Kit Developer Documentation
    firmware/quick_start
    firmware/basic_overview
    firmware/toolchain_setup
-
+   firmware/toolchain_guide
    firmware/blank_start
+   firmware/debugging
+   firmware/low_power
+   firmware/sdk_framework
+   firmware/common_problems
+   firmware/scheduler
+   firmware/how_to/1-wire
+   firmware/how_to/a-d_converter
+   firmware/how_to/accelerometer
+   firmware/how_to/battery
+   firmware/how_to/co2
+   firmware/how_to/d-a_converter
+   firmware/how_to/eeprom
+   firmware/how_to/eeprom_bc-config
+   firmware/how_to/gfx
+   firmware/how_to/gpio
+   firmware/how_to/i2c
+
+   firmware/how_to/led
+   firmware/how_to/lora
+   firmware/how_to/pir
+   firmware/how_to/pwm
+   firmware/how_to/power
+   firmware/how_to/push_button
+   firmware/how_to/relay
+   firmware/how_to/rs-485
+   firmware/how_to/rtc
+   firmware/how_to/spi
+   firmware/how_to/servo
+   firmware/how_to/sigfox
+
+   firmware/how_to/soil
+   firmware/how_to/temperature
+   firmware/how_to/uart
+   firmware/how_to/usb
+   firmware/how_to/gps
 
 .. toctree::
    :caption: Tools
