@@ -143,7 +143,7 @@ Step 5: Now you can start the Grafana server
 
     sudo systemctl start grafana-server
 
-Continue in the section Connect Mosquitto and InfluxDB.!!!!!!!!!!!!!!!!!TODO
+Continue in the section :ref:`Connect Mosquitto and InfluxDB. <connect-mosquitto-influx>`
 
 ****************************
 Installing InfluxDB on macOS
@@ -192,6 +192,8 @@ Step 4: Enable Grafana service
 .. code-block:: console
 
     brew services start grafana
+
+.. _connect-mosquitto-influx:
 
 ******************************
 Connect Mosquitto and InfluxDB
@@ -375,8 +377,8 @@ Step 6: Choose node as a data source and click on Import
    :scale: 51%
    :alt: Grafana Select Datasource
 
-Step 7: Result for Wireless Climate Monitor!!!!!!!!!!!!TODO and Wireless CO2 Monitor!!!!!!!!!!!TODO​
-****************************************************************************************************
+Step 7: Result for `Wireless Climate Monitor <https://www.hackster.io/jakub-smejkal/radio-climate-monitor-96de57>`_ and `Wireless CO2 Monitor <https://www.hackster.io/jakub-smejkal/radio-co2-monitor-311d2c>`_​
+****************************************************************************************************************************************************************************************************************
 
 .. image:: ../_static/integrations/grafana/_integrations_grafana-for-visualization_demo-dashboard.png
    :align: center

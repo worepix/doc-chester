@@ -22,25 +22,24 @@ At the end of the article, we'll show how to develop and compile firmware with p
 
 To install, go to one of the supported platforms:
 
-- Setup on Windows
-- Setup on macOS
-- Setup on Ubuntu
-- Setup on Generic Linux
-
-!!!!!!!!!!!!TODO!!!!!!!!!!!!!
+- :ref:`Setup on Windows <windows-setup>`
+- :ref:`Setup on macOS <macos-setup>`
+- :ref:`Setup on Ubuntu <ubuntu-setup>`
+- :ref:`Setup on Generic Linux <linux-setup>`
 
 To upgrade an existing installation, go to one of the supported platforms:
 
-- Update on Windows
-- Update on macOS
-- Update on Ubuntu
-- Update on Generic Linux
+- :ref:`Update on Windows <windows-update>`
+- :ref:`Update on macOS <macos-update>`
+- :ref:`Update on Ubuntu <ubuntu-update>`
+- :ref:`Update on Generic Linux <linux-update>`
 
-!!!!!!!TODO!!!!!!!!
+.. _windows-setup:
 
 ****************
 Setup on Windows
 ****************
+
 
 .. caution::
 
@@ -96,13 +95,15 @@ Step 5: After finishing the installation, launch the HARDWARIO Toolchain using o
 Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
 *******************************************************************************************
 
-- Integration with Visual Studio Code !!!!!!TODO!!!!!!
+- :ref:`Integration with Visual Studio Code <visual-studio-integration>`
+
+.. _windows-update:
 
 *****************
 Update on Windows
 *****************
 
-- Download and install the new version according to the chapter Setup on Windows. !!!!!!!!TODO!!!!!!!!!!
+- Download and install the new version according to the chapter :ref:`Setup on Windows <windows-setup>`.
 
 ********************
 Uninstall on Windows
@@ -114,6 +115,8 @@ Uninstall **Apps & features**:
    :align: center
    :scale: 51%
    :alt: Windows Uninstall
+
+.. _macos-setup:
 
 **************
 Setup on macOS
@@ -182,7 +185,9 @@ Step 8: Install HARDWARIO Firmware Tool
 Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
 *******************************************************************************************
 
-- Integration with Visual Studio Code !!!!TODO!!!!!!
+- :ref:`Integration with Visual Studio Code <visual-studio-integration>`
+
+.. _macos-update:
 
 ***************
 Update on macOS
@@ -201,6 +206,8 @@ Step 2: HARDWARIO Firmware tool update
 .. code-block:: console
 
     sudo pip3 install --upgrade --no-cache-dir bcf
+
+.. _ubuntu-setup:
 
 ***************
 Setup on Ubuntu
@@ -279,7 +286,9 @@ Step 10: Add user to dialout group
 Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
 ********************************************************************************************
 
-- Integration with Visual Studio Code !!!TODO!!!!
+- :ref:`Integration with Visual Studio Code <visual-studio-integration>`
+
+.. _ubuntu-update:
 
 ****************
 Update on Ubuntu
@@ -298,6 +307,8 @@ Step 2: HARDWARIO Firmware tool update
 .. code-block:: console
 
     sudo pip3 install --upgrade --no-cache-dir bcf
+
+.. _linux-setup:
 
 **********************
 Setup on Generic Linux
@@ -392,7 +403,9 @@ Step 6: Install HARDWARIO Firmware Tool
 Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
 *******************************************************************************************
 
-- Integration with Visual Studio Code !!!TODO!!!!
+- :ref:`Integration with Visual Studio Code <visual-studio-integration>`
+
+.. _linux-update:
 
 ***********************
 Update on Generic Linux
@@ -424,6 +437,8 @@ Step 2: Update packages
 .. code-block:: console
 
     sudo pip3 install --upgrade bcf
+
+.. _visual-studio-integration:
 
 ***********************************
 Integration with Visual Studio Code

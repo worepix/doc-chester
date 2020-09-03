@@ -295,3 +295,4 @@ Step 5: In order to build the firmware in release configuration, use this comman
 This command generates the file ``out/release/firmware.bin``.
 
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -52,8 +52,6 @@ Step 2: Install firebase plugin to Node-RED via
 Open Node-RED
 *************
 
-!!!!!!!!!!TODO!!!!!!!!!
-
 .. content-tabs::
 
     .. tab-container:: tab1
@@ -66,6 +64,8 @@ Open Node-RED
         :title: HARDWARIO Hub
 
             Connect to your HARDWARIO Hub via IP address or DNS name.
+
+!!!!!!!!!!TODO!!!!!!!!!
 
 ***********************
 Create Firebase project

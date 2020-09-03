@@ -46,7 +46,8 @@ Setup will be done in 2 steps:
 Prepare your modules
 ********************
 
-Please set up at least one of the supported modules using Projects guides with the standard firmware. !!!!!!!!!TODO!!!!!!!!!!!
+Please set up at least one of the supported modules using `Projects guides <https://www.hackster.io/359450/push-the-button-f7e7c4>`_
+with the standard firmware.
 Google Assistant will use Node-RED to communicate with your Hub in the background and fulfill your commands.
 
 .. important::

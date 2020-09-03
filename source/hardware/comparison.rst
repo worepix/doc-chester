@@ -39,9 +39,8 @@ Flashing Core Module R1
 Step 1: Connect the Micro USB cable to the Core Module and your computer.
 *************************************************************************
 
-Step 2: You have to switch to Core Module to the DFU mode.
-**********************************************************
-!!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Step 2: You have to switch to :ref:`Core Module to the DFU mode. <switch-to-dfu-mode>` !!!!!!!!!!!!TODO!!!!!!!!!!
+*****************************************************************************************************************
 
 Step 3: Upload firmware with following command
 **********************************************

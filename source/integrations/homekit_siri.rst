@@ -61,7 +61,11 @@ use hardwario/bcf-radio-push-button and Click Flash.
 Step 2: Pair Hardware
 *********************
 Open HARDWARIO Hub page in browser same as in chapter Instalation and select **Device** tab in menu and click on **Start pairing** button.
-!!!!!!!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+.. image:: ../_static/integrations/homekit_siri/playgroud_pair_hardware.PNG
+   :align: center
+   :scale: 51%
+   :alt: Playground Pair Hardware
 
 Step 3: Assembly Hardware
 *************************
@@ -74,8 +78,7 @@ Now unplug Core Module from microUSB cable and connect it to battery module (sta
 
 Step 4: Ending
 **************
-You have to see connected device now, do not forget to Click **Stop Pairing**. You can look at **Messages** tab and see that temperature is incomming now.
-!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+You have to see connected device now. You can look at **Messages** tab and see that temperature is incomming now.
 !!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ******************
@@ -90,7 +93,11 @@ Step 1: Open Functions tab in menu. Open Hamburger menu, select Import > Clipboa
     [{"id":"c10a49.8c0905b8","type":"mqtt in","z":"2c41a2bd.aa36ae","name":"Temperature from Core Module","topic":"node/push-button:0/thermometer/0:1/temperature","qos":"2","broker":"29fba84a.b2af58","x":230,"y":180,"wires":[["d7033322.3f2d5"]]},{"id":"d7033322.3f2d5","type":"template","z":"2c41a2bd.aa36ae","name":"Convert payload to HomeKit JSON format","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"{\n\"CurrentTemperature\": \"{{payload}}\"\n}","output":"str","x":600,"y":180,"wires":[[]]},{"id":"29fba84a.b2af58","type":"mqtt-broker","z":"","broker":"127.0.0.1","port":"1883","clientid":"","usetls":false,"compatmode":true,"keepalive":"60","cleansession":true,"birthTopic":"","birthQos":"0","birthPayload":"","willTopic":"","willQos":"0","willPayload":""}]
 
 So flow should looks like following:
-!!!!!!!!TODO!!!!!!!!!!!!!!!
+
+.. image:: ../_static/integrations/homekit_siri/playground_flow_basic.PNG
+   :align: center
+   :scale: 51%
+   :alt: Flow Basic
 
 Step 2: Place Homekit node from advanced group and connect it to template node in flow
 **************************************************************************************
