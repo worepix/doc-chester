@@ -14,6 +14,8 @@ This sensor is digital and calibrated. It communicates using an I²C bus and fea
 | `E-Shop <https://shop.hardwario.com/temperature-tag/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-temperature>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__tag__temperature>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_temperature.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_temperature.c>`_ |
 +---------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

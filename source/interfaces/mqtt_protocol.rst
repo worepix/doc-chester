@@ -46,7 +46,7 @@ You can use `HARDWARIO Playground <https://www.hardwario.com/download/>`_ for su
 
 .. image:: ../_static/interfaces/mqtt_protocol/HARDWARIO_Playground/playground_messages_tab.png
    :align: center
-   :scale: 51%
+   :scale: 80%
    :alt: Playground Messages Tab
 
 Subscribe
@@ -62,7 +62,7 @@ Now you can see test message in Playground message window.
 
 .. image:: ../_static/interfaces/mqtt_protocol/HARDWARIO_Playground/playground_messages_tab_test_message.png
    :align: center
-   :scale: 51%
+   :scale: 80%
    :alt: Playground Messages Tab Test Message
 
 Publish
@@ -76,7 +76,7 @@ Just switch to Publish mode, type topic, payload and Publish your message.
 
 .. image:: ../_static/interfaces/mqtt_protocol/HARDWARIO_Playground/playground_messages_tab_publish.png
    :align: center
-   :scale: 51%
+   :scale: 80%
    :alt: Playground Messages Tab Publish
 
 

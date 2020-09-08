@@ -15,6 +15,8 @@ It is connected to the BOOT signal on the **Core Module**.
 | `E-Shop <https://shop.hardwario.com/button-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-button>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__button>`_  | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_button.h>`_  | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_button.c>`_  |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

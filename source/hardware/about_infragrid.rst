@@ -15,6 +15,8 @@ You can detect not just movements but also the direction and size of the moving 
 | `E-Shop <https://shop.hardwario.com/infra-grid-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-infra-grid>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__infra__grid.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_infra_grid.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_infra_grid.c>`_ |
 +-----------------------------------------------------------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

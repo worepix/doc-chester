@@ -28,6 +28,8 @@ can also be used to measure the light intensity and color or as a proximity sens
 | `E-Shop <https://shop.hardwario.com/lcd-module-bg/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-lcd>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__lcd>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_lcd.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_lcd.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

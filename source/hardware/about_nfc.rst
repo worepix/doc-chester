@@ -20,6 +20,8 @@ The chip does not have to be powered when being accessed from the NFC side.
 | `E-Shop <https://shop.hardwario.com/nfc-tag/>`_       | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-nfc>`_       | `SDK Library <https://sdk.hardwario.com/group__bc__tag__nfc>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_nfc.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_nfc.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

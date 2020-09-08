@@ -17,6 +17,8 @@ the parameter in biometeorology because the absolute pressure can affect our hea
 | `E-Shop <https://shop.hardwario.com/barometer-tag/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-barometer>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__tag__barometer>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_barometer.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_barometer.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

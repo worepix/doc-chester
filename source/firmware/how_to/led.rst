@@ -13,7 +13,7 @@ In this tutorial, we will go through available functions for controlling LED dio
 Requirements
 ************
 
-- Core module
+- `Core Module <https://shop.hardwario.com/core-module/>`_
 - USB cable
 
 *******

@@ -2,7 +2,7 @@
 Basic Principles
 ################
 
-**Modular hardware** is the essence of the **HARDWARIO IoT Kit**.
+**Modular hardware** is the essence of the **HARDWARIO TOWER - Industrial IoT Kit**.
 We put a lot of effort into the quality of our products.
 That's why we source all the components from the official distributors and manufacture all our products locally, in Europe.
 

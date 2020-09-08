@@ -21,6 +21,8 @@ It communicates using an I²C bus and features a very low power operation and sh
 | `E-Shop <https://shop.hardwario.com/humidity-tag/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-humidity>`_  | `SDK Library <https://sdk.hardwario.com/group__bc__tag__humidity>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_humidity.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_humidity.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

@@ -15,6 +15,8 @@ The module is equipped with an **ultra-low-power digital sensor** from Excelitas
 | `E-Shop <https://shop.hardwario.com/pir-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-pir>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__pir>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_pir.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_pir.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

@@ -18,6 +18,8 @@ The **battery voltage can be measured** on one of the analog inputs of the stand
 | `E-Shop <https://shop.hardwario.com/mini-battery-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-battery-mini>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__battery>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_battery.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_battery.c>`_ |
 +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

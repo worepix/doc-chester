@@ -4,9 +4,9 @@ Power Management
 
 .. caution::
 
-    This document goes deep into technical details and explains the HARDWARIO IoT Kit power management on the hardware level.
+    This document goes deep into technical details and explains the HARDWARIO TOWER - Industrial IoT Kit power management on the hardware level.
 
-The **HARDWARIO IoT Kit** has been designed the way to allow connection of multiple power sources.
+The **HARDWARIO TOWER - Industrial IoT Kit** has been designed the way to allow connection of multiple power sources.
 
 For example, this allows the **Core Module** to be powered from a USB cable and also have batteries inserted in the **Battery Module** at the same time.
 HARDWARIO automatically solves the problem selecting the appropriate power sources.

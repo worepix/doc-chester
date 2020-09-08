@@ -15,9 +15,9 @@ You have two options to interact with your flows - either in your web browser in
 |pic1| Google Play / App Store |pic2|
 
 .. |pic1| image:: ../_static/integrations/anemone/google_play_app_qr_code.png
-   :scale: 51%
+   :scale: 80%
 
 .. |pic2| image:: ../_static/integrations/anemone/ios_app_qr_code.png
-   :scale: 51%
+   :scale: 89%
 
 For more information, visit the `Anemone Platform <https://www.hardwario.com/blog/2018-01-09-anemone-platform/>`_ blog post.

@@ -4,7 +4,7 @@ About Radio Dongle
 
 .. image:: ../_static/hardware/about_dongle/usb-dongle.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: Radio Dongle
 
 The **Radio Dongle** is the main element of the HARDWARIO radio network.
@@ -22,6 +22,8 @@ Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also featu
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 | `E-Shop <https://shop.hardwario.com/radio-dongle/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-usb-dongle>`_    |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+
+----------------------------------------------------------------------------------------------
 
 ********
 Features

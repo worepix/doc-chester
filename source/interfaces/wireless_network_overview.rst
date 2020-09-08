@@ -5,7 +5,7 @@ Wireless Network Overview
 *************************************
 HARDWARIO radio, LoRa, Sigfox, NB-IoT
 *************************************
-This article compares the wireless technologies you can use with HARDWARIO IoT Kit.
+This article compares the wireless technologies you can use with HARDWARIO TOWER - Industrial IoT Kit.
 The Kit supports not just generic 868 MHz communication, bud can communicate also by other Low Power Wide Area Networks (LPWAN):
 
 - HARDWARIO 868/915 MHz FSK radio
@@ -82,7 +82,7 @@ NB-IoT network
 **************
 For this network you can use our platform `CHESTER <https://www.hardwario.com/chester>`_.
 
-NB-IoT Module for HARDWARIO IoT Kit is in the development.
+NB-IoT Module for HARDWARIO TOWER - Industrial IoT Kit is in the development.
 
 
 

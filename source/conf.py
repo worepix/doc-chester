@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'HARDWARIO IoT Kit'
+project = 'HARDWARIO TOWER - Industrial IoT Kit'
 copyright = '2020, HARDWARIO'
 author = 'HARDWARIO'
 

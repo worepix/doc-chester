@@ -33,6 +33,8 @@ For example, you can define a webhook to your server - the HTTP POST call with J
 | `E-Shop <https://shop.hardwario.com/sigfox-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-sigfox>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__sigfox>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_sigfox.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_sigfox.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

@@ -8,7 +8,7 @@ About Base Module
    :alt: Base Module
 
 The **Base Module** works as a mechanical stand for the HARDWARIO units.
-With the exception of the **Battery Module**, you can plug any other HARDWARIO IoT Kit module into a standardized socket available on the **Base Module**.
+With the exception of the **Battery Module**, you can plug any other HARDWARIO TOWER - Industrial IoT Kit module into a standardized socket available on the **Base Module**.
 It also features a **prototyping area** for soldering your circuits.
 
 This module can be used as a stand on a desk (four rubber feet assure stable position on a surface),
@@ -17,6 +17,8 @@ mounted on a **DIN rail** using special plastic clips, or it can be put on a wal
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 | `E-Shop <https://shop.hardwario.com/base-module/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-base>`_   |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+
+----------------------------------------------------------------------------------------------
 
 ********
 Features

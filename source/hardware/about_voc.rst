@@ -39,6 +39,8 @@ Measuring Total VOC (TVOC) level can helps to increase the efficiency of ventila
 | `E-Shop <https://shop.hardwario.com/voc-tag/>`_       | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-voc>`_       | `SDK Library <https://sdk.hardwario.com/group__bc__sgp30>`_   | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_sgp30.h>`_   | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_sgp30.c>`_   |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

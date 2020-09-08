@@ -28,6 +28,8 @@ This module also features three 5-pin sockets allowing you to connect HARDWARIO 
 | `E-Shop <https://shop.hardwario.com/encoder-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-encoder>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__encoder>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_encoder.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_encoder.c>`_ |
 +--------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

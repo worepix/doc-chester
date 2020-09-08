@@ -2,7 +2,7 @@
 I²C Address Space
 #################
 
-The following table lists the I²C addresses used across the HARDWARIO IoT Kit system.
+The following table lists the I²C addresses used across the HARDWARIO TOWER - Industrial IoT Kit system.
 
 All addresses are provided in a 7-bit format.
 

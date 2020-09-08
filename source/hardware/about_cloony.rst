@@ -23,6 +23,8 @@ or using a UART bootloader (you need RESET, BOOT, TXD2 and RXD2 signals).
 | `E-Shop <https://shop.hardwario.com/cloony/>`_        | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-cloony>`_        |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

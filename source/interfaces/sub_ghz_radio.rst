@@ -2,7 +2,7 @@
 Sub-GHz Radio
 #############
 
-The radio communication technology is the heart of the **HARDWARIO IoT Kit**. This document describes the basic operation of the radio.
+The radio communication technology is the heart of the **HARDWARIO TOWER - Industrial IoT Kit**. This document describes the basic operation of the radio.
 
 With **our Iot Kit**, you can build your own network in the Sub-GHz band.
 
@@ -11,11 +11,11 @@ Since this frequency band is used for signal messages, you will not encounter in
 
 .. note::
 
-    HARDWARIO IoT Kit uses SPIRIT1 radio transceiver from STMicroelectronics.
+    HARDWARIO TOWER - Industrial IoT Kit uses SPIRIT1 radio transceiver from STMicroelectronics.
 
 .. image:: ../_static/interfaces/sub_ghz_radio/sub-ghz-radio_SPIRIT1.jpg
    :align: center
-   :scale: 51%
+   :scale: 90%
    :alt: SPIRIT1
 
 *******************

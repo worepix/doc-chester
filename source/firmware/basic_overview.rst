@@ -8,7 +8,7 @@ bc-raspbian image and installing the `GCC package <https://forum.hardwario.com/t
 
 Toolchain comes with many useful tools, please see the **Tools** section in the menu where tools like :doc:`bcf <../tools/firmware_flashing_tool>` are explained.
 
-Every HARDWARIO IoT Kit Module has its own library in the `HARDWARIO SDK <https://sdk.hardwario.com>`_.
+Every HARDWARIO TOWER - Industrial IoT Kit Module has its own library in the `HARDWARIO SDK <https://sdk.hardwario.com>`_.
 So you just call **init** function and set the **callback** function.
 
 In this section you will find code examples for **Core Module** and all the other HARDWARIO Modules.
@@ -83,7 +83,7 @@ You can find more information on how to use them in :doc:`Toolchain guide <toolc
 Diving Deep to SDK
 ******************
 
-Basic pillar of every HARDWARIO IoT Kit (software) project is an ecosystem of libraries, drivers and header files,
+Basic pillar of every HARDWARIO TOWER - Industrial IoT Kit (software) project is an ecosystem of libraries, drivers and header files,
 the so-called HARDWARIO SDK (which stands for `Software Development Kit <https://en.wikipedia.org/wiki/Software_development_kit>`_).
 
 .. note::

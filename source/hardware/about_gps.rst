@@ -15,6 +15,8 @@ The 2.5 m position accuracy is possible thanks to combining position from all th
 | `E-Shop <https://shop.hardwario.com/gps-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-gps>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__gps.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_gps.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_gps.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

@@ -25,6 +25,8 @@ but also in applications for early reports of accidents or defects (e.g. water l
 | `E-Shop <https://shop.hardwario.com/lora-module/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-lora>`_   | `SDK Library <https://sdk.hardwario.com/group__bc__cmwx1zzabz>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_cmwx1zzabz.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_cmwx1zzabz.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

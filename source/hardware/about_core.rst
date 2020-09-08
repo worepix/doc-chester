@@ -91,6 +91,8 @@ The table below explains mapping between pin numbers and real `STM32L083CZ <http
 | `E-Shop <https://shop.hardwario.com/core-module/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-core>`_   |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

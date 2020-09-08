@@ -2,14 +2,14 @@
 Google Assistant
 ################
 
-With the Google Assistant integration, you can control your HARDWARIO IoT Kits with the Google Assistant.
+With the Google Assistant integration, you can control your HARDWARIO TOWER - Industrial IoT Kits with the Google Assistant.
 
 .. note::
 
     What is Google Assistant?
 
     Google Assistant is a voice assistant, made by Google. Available on billions of devices, you can use it to do many things.
-    Now, even control your HARDWARIO IoT Kits.
+    Now, even control your HARDWARIO TOWER - Industrial IoT Kits.
 
 .. important::
 

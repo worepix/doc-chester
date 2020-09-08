@@ -4,7 +4,7 @@ About Soil Moisture Sensor
 
 .. image:: ../_static/hardware/about_soil/soil-sensor_module.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: Soil Sensor
 
 
@@ -46,6 +46,8 @@ Measuring is done by two copper strips inside the inner layers of the 4 layer PC
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
 | `E-Shop <https://shop.hardwario.com/soil-sensor/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-soil-sensor>`_   | `SDK Library <https://sdk.hardwario.com/group__bc__soil__sensor.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_soil_sensor.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_soil_sensor.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+----------------------------------------------------------------------------------------------
 
 ********
 Features

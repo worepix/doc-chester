@@ -12,8 +12,8 @@ It's also possible to use commercial provider's already established LoRa network
 
 .. image:: ../_static/interfaces/lora_iot_radio/module-overview_lora-module.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: HARDWARIO LoRa Module
 
-HARDWARIO IoT Kit has `LoRa Module <https://shop.hardwario.com/lora-module/>`_ which you can use to create battery operated nodes that are sending or receiving data.
+HARDWARIO TOWER - Industrial IoT Kit has `LoRa Module <https://shop.hardwario.com/lora-module/>`_ which you can use to create battery operated nodes that are sending or receiving data.
 Module supports LoRaWAN Class A and Class C.

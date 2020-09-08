@@ -20,6 +20,8 @@ This sensor is digital and calibrated. It communicates using an I²C bus and fea
 | `E-Shop <https://shop.hardwario.com/lux-meter-tag/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-lux-meter>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__tag__lux__meter>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_lux_meter.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_lux_meter.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

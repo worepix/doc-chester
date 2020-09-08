@@ -17,6 +17,8 @@ This module has low-power mode when data receiving is not enabled. This way RS-4
 | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-rs-485>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__rs485.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_rs485.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_rs485.c>`_ |
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

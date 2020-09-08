@@ -1,6 +1,6 @@
-##########################################
-HARDWARIO IoT Kit Developer Documentation
-##########################################
+############################################################
+HARDWARIO TOWER - Industrial IoT Kit Developer Documentation
+############################################################
 
 .. important::
 
@@ -17,6 +17,7 @@ HARDWARIO IoT Kit Developer Documentation
    basics/enclosures
    basics/projects
 
+----------------------------------------------------------------------------------
 
 .. toctree::
    :caption: Interfaces
@@ -29,6 +30,8 @@ HARDWARIO IoT Kit Developer Documentation
    interfaces/sigfox_iot_radio
    interfaces/lora_iot_radio
    interfaces/serial_port_json
+
+----------------------------------------------------------------------------------
 
 .. toctree::
    :caption: Integrations
@@ -45,6 +48,8 @@ HARDWARIO IoT Kit Developer Documentation
    integrations/firebase
    integrations/google_sheets
    integrations/azure
+
+----------------------------------------------------------------------------------
 
 .. toctree::
    :caption: Hardware
@@ -90,6 +95,8 @@ HARDWARIO IoT Kit Developer Documentation
    hardware/about_gps
    hardware/about_infragrid
 
+----------------------------------------------------------------------------------
+
 .. toctree::
    :caption: Firmware
    :maxdepth: 2
@@ -134,6 +141,8 @@ HARDWARIO IoT Kit Developer Documentation
    firmware/how_to/uart
    firmware/how_to/usb
    firmware/how_to/gps
+
+----------------------------------------------------------------------------------
 
 .. toctree::
    :caption: Tools

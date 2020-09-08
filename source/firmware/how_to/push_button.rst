@@ -13,7 +13,7 @@ But the most simple way is to use button(s) integrated in Core module.
 Requirements
 ************
 
-- Core module
+- `Core Module <https://shop.hardwario.com/core-module/>`_
 - USB cable
 - Example code
 

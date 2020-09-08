@@ -15,6 +15,8 @@ You simple snap it in the HARDWARIO socket header using the bottom pins.
 | `E-Shop <https://shop.hardwario.com/cover-module/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-cover>`_  |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

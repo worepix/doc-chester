@@ -40,7 +40,6 @@ To upgrade an existing installation, go to one of the supported platforms:
 Setup on Windows
 ****************
 
-
 .. caution::
 
     You will need **administrator** rights to install.
@@ -55,7 +54,7 @@ Step 2: Launch the downloaded installer and choose the destination directory
 
 .. image:: ../_static/firmware/toolchain_setup/windows-location.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: Windows location
 
 
@@ -64,7 +63,7 @@ Step 3: Now you can adjust the desired Path environment variable (we recommend t
 
 .. image:: ../_static/firmware/toolchain_setup/setup_windows-paths.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: Windows PATH
 
 Step 4: The FTDI driver setup will launch automatically during the installation - install it
@@ -72,7 +71,7 @@ Step 4: The FTDI driver setup will launch automatically during the installation 
 
 .. image:: ../_static/firmware/toolchain_setup/setup_windows-ftdi.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: FTDI
 
 Step 5: After finishing the installation, launch the HARDWARIO Toolchain using one these 3 ways
@@ -88,7 +87,7 @@ Step 5: After finishing the installation, launch the HARDWARIO Toolchain using o
 
 .. image:: ../_static/firmware/toolchain_setup/setup_windows-toolchain.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: CMD Toolchain
 
 
@@ -113,7 +112,7 @@ Uninstall **Apps & features**:
 
 .. image:: ../_static/firmware/toolchain_setup/setup_windows-uninstall.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: Windows Uninstall
 
 .. _macos-setup:

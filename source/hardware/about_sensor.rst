@@ -26,6 +26,8 @@ The two terminals - A on the left, B on the right - are connected to the HARDWAR
 | `E-Shop <https://shop.hardwario.com/sensor-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-sensor>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__sensor>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_sensor.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_sensor.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

@@ -16,7 +16,7 @@ However, if you want to use `HARDWARIO Hub <https://shop.hardwario.com/raspberry
 following screenshot just click on one and it will open in your browser.
 **?????????????????????????????????????????????????????????????????**
 
-Now you have to install plugin which will allow you to control HARDWARIO IoT Kit with Alexa.
+Now you have to install plugin which will allow you to control HARDWARIO TOWER - Industrial IoT Kit with Alexa.
 Click on Hamburger menu in top right corner > Manage palette > Install and search for ``node-red-contrib-alexa-home-skill``.
 You should see alexa category with ``alexa home`` and ``alexa home response`` in nodes under the **alexa** category.
 

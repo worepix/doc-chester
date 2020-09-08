@@ -16,6 +16,8 @@ Optionally this module can have active PoE module that fully supports IEEE 802.3
 | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-ethernet>`_ |
 +----------------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********
@@ -29,9 +31,4 @@ Features
 - Operating voltage range: 3.0 V to 3.3 V
 - Operating temperature range: -40 to 85 °C
 
-*********
-Resources
-*********
-
-- `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-ethernet>`_
 

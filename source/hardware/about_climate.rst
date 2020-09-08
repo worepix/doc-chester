@@ -17,6 +17,8 @@ You can use the **Climate Module** altogether with the **Mini Battery Module** a
 | `E-Shop <https://shop.hardwario.com/climate-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-climate>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__climate>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_climate.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_climate.c>`_ |
 +--------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

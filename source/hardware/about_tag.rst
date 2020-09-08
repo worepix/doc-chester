@@ -22,6 +22,8 @@ It also features pull-up resistors on SDA/SCL signals of I2C1 bus.
 | `E-Shop <https://shop.hardwario.com/tag-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-tag>`_    |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

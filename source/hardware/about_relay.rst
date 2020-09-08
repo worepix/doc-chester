@@ -17,6 +17,8 @@ The switching period is indicated using the green LED (in software referred as "
 | `E-Shop <https://shop.hardwario.com/relay-module/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-relay>`_  | `SDK Library <https://sdk.hardwario.com/group__bc__module__relay>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_relay.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_relay.c>`_ |
 +-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
 
+----------------------------------------------------------------------------------------------
+
 ********
 Features
 ********

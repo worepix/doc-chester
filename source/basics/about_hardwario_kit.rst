@@ -1,6 +1,6 @@
-#######################
-About HARDWARIO IoT Kit
-#######################
+##########################################
+About HARDWARIO TOWER - Industrial IoT Kit
+##########################################
 
 HARDWARIO is a device platform, specifically designed for the Internet-of-Things.
 With HARDWARIO, you can quickly build your own electronics devices.
@@ -73,7 +73,7 @@ System Concept
 **************
 .. image:: ../_static/basics/about_hardwario_kit/system-concept.png
    :align: center
-   :scale: 51%
+   :scale: 100%
    :alt: System Concept
 
 ****************

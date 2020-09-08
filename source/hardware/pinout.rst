@@ -2,7 +2,7 @@
 Header Pinout
 #############
 
-The **HARDWARIO IoT Kit** emphasizes hardware modularity and reusability.
+The **HARDWARIO TOWER - Industrial IoT Kit** emphasizes hardware modularity and reusability.
 In order to achieve such goal, the proper interconnection system has to be used.
 HARDWARIO sticks to a well-known and widely accepted standard - the so-called **headers** with a 2.54 mm (0.1 inch) pitch.
 
