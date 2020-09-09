@@ -91,7 +91,7 @@ Step 5: After finishing the installation, launch the HARDWARIO Toolchain using o
    :alt: CMD Toolchain
 
 
-Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
+Step 6: Continue on the document :doc:`Toolchain Guide <toolchain-guide>`. You may also try
 *******************************************************************************************
 
 - :ref:`Integration with Visual Studio Code <visual-studio-integration>`
@@ -181,7 +181,7 @@ Step 8: Install HARDWARIO Firmware Tool
 
     sudo pip3 install --upgrade --no-cache-dir bcf
 
-Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
+Step 6: Continue on the document :doc:`Toolchain Guide <toolchain-guide>`. You may also try
 *******************************************************************************************
 
 - :ref:`Integration with Visual Studio Code <visual-studio-integration>`
@@ -282,7 +282,7 @@ Step 10: Add user to dialout group
 
     sudo adduser $USER dialout
 
-Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
+Step 6: Continue on the document :doc:`Toolchain Guide <toolchain-guide>`. You may also try
 ********************************************************************************************
 
 - :ref:`Integration with Visual Studio Code <visual-studio-integration>`
@@ -399,7 +399,7 @@ Step 6: Install HARDWARIO Firmware Tool
 
     sudo pip3 install --upgrade --no-cache-dir bcf
 
-Step 6: Continue on the document :doc:`Toolchain Guide <toolchain_guide>`. You may also try
+Step 6: Continue on the document :doc:`Toolchain Guide <toolchain-guide>`. You may also try
 *******************************************************************************************
 
 - :ref:`Integration with Visual Studio Code <visual-studio-integration>`

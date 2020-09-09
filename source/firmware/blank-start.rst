@@ -7,7 +7,7 @@ explains the structure of the created project and the typical development cycle.
 
 .. warning::
 
-    This document assumes that you have necessary tools installed according to the document :doc:`Toolchain Setup <toolchain_setup>`.
+    This document assumes that you have necessary tools installed according to the document :doc:`Toolchain Setup <toolchain-setup>`.
 
 ***********
 Hello World

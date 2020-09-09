@@ -3,7 +3,7 @@ How to: RS-485 Module
 #####################
 
 With RS-485 Module you can send and receive data over RS-485 line using generic byte transfer or other protocols like MODBUS.
-See more information in :doc:`About RS-485 Module <../../hardware/about_rs485>` page.
+See more information in :doc:`About RS-485 Module <../hardware/about-rs-485-module>` page.
 
 .. tip::
 

@@ -12,7 +12,7 @@ First initialize the servo output by calling function
 
     bc_servo_init (bc_servo_t *self, bc_pwm_channel_t channel)
 
-The ``channel`` parameter can be one of the output pins. Please check the :doc:`Core Module pinout <../../hardware/pinout>` to see which pins allows PWM.
+The ``channel`` parameter can be one of the output pins. Please check the :doc:`Core Module pinout <../hardware/header-pinout>` to see which pins allows PWM.
 
 .. code-block:: c
     :linenos:

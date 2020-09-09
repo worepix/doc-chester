@@ -2,11 +2,11 @@
 Basic Overview
 ##############
 
-You can compile and flash your own code to the Core Module. To do that you need to install :doc:`HARDWARIO toolchain <toolchain_setup>` to your computer,
+You can compile and flash your own code to the Core Module. To do that you need to install :doc:`HARDWARIO toolchain <toolchain-setup>` to your computer,
 or you can compile code also on **Raspberry Pi** with our
 bc-raspbian image and installing the `GCC package <https://forum.hardwario.com/t/how-to-compile-bigclown-firmware-on-raspberry-pi/271/10>`_ !!!!!!!TODO!!!!!!!!
 
-Toolchain comes with many useful tools, please see the **Tools** section in the menu where tools like :doc:`bcf <../tools/firmware_flashing_tool>` are explained.
+Toolchain comes with many useful tools, please see the **Tools** section in the menu where tools like :doc:`bcf <../tools/bigclown-firmware-flashing-tool>` are explained.
 
 Every HARDWARIO TOWER - Industrial IoT Kit Module has its own library in the `HARDWARIO SDK <https://sdk.hardwario.com>`_.
 So you just call **init** function and set the **callback** function.
@@ -21,8 +21,8 @@ Firmware flashing
 With these tools you can flash new firmware.
 Tools can automatically download pre-compiled firmware from GitHub and you can also choose your own ``*.bin`` file to flash.
 
-- :doc:`HARDWARIO Playground <../basics/playground>` is a GUI multi-platform tool.
-- :doc:`HARWDARIO Flasher <../tools/firmware_flashing_tool>` (``bcf``) command line tool.
+- :doc:`HARDWARIO Playground <../basics/bigclown-playground>` is a GUI multi-platform tool.
+- :doc:`HARWDARIO Flasher <../tools/bigclown-firmware-flashing-tool>` (``bcf``) command line tool.
 
 ************
 Example Code
@@ -76,8 +76,8 @@ There are the main reasons for choosing this technology:
     Effective use of hardware resources is important for developing of low-power devices. This is primary goal of HARDWARIO ecosystem.
 
 You can choose from wide variety of systems and tools. Windows, macOS a Ubuntu (and other Debian derivatives) are supported.
-For information how to install required tools, please see :doc:`Toolchain setup <toolchain_setup>`.
-You can find more information on how to use them in :doc:`Toolchain guide <toolchain_guide>`.
+For information how to install required tools, please see :doc:`Toolchain setup <toolchain-setup>`.
+You can find more information on how to use them in :doc:`Toolchain guide <toolchain-guide>`.
 
 ******************
 Diving Deep to SDK

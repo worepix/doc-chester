@@ -111,5 +111,5 @@ Thanks to the SDK, setting up and using the GPS Module is very simple. You have 
         bc_led_init_virtual(&gps_led_g, BC_MODULE_GPS_LED_GREEN, bc_module_gps_get_led_driver(), 0);
     }
 
-This code will send via ``bc_log`` date, time, position, number of satellites module sees and fix quality. You can :doc:`compile <../toolchain_setup>` it and see logs via ``bcf --log``.
+This code will send via ``bc_log`` date, time, position, number of satellites module sees and fix quality. You can :doc:`compile <toolchain-setup>` it and see logs via ``bcf --log``.
 

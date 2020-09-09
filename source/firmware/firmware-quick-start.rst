@@ -7,7 +7,7 @@ You can easily edit or create your custom firmware for HARDWARIO Core Module on 
 
 .. note::
 
-    In the :doc:`next chapters in Firmware group <basic_overview>` you can find more details for each step explained here.
+    In the :doc:`next chapters in Firmware group <basic-overview>` you can find more details for each step explained here.
 
 *******
 Windows
@@ -30,7 +30,7 @@ Windows
 
 .. note::
 
-    You can also follow a detailed Windows toolchain installation guide and :doc:`Toolchain Guide <toolchain_guide>` chapter.
+    You can also follow a detailed Windows toolchain installation guide and :doc:`Toolchain Guide <toolchain-guide>` chapter.
 
 **Detailed explanation**
 
@@ -54,7 +54,7 @@ Linux/Ubuntu
 ************
 
 #. Install :ref:`GCC toolchain and tools <ubuntu-setup>`. Optionally install `VSCode IDE <https://code.visualstudio.com>`__.
-#. Create a new project skeleton using :doc:`bcf <../tools/firmware_flashing_tool>` by typing ``bcf create my_project``
+#. Create a new project skeleton using :doc:`bcf <../tools/bigclown-firmware-flashing-tool>` by typing ``bcf create my_project``
 #. Go to the new created folder by typing ``cd my_project``
 #. Run VSCode by typing ``code .`` (note the dot ".") or open project folder in VSCode.
 #. Build firmware by pressing ``Ctrl+Shift+B``
@@ -67,14 +67,14 @@ Linux/Ubuntu
 
 .. note::
 
-    You can continue by reading :doc:`Toolchain Guide <toolchain_guide>` chapter.
+    You can continue by reading :doc:`Toolchain Guide <toolchain-guide>` chapter.
 
 *****
 macOS
 *****
 
 #. Install :ref:`GCC toolchain and tools <macos-setup>`. Optionally install `VSCode IDE <https://code.visualstudio.com>`__.
-#. Create a new project skeleton using :doc:`bcf <../tools/firmware_flashing_tool>` by typing ``bcf create my_project``
+#. Create a new project skeleton using :doc:`bcf <../tools/bigclown-firmware-flashing-tool>` by typing ``bcf create my_project``
 #. Go to the new created folder by typing ``cd my_project``
 #. Run VSCode by typing ``code .`` (note the dot ".") or open project folder in VSCode.
 #. Build firmware by pressing ``Ctrl+Shift+B``
@@ -87,5 +87,5 @@ macOS
 
 .. note::
 
-    You can continue by reading :doc:`Toolchain Guide <toolchain_guide>` chapter.
+    You can continue by reading :doc:`Toolchain Guide <toolchain-guide>` chapter.
 

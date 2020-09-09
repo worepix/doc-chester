@@ -3,7 +3,7 @@ How to: GPIO Pins
 #################
 
 You can use many GPIOs (General Purpose Input/Output pins) to connect the Core Module with the outside world.
-The pins are described in the :doc:`Header Pinout <../../hardware/pinout>`. The pins in SDK has names ``BC_GPIO_P0`` to ``BC_GPIO_P17``.
+The pins are described in the :doc:`Header Pinout <../../hardware/header-pinout>`. The pins in SDK has names ``BC_GPIO_P0`` to ``BC_GPIO_P17``.
 There are also two special pins dedicated to ``BC_GPIO_LED`` and ``BC_GPIO_BUTTON``.
 
 .. tip::

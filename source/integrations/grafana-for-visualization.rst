@@ -377,8 +377,8 @@ Step 6: Choose node as a data source and click on Import
    :scale: 51%
    :alt: Grafana Select Datasource
 
-Step 7: Result for `Wireless Climate Monitor <https://www.hackster.io/jakub-smejkal/radio-climate-monitor-96de57>`_ and `Wireless CO2 Monitor <https://www.hackster.io/jakub-smejkal/radio-co2-monitor-311d2c>`_​
-******************************************************************************************************************************************************************************************************************
+Step 7: Result for `Wireless Climate Monitor <https://www.hackster.io/jakub-smejkal/radio-climate-monitor-96de57>`__ and `Wireless CO2 Monitor <https://www.hackster.io/jakub-smejkal/radio-co2-monitor-311d2c>`_​_
+*********************************************************************************************************************************************************************************************************************
 
 .. image:: ../_static/integrations/grafana/_integrations_grafana-for-visualization_demo-dashboard.png
    :align: center

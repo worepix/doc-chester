@@ -19,7 +19,7 @@ The Kit supports not just generic 868 MHz communication, bud can communicate als
 
 HARDWARIO 868/915 MHz FSK radio
 *******************************
-:doc:`HARDWARIO 868/915 MHz radio article <sub_ghz_radio>`
+:doc:`HARDWARIO 868/915 MHz radio article <sub-ghz-radio>`
 
 Every Core Module has a SPIRIT1 radio module on it. This radio works up to 400 meters in open area or convers regular family house.
 
@@ -34,7 +34,7 @@ Every Core Module has a SPIRIT1 radio module on it. This radio works up to 400 m
 
 LoRa Network
 ************
-:doc:`HARDWARIO LoRa Module article <../hardware/about_lora>`
+:doc:`HARDWARIO LoRa Module article <../hardware/about-lora-module>`
 
 This is a network build by companies, municipalities and public.
 You can try to google if some company in your country/area provides this network (`CRA <https://www.cra.cz/iot-services>`_, `Starnet <https://www.starnet.cz/iot/>`_).
@@ -58,7 +58,7 @@ or use the community `The Things Network <https://www.thethingsnetwork.org>`_ (`
 
 Sigfox Network
 **************
-:doc:`HARDWARIO Sigfox Module article <../hardware/about_sigfox>`
+:doc:`HARDWARIO Sigfox Module article <../hardware/about-sigfox-module>`
 
 .. warning::
 

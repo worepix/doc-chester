@@ -64,7 +64,7 @@ Step 1: The gateway device needs to be in the pairing mode
 **********************************************************
 .. note::
 
-    The MQTT command for this operation is described in the document :doc:`MQTT Topics <mqtt_topics>`.
+    The MQTT command for this operation is described in the document :doc:`MQTT Topics <mqtt-topics>`.
 
     If you are using Playground, you can start it in the **Devices** Tab
 
@@ -79,7 +79,7 @@ Step 3: Once all node devices are enrolled, you have to exit the pairing mode
 *****************************************************************************
 .. note::
 
-    The MQTT command for this operation is described in the document :doc:`MQTT Topics <mqtt_topics>`.
+    The MQTT command for this operation is described in the document :doc:`MQTT Topics <mqtt-topics>`.
 
     If you are using Playground, you can stop it in the **Devices** Tab
 

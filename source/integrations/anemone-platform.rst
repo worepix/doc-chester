@@ -4,7 +4,7 @@ Anemone Platform
 
 **Anemone** is the ecosystem of cloud, web and mobile app, hardware devices, 3D-printed enclosures, documentation, support, etc.
 
-t helps the so-called *fintechs* (startups from the financial sector) to come up with the new ideas and leverage modern
+It helps the so-called *fintechs* (startups from the financial sector) to come up with the new ideas and leverage modern
 IoT and cloud technologies in the world of finances. Technically speaking, it is about **flows** and **tentacles**.
 **Flows** make it possible to create visual bonds between triggers and actions, while **tentacles** are a hardware IoT devices you can hook into the flows.
 And **Anemone** can do it neatly and simply.
