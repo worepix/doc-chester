@@ -225,7 +225,7 @@ Step 3: Open the configuration file
 
 Step 4: Paste this snippet to the configuration file
 ****************************************************
-Configuration possibilities and structure are described at article about ``mqtt2influxdb``.!!!!!!!!!!!TODO
+Configuration possibilities and structure are described at article about :ref:`mqtt2influxdb <configure-mqtt2influxdb>`.
 
 .. code-block:: yaml
 

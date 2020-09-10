@@ -4,7 +4,8 @@ Basic Overview
 
 You can compile and flash your own code to the Core Module. To do that you need to install :doc:`HARDWARIO toolchain <toolchain-setup>` to your computer,
 or you can compile code also on **Raspberry Pi** with our
-bc-raspbian image and installing the `GCC package <https://forum.hardwario.com/t/how-to-compile-bigclown-firmware-on-raspberry-pi/271/10>`_ !!!!!!!TODO!!!!!!!!
+:doc:`bc-raspbian <../tutorials/raspberry-pi-installation>` image and installing
+the `GCC package <https://forum.hardwario.com/t/how-to-compile-bigclown-firmware-on-raspberry-pi/271/10>`_
 
 Toolchain comes with many useful tools, please see the **Tools** section in the menu where tools like :doc:`bcf <../tools/bigclown-firmware-flashing-tool>` are explained.
 

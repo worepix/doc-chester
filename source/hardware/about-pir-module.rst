@@ -2,18 +2,19 @@
 About PIR Module
 ################
 
-.. image:: ../_static/hardware/about_pir/pir-module.png
-   :align: center
-   :scale: 51%
-   :alt: PIR Module
+.. |pic1| thumbnail:: ../_static/hardware/about_pir/pir-module.png
+    :width: 300em
+    :height: 300em
 
-The **PIR Module** works as a **motion detector** operating on a **passive infrared (PIR)** principle.
-Typical usage of the **PIR Module** can be a wireless motion detector located on a wall or ceiling.
-The module is equipped with an **ultra-low-power digital sensor** from Excelitas' the DigiPyro® family.
++------------------------+----------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **PIR Module** works as a **motion detector** operating on a **passive infrared (PIR)** principle. |
+|                        | | Typical usage of the **PIR Module** can be a wireless motion detector located on a wall or ceiling.    |
+|                        | | The module is equipped with an **ultra-low-power digital sensor** from Excelitas' the DigiPyro® family.|
++------------------------+----------------------------------------------------------------------------------------------------------+
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/pir-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-pir>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__pir>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_pir.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_pir.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/pir-module/>`_    | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-pir>`_    | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__pir>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_pir.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_pir.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

@@ -7,11 +7,25 @@ HARDWARIO TOWER - Industrial IoT Kit Developer Documentation
    In this section, you will find developer documentation for the **HARDWARIO** product **Industrial IoT Kit**.
    If you want to get information on how to buy a kit, you can visit the `product homepage <https://www.hardwario.com/kit/>`_.
 
+**************
+Where to Begin
+**************
+
+- :doc:`Quick Start Guide </basics/quick-start-guide>`
+- :doc:`HARDWARIO Playground </basics/bigclown-playground>`
+- :doc:`HARDWARIO Gateway on Raspberry Pi </tutorials/raspberry-pi-installation>`
+- :doc:`Firmware Quick Start </firmware/firmware-quick-start>`
+
+.. tip::
+
+    For even more support and help also visit https://forum.hardwario.com/
+
 .. toctree::
    :caption: Basics
    :maxdepth: 2
    :hidden:
 
+   basics/quick-start-guide
    basics/bigclown-playground
    basics/about-bigclown
    basics/module-overview
@@ -27,9 +41,9 @@ HARDWARIO TOWER - Industrial IoT Kit Developer Documentation
     tutorials/raspberry-pi-installation
     tutorials/raspberry-pi-login
     tutorials/custom-setup-on-ubuntu
-
+    tutorials/custom-setup-on-macos
     tutorials/custom-setup-on-raspberry-pi
-
+    tutorials/custom-setup-on-synology
     tutorials/custom-setup-on-turris
     tutorials/mysigfox.com-service
     tutorials/lora-at-commands-configuration

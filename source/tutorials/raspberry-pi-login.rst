@@ -22,6 +22,8 @@ You can log in two ways:
 Log in via:
 ***********
 
+.. _ip-adress-login:
+
 IP adress
 *********
 
@@ -38,6 +40,8 @@ In this case, you need to find out what address the DHCP server assigned to your
     `IP Scaner (Mac) <https://apps.apple.com/us/app/ip-scanner/id404167149?mt=12>`_.
 
     On your Android or iOS phone you can use `Fing <https://www.fing.com>`_ utility which can detect Raspberry Pi and show an raspberry icon with the device.
+
+.. _dns-name-login:
 
 DNS name
 ********

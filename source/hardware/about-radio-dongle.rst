@@ -2,26 +2,28 @@
 About Radio Dongle
 ##################
 
-.. image:: ../_static/hardware/about_dongle/usb-dongle.png
-   :align: center
-   :scale: 100%
-   :alt: Radio Dongle
+.. |pic1| thumbnail:: ../_static/hardware/about_dongle/radio-dongle.png
+    :width: 300em
+    :height: 300em
 
-The **Radio Dongle** is the main element of the HARDWARIO radio network.
-This product works as a **gateway for the HARWDARIO nodes**. It looks like a USB stick.
-You can plug it to your desktop, Raspberry Pi, or Turris Omnia.
-Also, you can look at it as an access point for up to 32 HARDWARIO nodes.
-
-This item is fully compatible with the **Core Module**. It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM.
-Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also features two security chips - to have enough space for up to 32 HARDWARIO TOWER nodes.
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Radio Dongle** is the main element of the HARDWARIO radio network.                                                                                           |
+|                        | | This product works as a **gateway for the HARWDARIO nodes**. It looks like a USB stick.                                                                            |
+|                        | | You can plug it to your desktop, Raspberry Pi, or Turris Omnia.                                                                                                    |
+|                        | | Also, you can look at it as an access point for up to 32 HARDWARIO nodes.                                                                                          |
+|                        | |                                                                                                                                                                    |
+|                        | | This item is fully compatible with the **Core Module**.                                                                                                            |
+|                        | | It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM.                                                                              |
+|                        | | Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also features two security chips - to have enough space for up to 32 HARDWARIO TOWER nodes.  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. note::
 
     You can upload firmware into it over USB using the HARDWARIO Firmware Tool (works on Windows, macOS, and Linux). Or by using HARDWARIO Playground.
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/radio-dongle/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-usb-dongle>`_    |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/radio-dongle/>`_  | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-usb-dongle>`_    |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

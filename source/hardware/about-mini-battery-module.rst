@@ -2,21 +2,22 @@
 About Mini Battery Module
 #########################
 
-.. image:: ../_static/hardware/about_mini_battery/mini-battery-module.png
-   :align: center
-   :scale: 51%
-   :alt: Mini Battery Module
+.. |pic1| thumbnail:: ../_static/hardware/about_mini_battery/mini-battery-module.png
+    :width: 300em
+    :height: 300em
 
-The **Mini Battery Module** is designed as a power supply source for the battery-operated units.
-The integrated low-power boost converter provides an excellent efficiency from the **two AAA 1.5 V Alkaline cells**.
-It features a bottom-entry socket, so the overall profile of the unit you build remains low.
++------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Mini Battery Module** is designed as a power supply source for the battery-operated units.                                                    |
+|                        | | The integrated low-power boost converter provides an excellent efficiency from the **two AAA 1.5 V Alkaline cells**.                                |
+|                        | | It features a bottom-entry socket, so the overall profile of the unit you build remains low.                                                        |
+|                        | |                                                                                                                                                     |
+|                        | | The load disconnect circuit can disconnect the batteries if any other power supply source is connected to the system (e.g. AC adapter or USB cable).|
+|                        | | The **battery voltage can be measured** on one of the analog inputs of the standardized header (P0/A0/TXD0).                                        |
++------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-The load disconnect circuit can disconnect the batteries if any other power supply source is connected to the system (e.g. AC adapter or USB cable).
-The **battery voltage can be measured** on one of the analog inputs of the standardized header (P0/A0/TXD0).
-
-+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/mini-battery-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-battery-mini>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__battery>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_battery.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_battery.c>`_ |
-+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/mini-battery-module/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-battery-mini>`_ | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__battery>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_battery.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_battery.c>`_ |
++-----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

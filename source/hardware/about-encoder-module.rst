@@ -2,31 +2,32 @@
 About Encoder Module
 ####################
 
-.. image:: ../_static/hardware/about_encoder/encoder-module.png
-   :align: center
-   :scale: 51%
-   :alt: Encoder Module
+.. |pic1| thumbnail:: ../_static/hardware/about_encoder/encoder-module.png
+    :width: 300em
+    :height: 300em
 
-The **Encoder Module** can be useful for controlling your applications.
-The module is equipped with a high-quality rotary encoder manufactured by Bourns and features high reliability and durability.
-The rotary encoder is also equipped with a **push-button switch.**
-
-The rotary encoder has 12 positions per revolution.
-The rotation range is not limited such as with a potentiometer and can be rotated in either direction at any number of revolutions.
-
-The module was designed primarily to complement the **LCD Module.**
-A typical application is a wireless thermostat.
-The rotary encoder could be used as a convenient navigation control in the graphical menu.
-
-This module also features three 5-pin sockets allowing you to connect HARDWARIO tags.
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Encoder Module** can be useful for controlling your applications.                                                            |
+|                        | | The module is equipped with a high-quality rotary encoder manufactured by Bourns and features high reliability and durability.     |
+|                        | | The rotary encoder is also equipped with a **push-button switch.**                                                                 |
+|                        | |                                                                                                                                    |
+|                        | | The rotary encoder has 12 positions per revolution.                                                                                |
+|                        | | The rotation range is not limited such as with a potentiometer and can be rotated in either direction at any number of revolutions.|
+|                        | |                                                                                                                                    |
+|                        | | The module was designed primarily to complement the **LCD Module.**                                                                |
+|                        | | A typical application is a wireless thermostat.                                                                                    |
+|                        | | The rotary encoder could be used as a convenient navigation control in the graphical menu.                                         |
+|                        | |                                                                                                                                    |
+|                        | | This module also features three 5-pin sockets allowing you to connect HARDWARIO tags.                                              |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------+
 
 .. important::
 
     The illustrated aluminum knob is not a part of the module and is sold as an optional accessory separately.
 
-+--------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/encoder-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-encoder>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__encoder>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_encoder.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_encoder.c>`_ |
-+--------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/encoder-module/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-encoder>`_ | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__encoder>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_encoder.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_encoder.c>`_ |
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

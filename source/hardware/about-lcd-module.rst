@@ -2,19 +2,20 @@
 About LCD Module
 ################
 
-.. image:: ../_static/hardware/about_lcd/lcd-module-bg.png
-   :align: center
-   :scale: 51%
-   :alt: LCD Module
+.. |pic1| thumbnail:: ../_static/hardware/about_lcd/lcd-module-bg.png
+    :width: 300em
+    :height: 300em
 
-The **LCD Module** uses a unique technology - the so-called **memory display** developed by Sharp.
-It provides a resolution of 128 x 128 pixels in 1.28 inch size.
-It implements an **ultra-low-power display controller**, so you can have active graphical display with a long service time from batteries.
-
-You can control your application using the **two buttons** located below the LCD screen.
-The module is also equipped with a **gesture sensor** (Avago APDS-9960).
-This circuit, composed of the infrared transmitter and four directional photodiodes responding to different wavelengths,
-can also be used to measure the light intensity and color or as a proximity sensor.
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **LCD Module** uses a unique technology - the so-called **memory display** developed by Sharp.                                         |
+|                        | | It provides a resolution of 128 x 128 pixels in 1.28 inch size.                                                                            |
+|                        | | It implements an **ultra-low-power display controller**, so you can have active graphical display with a long service time from batteries. |
+|                        | |                                                                                                                                            |
+|                        | | You can control your application using the **two buttons** located below the LCD screen.                                                   |
+|                        | | The module is also equipped with a **gesture sensor** (Avago APDS-9960).                                                                   |
+|                        | | This circuit, composed of the infrared transmitter and four directional photodiodes responding to different wavelengths,                   |
+|                        | | can also be used to measure the light intensity and color or as a proximity sensor.                                                        |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. tip::
 
@@ -24,9 +25,9 @@ can also be used to measure the light intensity and color or as a proximity sens
 
     The **LCD Module** can also function as a unique status display for the Turris Omnia router.
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/lcd-module-bg/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-lcd>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__lcd>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_lcd.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_lcd.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/lcd-module-bg/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-lcd>`_    | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__lcd>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_lcd.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_lcd.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

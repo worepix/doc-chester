@@ -12,7 +12,8 @@ change the light intensity using slider and also you would be able to watch the 
 *************************************
 Blynk example projects with HARDWARIO
 *************************************
-!!!!!!!!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!
+
+- You can find a lot of projects on our `hackster page <https://www.hackster.io/hardwario/projects?category_id=299>`_.
 
 *********
 Blynk app

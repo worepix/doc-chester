@@ -2,15 +2,18 @@
 About Sensor Module
 ###################
 
-.. image:: ../_static/hardware/about_sensor/sensor-module.png
-   :align: center
-   :scale: 51%
-   :alt: Sensor Module
+.. |pic1| thumbnail:: ../_static/hardware/about_sensor/sensor-module.png
+    :width: 300em
+    :height: 300em
 
-The **Sensor Module** features **up-to four universal inputs or outputs** on a pluggable terminal block with **1-Wire bus master** support.
-The terminals can be used as both analog and digital input/output. For example you can connect various external digital, analog or resistive sensors. Also, you can communicate with other devices on a 1-Wire bus.
-
-The two terminals - A on the left, B on the right - are connected to the HARDWARIO header signals P4/A4/DAC0 and P5/A5/DAC1.
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Sensor Module** features **up-to four universal inputs or outputs** on a pluggable terminal block with **1-Wire bus master** support.    |
+|                        | | The terminals can be used as both analog and digital input/output.                                                                             |
+|                        | | For example you can connect various external digital, analog or resistive sensors.                                                             |
+|                        | | Also, you can communicate with other devices on a 1-Wire bus.                                                                                  |
+|                        | |                                                                                                                                                |
+|                        | | The two terminals - A on the left, B on the right - are connected to the HARDWARIO header signals P4/A4/DAC0 and P5/A5/DAC1.                   |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. tip::
 
@@ -22,9 +25,9 @@ The two terminals - A on the left, B on the right - are connected to the HARDWAR
 
     The VCC middle pin is possible to control by software. You can enable 3 V on this pin.
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/sensor-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-sensor>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__sensor>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_sensor.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_sensor.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/sensor-module/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-sensor>`_ | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__sensor>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_sensor.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_sensor.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

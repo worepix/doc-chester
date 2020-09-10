@@ -2,12 +2,13 @@
 Firmware Quick Start
 ####################
 
-You can easily edit or create your custom firmware for HARDWARIO Core Module on Windows, Linux or macOS.
-!!!!!!!TODO!!!!!!!!!!!!!!!!!
+You can easily edit or create your custom firmware for HARDWARIO Core Module on :ref:`Windows <windows-firmware>`, :ref:`Linux <linux-firmware>` or :ref:`macOS <macos-firmware>`.
 
 .. note::
 
     In the :doc:`next chapters in Firmware group <basic-overview>` you can find more details for each step explained here.
+
+.. _windows-firmware:
 
 *******
 Windows
@@ -49,6 +50,8 @@ flash because ``make`` and ``bcf`` will be also available in the default Windows
 
     VSCode now uses PowerShell, that's why you have to confirm that you would like to use normal Windows command line.
 
+.. _linux-firmware:
+
 ************
 Linux/Ubuntu
 ************
@@ -68,6 +71,8 @@ Linux/Ubuntu
 .. note::
 
     You can continue by reading :doc:`Toolchain Guide <toolchain-guide>` chapter.
+
+.. _macos-firmware:
 
 *****
 macOS

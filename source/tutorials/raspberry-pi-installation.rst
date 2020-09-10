@@ -80,10 +80,10 @@ If you would not like to use ethernet cable, you can connect Raspberry Pi over y
     ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
     update_config=1
 
-network={
-    ssid="YOUR_NETWORK_NAME"
-    psk="YOUR_PASSWORD"
-}
+    network={
+        ssid="YOUR_NETWORK_NAME"
+        psk="YOUR_PASSWORD"
+    }
 
 ***************************
 Connecting to HARDWARIO HUB

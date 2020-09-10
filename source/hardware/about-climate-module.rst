@@ -2,20 +2,21 @@
 About Climate Module
 ####################
 
-.. image:: ../_static/hardware/about_climate/climate-module.png
-   :align: center
-   :scale: 51%
-   :alt: Climate Module
+.. |pic1| thumbnail:: ../_static/hardware/about_climate/climate-module.png
+    :width: 300em
+    :height: 300em
 
-The **Climate Module** integrates 4 environmental sensors - **temperature, humidity, light intensity and atmospheric pressure.**
-All sensors are digital, feature low-power operating modes and connected by using the I²C bus.
-It is a great product for environmental monitoring, weather stations, etc.
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Climate Module** integrates 4 environmental sensors - **temperature, humidity, light intensity and atmospheric pressure.**                               |
+|                        | | All sensors are digital, feature low-power operating modes and connected by using the I²C bus.                                                                 |
+|                        | | It is a great product for environmental monitoring, weather stations, etc.                                                                                     |
+|                        | |                                                                                                                                                                |
+|                        | | You can use the **Climate Module** altogether with the **Mini Battery Module** and the **Core Module** to create a very compact wireless environmental sensor. |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-You can use the **Climate Module** altogether with the **Mini Battery Module** and the **Core Module** to create a very compact wireless environmental sensor.
-
-+--------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/climate-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-climate>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__climate>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_climate.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_climate.c>`_ |
-+--------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/climate-module/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-climate>`_ | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__climate>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_climate.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_climate.c>`_ |
++------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

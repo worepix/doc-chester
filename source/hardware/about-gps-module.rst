@@ -2,18 +2,20 @@
 About GPS Module
 ################
 
-.. image:: ../_static/hardware/about_gps/gps-module.png
-   :align: center
-   :scale: 51%
-   :alt: GPS Module
+.. |pic1| thumbnail:: ../_static/hardware/about_gps/gps-module.png
+    :width: 300em
+    :height: 300em
 
-The **GPS Module** allows you to know the exact position of your device.
-It is using **SAM-M8Q** module from **ublox**. It understands 3 global positioning standards GPS, Galileo and GLONASS.
-The 2.5 m position accuracy is possible thanks to combining position from all three standards together.
++------------------------+-----------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **GPS Module** allows you to know the exact position of your device.                                |
+|                        | | It is using **SAM-M8Q** module from **ublox**.                                                          |
+|                        | | It understands 3 global positioning standards GPS, Galileo and GLONASS.                                 |
+|                        | | The 2.5 m position accuracy is possible thanks to combining position from all three standards together. |
++------------------------+-----------------------------------------------------------------------------------------------------------+
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/gps-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-gps>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__gps.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_gps.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_gps.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/gps-module/>`_    | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-gps>`_    | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__gps.html>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_gps.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_gps.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

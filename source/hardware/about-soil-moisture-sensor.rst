@@ -2,16 +2,26 @@
 About Soil Moisture Sensor
 ##########################
 
-.. image:: ../_static/hardware/about_soil/soil-sensor_module.png
-   :align: center
-   :scale: 100%
-   :alt: Soil Sensor
+.. |pic1| thumbnail:: ../_static/hardware/about_soil/soil-sensor_module.png
+    :width: 300em
+    :height: 300em
 
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Soil Moisture Sensor** is a modern, completely sealed capacitive moisture sensor with a temperature sensor.                      |
+|                        | | It is using 1-Wire communication protocol and has 3 wire cable that is 2 meters long.                                                  |
+|                        | | Many sensors can be connected to a single 1-Wire Master.                                                                               |
+|                        | | The temperature sensor is located in the top part above the soil.                                                                      |
+|                        | | The electronics is completely potted in a sealing compound to withstand all kind of weather.                                           |
+|                        | |                                                                                                                                        |
+|                        | | The sensor returns soil moisture humidity using relative values.                                                                       |
+|                        | | Sensor is very sensitive and you can get range from 6500 when sensor is dry and 13000 when sensor is fully submerged into the water.   |
+|                        | | Measuring is done by two copper strips inside the inner layers of the 4 layer PCB.                                                     |
+|                        | | This way the contacts are not exposed to direct humidity and do not oxidize.                                                           |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
-The **Soil Moisture Sensor** is a modern, completely sealed capacitive moisture sensor with a temperature sensor.
-It is using 1-Wire communication protocol and has 3 wire cable that is 2 meters long.
-Many sensors can be connected to a single 1-Wire Master. The temperature sensor is located in the top part above the soil.
-The electronics is completely potted in a sealing compound to withstand all kind of weather.
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/soil-sensor/>`_   | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-soil-sensor>`_   | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__soil__sensor.html>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_soil_sensor.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_soil_sensor.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 
 .. danger::
 
@@ -20,10 +30,6 @@ The electronics is completely potted in a sealing compound to withstand all kind
     If you connect Soil Sensor to the battery-operated radio module like Core Module then you are ok.
     However if you connect Core Module or Arduino over USB to your computer which is also grounded over EARTH wire,
     then the capacitive measurement could be affected.
-
-The sensor returns soil moisture humidity using relative values.
-Sensor is very sensitive and you can get range from 6500 when sensor is dry and 13000 when sensor is fully submerged into the water.
-Measuring is done by two copper strips inside the inner layers of the 4 layer PCB. This way the contacts are not exposed to direct humidity and do not oxidize.
 
 .. note::
 
@@ -43,9 +49,6 @@ Measuring is done by two copper strips inside the inner layers of the 4 layer PC
    :scale: 51%
    :alt: Sensor Module Connection
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/soil-sensor/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-soil-sensor>`_   | `SDK Library <https://sdk.hardwario.com/group__bc__soil__sensor.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_soil_sensor.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_soil_sensor.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

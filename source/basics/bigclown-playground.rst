@@ -56,6 +56,8 @@ The node alias is later used in MQTT message topic (``node/climate-monitor:0/..`
    :scale: 90%
    :alt: Playground Paired Devices
 
+.. _pairing-new-devices:
+
 **Pairing new modules:**
 
 #. Disconnect power from the wireless node (remove batteries or Battery Module, disconnect the USB cable, remove DC jack from Power Module)

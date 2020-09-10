@@ -26,7 +26,7 @@ So we built mysigfox.com to make it easy for you to get the messages real time.
 - Backend sends the message to MySigfox.com
 - MySigfox.com resends the message to your server
 
-It is pretty easy to set it all up. For more information, there is a different article. !!!!!!!!!!TODO!!!!!!!!!
+It is pretty easy to set it all up. For more information, there is a :doc:`different article. <../tutorials/mysigfox.com-service>`
 
 *******
 Example

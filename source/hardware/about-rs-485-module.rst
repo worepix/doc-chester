@@ -2,20 +2,22 @@
 About RS-485 Module
 ###################
 
-.. image:: ../_static/hardware/about_rs485/rs-485-module.JPG
-   :align: center
-   :scale: 51%
-   :alt: 1-wire
+.. |pic1| thumbnail:: ../_static/hardware/about_rs485/rs-485-module.png
+    :width: 300em
+    :height: 300em
 
-The **RS-485 Module** allows you to communicate over RS-485 bus using MODBUS or your custom protocol.
-Many devices could be connected to the single RS-485 bus and exchange data.
-This module also contains DC/DC converter so it can power the node. Supported input voltage is 5 - 28 V.
++------------------------+--------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **RS-485 Module** allows you to communicate over RS-485 bus using MODBUS or your custom protocol.      |
+|                        | | Many devices could be connected to the single RS-485 bus and exchange data.                                |
+|                        | | This module also contains DC/DC converter so it can power the node. Supported input voltage is 5 - 28 V.   |
+|                        | |                                                                                                            |
+|                        | | This module has low-power mode when data receiving is not enabled.                                         |
+|                        | | This way RS-485 node could work for long time just from batteries.                                         |
++------------------------+--------------------------------------------------------------------------------------------------------------+
 
-This module has low-power mode when data receiving is not enabled. This way RS-485 node could work for long time just from batteries.
-
-+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-rs-485>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__rs485.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_rs485.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_rs485.c>`_ |
-+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
+| |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-rs-485>`_ | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__rs485.html>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_rs485.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_rs485.c>`_ |
++--------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

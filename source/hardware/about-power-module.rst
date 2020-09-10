@@ -2,27 +2,29 @@
 About Power Module
 ##################
 
-.. image:: ../_static/hardware/about_power/power-module.png
-   :align: center
-   :scale: 51%
-   :alt: Power Module
+.. |pic1| thumbnail:: ../_static/hardware/about_power/power-module.png
+    :width: 300em
+    :height: 300em
 
-The Power Module allows you to connect a 5 V DC power adapter via a standard 2.1 mm power jack socket.
-It features a high-current relay (230 V AC / 16 A) to control your appliances.
-Also you can drive a digital LED strip with it (compatible with WS2812B).
-
-This module can power a HARDWARIO TOWER - Industrial IoT Kit node thanks to its integrated LDO regulator. The LDO generates 3.3 V output from the 5 V input.
-
-Reliability is important - that's why we have implemented a **smart** overvoltage, undervoltage and **reverse polarity protection** on the power jack input.
-This feature guarantees the input voltage range to always stay within the proper limits.
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The Power Module allows you to connect a 5 V DC power adapter via a standard 2.1 mm power jack socket.                                                         |
+|                        | | It features a high-current relay (230 V AC / 16 A) to control your appliances.                                                                                 |
+|                        | | Also you can drive a digital LED strip with it (compatible with WS2812B).                                                                                      |
+|                        | |                                                                                                                                                                |
+|                        | | This module can power a HARDWARIO TOWER - Industrial IoT Kit node thanks to its integrated LDO regulator.                                                      |
+|                        | | The LDO generates 3.3 V output from the 5 V input.                                                                                                             |
+|                        | |                                                                                                                                                                |
+|                        | | Reliability is important - that's why we have implemented a **smart** overvoltage, undervoltage and **reverse polarity protection** on the power jack input.   |
+|                        | | This feature guarantees the input voltage range to always stay within the proper limits.                                                                       |
++------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. warning::
 
     The maximum allowed current is 6 A.
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/power-module/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-power>`_  | `SDK Library <https://sdk.hardwario.com/group__bc__module__power>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_power.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_power.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/power-module/>`_  | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-power>`_  | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__power>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_power.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_power.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

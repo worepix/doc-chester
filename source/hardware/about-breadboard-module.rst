@@ -2,18 +2,20 @@
 About Breadboard Module
 #######################
 
-.. image:: ../_static/hardware/about_breadboard/breadboard-module.png
-   :align: center
-   :scale: 51%
-   :alt: Breadboard Module
+.. |pic1| thumbnail:: ../_static/hardware/about_breadboard/breadboard-module.png
+    :width: 300em
+    :height: 300em
 
-The **Breadboard Module** offers an easy way to connect any HARDWARIO TOWER - Industrial IoT Kit module to your breadboard.
-The narrowed breakout provides more space for wiring and prototyping.
-The precision pin headers from the bottom side allow smooth insertion to your breadboard and do not stress the breadboard's sockets.
 
-+-----------------------------------------------------------+------------------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/breadboard-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-breadboard>`_ |
-+-----------------------------------------------------------+------------------------------------------------------------------------------------------------------+
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Breadboard Module** offers an easy way to connect any HARDWARIO TOWER - Industrial IoT Kit module to your breadboard.          |
+|                        | | The narrowed breakout provides more space for wiring and prototyping.                                                                |
+|                        | | The precision pin headers from the bottom side allow smooth insertion to your breadboard and do not stress the breadboard's sockets. |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
+
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/breadboard-module/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-breadboard>`_ |
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

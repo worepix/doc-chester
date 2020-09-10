@@ -2,23 +2,25 @@
 About NFC Tag
 #############
 
-.. image:: ../_static/hardware/about_nfc/nfc-tag.png
-   :align: center
-   :scale: 51%
-   :alt: NFC Tag
+.. |pic1| thumbnail:: ../_static/hardware/about_nfc/nfc-tag.png
+    :width: 300em
+    :height: 300em
 
-The **NFC Tag** operates as a **dual port memory**. You have the the NFC protocol from one side and the I²C bus interface from the other side.
-It features a 1 kB EEPROM memory.
-The chip does not have to be powered when being accessed from the NFC side.
++------------------------+-------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **NFC Tag** operates as a **dual port memory**.                                                 |
+|                        | | You have the the NFC protocol from one side and the I²C bus interface from the other side.          |
+|                        | | It features a 1 kB EEPROM memory.                                                                   |
+|                        | | The chip does not have to be powered when being accessed from the NFC side.                         |
++------------------------+-------------------------------------------------------------------------------------------------------+
 
 .. note::
 
     NFC (or Near Field Communication) is a great technology for transferring data on a short distance (a couple of centimeters).
     This attribute makes this technology appealing for security key provisioning. Many smartphones are today equipped with the NFC technology.
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/nfc-tag/>`_       | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-nfc>`_       | `SDK Library <https://sdk.hardwario.com/group__bc__tag__nfc>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_nfc.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_nfc.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------+----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/nfc-tag/>`_       | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-nfc>`_       | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__tag__nfc>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_nfc.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_nfc.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

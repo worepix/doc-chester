@@ -2,20 +2,21 @@
 About Barometer Tag
 ###################
 
-.. image:: ../_static/hardware/about_barometer/barometer-tag.png
-   :align: center
-   :scale: 51%
-   :alt: Barometer Tag
+.. |pic1| thumbnail:: ../_static/hardware/about_barometer/barometer-tag.png
+    :width: 300em
+    :height: 300em
 
-The **Barometer Tag** allows you to measure absolute pressure in the range from 20 kPa to 110 kPa, or altitude above the sea level in meters.
-It uses a low-power I²C sensor **MPL3115A2** with an absolute accuracy of ±0.4 kPa. It features a very low active and standby current.
++------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Barometer Tag** allows you to measure absolute pressure in the range from 20 kPa to 110 kPa, or altitude above the sea level in meters. |
+|                        | | It uses a low-power I²C sensor **MPL3115A2** with an absolute accuracy of ±0.4 kPa. It features a very low active and standby current.        |
+|                        | |                                                                                                                                               |
+|                        | | Monitoring of absolute pressure is useful for weather forecast and it is also an important                                                    |
+|                        | | parameter in biometeorology because the absolute pressure can affect our health.                                                              |
++------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Monitoring of absolute pressure is useful for weather forecast and it is also an important
-the parameter in biometeorology because the absolute pressure can affect our health.
-
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/barometer-tag/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-barometer>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__tag__barometer>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_barometer.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_barometer.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/barometer-tag/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-barometer>`_ | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__tag__barometer>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_barometer.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_barometer.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

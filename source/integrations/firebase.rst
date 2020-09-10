@@ -13,7 +13,7 @@ You will learn how to connect and send data to firebase from Node-RED and try re
 
 Dependencies:
 
-- Installed Playground or our Raspbian (Raspbian) !!!!!!!!!!TODO!!!!!!!!!!!!!!
+- Installed Playground or our Raspbian (:doc:`Raspbian <../tutorials/raspberry-pi-installation>`)
 - Installed nodejs (on our Raspbian preinstalled, other operating systems `download website <https://nodejs.org/en/download/>`_)
 
 ***********************
@@ -23,7 +23,8 @@ Install firebase plugin
 Step 1: Open command line
 *************************
 
-- Windows – cmd, Linux and macOS – Terminal, on our Raspbian login with user pi and password raspberry (more about logging on our Raspbian) !!!!!!!TODO!!!!!!!!
+- Windows – cmd, Linux and macOS – Terminal, on our Raspbian login with user
+  pi and password raspberry (:doc:`more about logging on our Raspbian <../tutorials/raspberry-pi-login>`)
 
 Step 2: Install firebase plugin to Node-RED via
 ***********************************************
@@ -63,9 +64,7 @@ Open Node-RED
     .. tab-container:: tab1
         :title: HARDWARIO Hub
 
-            Connect to your HARDWARIO Hub via IP address or DNS name.
-
-!!!!!!!!!!TODO!!!!!!!!!
+            Connect to your HARDWARIO Hub via :ref:`IP address <ip-adress-login>` or :ref:`DNS name <dns-name-login>`.
 
 ***********************
 Create Firebase project

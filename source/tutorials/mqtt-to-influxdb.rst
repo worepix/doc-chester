@@ -2,8 +2,8 @@
 MQTT to InfluxDB
 ################
 
-For storing data from our sensors we like to use ``InfluxDB`` - time series database.
-As bridge between MQTT and InfluxDB we created a ``mqtt2influxdb``.
+For storing data from our sensors we like to use ``InfluxDB`` - time-series database.
+As a bridge between MQTT and InfluxDB we created a ``mqtt2influxdb``.
 Service connects to InfluxDB and MQTT broker and by users config subscribe MQTT topics and store data from messages.
 
 ************
@@ -143,7 +143,7 @@ Step 7: Save the PM2 state (so it will start after reboot)
 
 .. tip::
 
-    If you want to see temperature records from database in CSV format, use this command:
+    If you want to see temperature records from the database in CSV format, use this command:
 
     ``influx -database node -execute "select * from temperature;" -format csv``
 
@@ -151,20 +151,22 @@ Step 7: Save the PM2 state (so it will start after reboot)
 
     ``pm2 restart mqtt2influxdb``
 
+.. _configure-mqtt2influxdb:
+
 **********************************************
 Configuration file structure and possibilities
 **********************************************
 
-In Step 2 we paste configuration file, here will be described possibilities in configuration.
+In Step 2 we paste the configuration file, here will be described possibilities in the configuration.
 In configuration you can use `JSONPath <https://goessner.net/articles/JsonPath/>`_.
-For example in in measurement you can identify tag id from MQTT topic by syntax $.topic[1] as you can see in Step 4.
+For example in measurement you can identify tag id from MQTT topic by syntax $.topic[1] as you can see in Step 4.
 
 !!!!!!!!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 MQTT
 ****
 
-MQTT part of configuration file is where you define connection to MQTT broker. ``mqtt2influxdb`` supports secured connection! This section is **required**.
+MQTT part of the configuration file is where you define a connection to MQTT broker. ``mqtt2influxdb`` supports secured connection! This section is **required**.
 
 .. code-block:: console
     :linenos:
@@ -195,7 +197,7 @@ You can define web hooks so data can be posted to your endpoint. This section is
 InfluxDB
 ********
 
-Important part of config is of course definition of InfluxDB connection. This section is **required**.
+An important part of the config is of course the definition of InfluxDB connection. This section is **required**.
 
 .. code-block:: console
     :linenos:

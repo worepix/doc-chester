@@ -137,4 +137,4 @@ Following them will get you on track quickly.
 You can always explore the parts you are most interested about,
 tweak them or write your own firmware applications, automation flows or cloud integrations from scratch.
 
-For the very first time, we recommend to walk through the :doc:`HARDWARIO Projects <projects>` and Quick Tutorial. !!!!!!!!TODO!!!!!!!!!
+For the very first time, we recommend to walk through the :doc:`HARDWARIO Projects <projects>` and :doc:`Quick Tutorial. <quick-start-guide>`

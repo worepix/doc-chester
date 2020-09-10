@@ -2,17 +2,19 @@
 About Temperature Tag
 #####################
 
-.. image:: ../_static/hardware/about_temperature/temperature-tag.png
-   :align: center
-   :scale: 51%
-   :alt: Temperature Tag
+.. |pic1| thumbnail:: ../_static/hardware/about_temperature/temperature-tag.png
+    :width: 300em
+    :height: 300em
 
-The **Temperature Tag** uses a **high-accuracy temperature sensor TMP11** 2 with a typical accuracy of ±0.1 °C at 25 °C.
-This sensor is digital and calibrated. It communicates using an I²C bus and features a very low power operation and shutdown mode.
++------------------------+------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Temperature Tag** uses a **high-accuracy temperature sensor TMP11** 2 with a typical accuracy of ±0.1 °C at 25 °C.   |
+|                        | | This sensor is digital and calibrated.                                                                                     |
+|                        | | It communicates using an I²C bus and features a very low power operation and shutdown mode.                                |
++------------------------+------------------------------------------------------------------------------------------------------------------------------+
 
-+---------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/temperature-tag/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-temperature>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__tag__temperature>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_temperature.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_temperature.c>`_ |
-+---------------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/temperature-tag/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-temperature>`_ | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__tag__temperature>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_temperature.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_temperature.c>`_ |
++-------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

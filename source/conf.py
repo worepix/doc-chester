@@ -21,7 +21,6 @@ project = 'HARDWARIO TOWER - Industrial IoT Kit'
 copyright = '2020, HARDWARIO'
 author = 'HARDWARIO'
 
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -32,6 +31,8 @@ extensions = [
     'sphinx_copybutton',
     'sphinxcontrib.contentui',
     'sphinxcontrib.yt',
+    'sphinx_fontawesome',
+    'sphinxcontrib.images',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

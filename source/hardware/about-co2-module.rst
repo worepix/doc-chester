@@ -2,28 +2,30 @@
 About CO2 Module
 ################
 
-.. image:: ../_static/hardware/about_co2/co2-module.png
-   :align: center
-   :scale: 51%
-   :alt: CO2 Module
+.. |pic1| thumbnail:: ../_static/hardware/about_co2/co2-module.png
+    :width: 300em
+    :height: 300em
 
-The **CO2 Module** is a gas sensor for measuring the **carbon dioxide (CO₂) concentration**.
-This module achieves ±50 ppm accuracy. It uses a non-dispersive infrared (NDIR) sensor manufactured in Sweden.
-Thanks to its **low-power operation** it can be powered from batteries for years.
-
-Carbon dioxide (or CO₂) is a colorless and odorless gas that is vital to life on Earth.
-Its nominal concentration is about 400 ppm (0.04 %). There are many occurrences of CO₂ in nature. For example humans produce CO₂ when exhaling.
++------------------------+--------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **CO2 Module** is a gas sensor for measuring the **carbon dioxide (CO₂) concentration**.                           |
+|                        | | This module achieves ±50 ppm accuracy. It uses a non-dispersive infrared (NDIR) sensor manufactured in Sweden.         |
+|                        | | Thanks to its **low-power operation** it can be powered from batteries for years.                                      |
+|                        | |                                                                                                                        |
+|                        | |  Carbon dioxide (or CO₂) is a colorless and odorless gas that is vital to life on Earth.                               |
+|                        | |  Its nominal concentration is about 400 ppm (0.04 %).                                                                  |
+|                        | |  There are many occurrences of CO₂ in nature. For example humans produce CO₂ when exhaling.                            |
+|                        | |                                                                                                                        |
+|                        | |  We have equipped the LP8 sensor with additional circuitry for efficient power management and I²C-only interfacing.    |
+|                        | |  This module also features three 5-pin sockets allowing you to connect HARDWARIO tags.                                 |
++------------------------+--------------------------------------------------------------------------------------------------------------------------+
 
 .. important::
 
     The high concentration of CO₂ leads to acidity and various health-related problems.
 
-We have equipped the LP8 sensor with additional circuitry for efficient power management and I²C-only interfacing.
-This module also features three 5-pin sockets allowing you to connect HARDWARIO tags.
-
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/co2-module/>`_    | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-co2>`_    | `SDK Library <https://sdk.hardwario.com/group__bc__module__co2>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_co2.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_co2.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------+-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/co2-module/>`_    | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-co2>`_    | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__co2>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_co2.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_co2.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

@@ -12,7 +12,7 @@ Installation
 
 If you want to use following integration on `HARDWARIO Hub <https://shop.hardwario.com/raspberry-pi-4b-4gb-set/>`_ or on Debian and Ubuntu system,
 you have to install few dependencies.
-Connect to command line of HARDWARIO Hub, use !!!!!!!!!!article Rasperry Pi Login!!!!!!!!!!!!!TODO. After you login in, copy, paste and run commands.
+Connect to command line of HARDWARIO Hub, use article :doc:`Rasperry Pi Login <../tutorials/raspberry-pi-login>`. After you login in, copy, paste and run commands.
 
 .. code-block:: console
 
@@ -44,6 +44,8 @@ When message with title Installing **'node-red-contrib-homekit-bridged'** pops u
 ****************
 Connect hardware
 ****************
+
+.. _flash-firmware:
 
 Step 1: Flash firmware
 **********************
@@ -79,7 +81,8 @@ Now unplug Core Module from microUSB cable and connect it to battery module (sta
 Step 4: Ending
 **************
 You have to see connected device now. You can look at **Messages** tab and see that temperature is incomming now.
-!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+IMAGE
 
 ******************
 Make it functional
@@ -101,11 +104,13 @@ So flow should looks like following:
 
 Step 2: Place Homekit node from advanced group and connect it to template node in flow
 **************************************************************************************
-!!!!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!
+
+IMAGE
 
 Step 3: Double-click on HomeKit node in flow, settings should popup
 *******************************************************************
-!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!
+
+IMAGE
 
 Step 4: Setup bridge
 ********************

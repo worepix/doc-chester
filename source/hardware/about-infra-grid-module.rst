@@ -2,18 +2,20 @@
 About Infra Grid Module
 #######################
 
-.. image:: ../_static/hardware/about_infragrid/infa-grid-module.png
-   :align: center
-   :scale: 51%
-   :alt: 1-wire
+.. |pic1| thumbnail:: ../_static/hardware/about_infragrid/infra-grid-module.png
+    :width: 300em
+    :height: 300em
 
-**Infra Grid Module** has 64 infrared temperature sensors in 8 by 8 matrix.
-You can do non-contact infrared temperature measurement. Its using Panasonic Infrared Array Sensor Grid-EYE with AMG8833 chip.
-You can detect not just movements but also the direction and size of the moving object.
++------------------------+-------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | **Infra Grid Module** has 64 infrared temperature sensors in 8 by 8 matrix.                         |
+|                        | | You can do non-contact infrared temperature measurement.                                            |
+|                        | | Its using Panasonic Infrared Array Sensor Grid-EYE with AMG8833 chip.                               |
+|                        | | You can detect not just movements but also the direction and size of the moving object.             |
++------------------------+-------------------------------------------------------------------------------------------------------+
 
-+-----------------------------------------------------------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/infra-grid-module/>`_ | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-infra-grid>`_ | `SDK Library <https://sdk.hardwario.com/group__bc__module__infra__grid.html>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_infra_grid.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_infra_grid.c>`_ |
-+-----------------------------------------------------------+------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/infra-grid-module/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-infra-grid>`_ | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__module__infra__grid.html>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_module_infra_grid.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_module_infra_grid.c>`_ |
++---------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

@@ -2,20 +2,25 @@
 About Core Module
 #################
 
-.. image:: ../_static/hardware/about_core/core-module.png
-   :align: center
-   :scale: 51%
-   :alt: Core Module
+.. |pic1| thumbnail:: ../_static/hardware/about_core/core-module.png
+    :width: 300em
+    :height: 300em
+
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Core Module** is the key element of every HARDWARIO node.                                                                                        |
+|                        | | It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM.                                                                  |
+|                        | | Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also features a digital temperature sensor, 3D accelerometer, and security chip. |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/core-module/>`_   | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-core>`_   |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
 
 .. caution::
 
     **Flashing Core Module R1 & R2**
     For differences of flashing older **Core Module 1** and newer **Core Module 2**
     please read **Core Module R1 and R2 comparison** in the **Hardware section**
-
-The **Core Module** is the key element of every HARDWARIO node.
-It has a **32-bit ARM microcontroller** with 192 kB of flash memory and 20 kB of RAM.
-Besides the **integrated sub-GHz radio** for the 868/915 MHz band, it also features a digital temperature sensor, 3D accelerometer, and security chip.
 
 .. image:: ../_static/hardware/about_core/core-module-2-pinout.png
    :align: center
@@ -87,9 +92,6 @@ The table below explains mapping between pin numbers and real `STM32L083CZ <http
     - The maximum current for a single pin is 16 mA.
     - The maximum current fo all GPIOs combined is 90 mA.
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/core-module/>`_   | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-module-core>`_   |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

@@ -2,14 +2,15 @@
 About Humidity Tag
 ##################
 
-.. image:: ../_static/hardware/about_humidity/humidity-tag.png
-   :align: center
-   :scale: 51%
-   :alt: Humidity Tag
+.. |pic1| thumbnail:: ../_static/hardware/about_humidity/humidity-tag.png
+    :width: 300em
+    :height: 300em
 
-The **Humidity Tag** uses a high-accuracy **humidity sensor** SHT20 with a typical accuracy of ±3 % from 20 % to 80 %.
-This sensor is digital and calibrated.
-It communicates using an I²C bus and features a very low power operation and shutdown mode.
++------------------------+--------------------------------------------------------------------------------------------------------------------------+
+| |pic1|                 | | The **Humidity Tag** uses a high-accuracy **humidity sensor** SHT20 with a typical accuracy of ±3 % from 20 % to 80 %. |
+|                        | | This sensor is digital and calibrated.                                                                                 |
+|                        | | It communicates using an I²C bus and features a very low power operation and shutdown mode.                            |
++------------------------+--------------------------------------------------------------------------------------------------------------------------+
 
 .. tip::
 
@@ -17,9 +18,9 @@ It communicates using an I²C bus and features a very low power operation and sh
 
     Values below this range (dry air) can lead to various health issues. On the other hand, the values above this range may result in troubles with moisture.
 
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
-| `E-Shop <https://shop.hardwario.com/humidity-tag/>`_  | `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-humidity>`_  | `SDK Library <https://sdk.hardwario.com/group__bc__tag__humidity>`_ | `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_humidity.h>`_ | `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_humidity.c>`_ |
-+-------------------------------------------------------+--------------------------------------------------------------------------------------------------+---------------------------------------------------------------------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
+| |shopping-cart| `E-Shop <https://shop.hardwario.com/humidity-tag/>`_  | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-tag-humidity>`_  | |folder-open| `SDK Library <https://sdk.hardwario.com/group__bc__tag__humidity>`_ | |code| `Header File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/inc/bc_tag_humidity.h>`_ | |code| `Source File <https://github.com/hardwario/bcf-sdk/blob/master/bcl/src/bc_tag_humidity.c>`_ |
++-----------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 
