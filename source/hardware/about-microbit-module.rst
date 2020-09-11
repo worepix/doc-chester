@@ -44,19 +44,25 @@ Go to `micro:bit makecode page <https://makecode.microbit.org>`_, click a **New 
 
 You will be able to get back to your projects on this page so it will be a lot easier if you keep it organized.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/microbit_homepage.png
+   :align: center
+   :scale: 80%
 
 You will be redirected into the makecode environment, where you can start your coding.
 
 To get HARDWARIO extension, you just need to click **Advanced** on the left side of the editor and then all the way down,
 click on **Extensions** and you should see a screen that looks something like this one.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/microbit_extensions.png
+   :align: center
+   :scale: 80%
 
 Type **HARDWARIO** into the search box and you should see just one extension and that will be the one you are looking for,
 just click on it and you will see a new selection available on the left side where all the blocks are located.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/hardwario_extension.png
+   :align: center
+   :scale: 80%
 
 After all this is done you are ready to explore the extension block by block.
 
@@ -73,7 +79,10 @@ I recommend you to watch this chapter's video.
 
 On the start of each project you will see this screen that has Two blocks: **on start** and **forever**.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/extension_basic.png
+   :align: center
+   :scale: 80%
+
 
 This is the first type of block that we also have in the extension.
 You can put more blocks into those and they will run each time that the event occurs.
@@ -99,10 +108,16 @@ The last one is for when you want to change how frequently some of the sensors r
 The oval blocks are functions that return some value, in this case the value from the last measurement on the respective Tag.
 You will work with them just like with the variables, they can be placed into the serial print out or into the **if statement**, etc.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/extension_tags.png
+   :align: center
+   :scale: 80%
 
 This example code will change the measurement on Temperature Tag to 500ms and every 2 seconds
 you will get a line printed to the **Serial** console with the Temperature value:
+
+.. image:: ../_static/hardware/about_microbit_module/extension_tags_example.png
+   :align: center
+   :scale: 80%
 
 You can try this with all the bubbles in this category if you have another tag than the Temperature one or a **CO2 Module**.
 
@@ -112,7 +127,9 @@ CO2 Module
 Basically everything said before about the tags applies here, the only difference is that the module needs 60 seconds
 to charge the first time you plug it in so be patient because the first measurement will take a while.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/extension_co2.png
+   :align: center
+   :scale: 80%
 
 Battery Module
 ==============
@@ -121,7 +138,9 @@ You can measure the voltage on all the the battery cells in the Battery Module.
 Type of block is the same as most above, but you will have to select
 if you have a Standard Battery Module with 4 cells or Mini Battery Module with only 2 of them.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/extension_battery.png
+   :align: center
+   :scale: 80%
 
 Power Module and Relay Module
 =============================
@@ -130,7 +149,9 @@ I will put these two into one category because the function is basically the sam
 Relay Module has a relay for less voltage and the Power Module can take up to **230V**.
 With Power Module you can also use the LED strip but more on that later.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/extension_relay.png
+   :align: center
+   :scale: 80%
 
 PIR Module
 ==========
@@ -140,7 +161,9 @@ There are two blocks, one for configuration and one that fires every time the mo
 
 I recommend to run the configuration one in the **on start** block if you want to use motion detection in your project.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/extension_pir_example.png
+   :align: center
+   :scale: 80%
 
 This example will configure the PIR module and every time the movement is detected you will see it
 printed out to the Serial monitor as well as you will get the beating heart animation on the LED display on the micro:bit.
@@ -156,18 +179,28 @@ After you completed your code, you can just **one click download** it to your de
 - Connect the micro:bit with usb into the computer.
 - Pair the device
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/uploading_firmware.png
+   :align: center
+   :scale: 80%
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/pairing_device.png
+   :align: center
+   :scale: 80%
 
 - After you click the Pair device, there should be one device that you should select.
 - If you did everything right the icon on the Download button should change.
+
+.. image:: ../_static/hardware/about_microbit_module/download_button.png
+   :align: center
+   :scale: 80%
 
 - If you now click Download you it will automatically be downloaded to your connected micro:bit.
 - Also you will be able to access the console of the actual device, not just the simulator.
   You can get some nice stuff in there, like charts, serial output, pin states, etc.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/serial_output.png
+   :align: center
+   :scale: 80%
 
 ..  youtube:: https://www.youtube.com/watch?v=eFh9bphTq0w
 
@@ -194,7 +227,9 @@ Next level can be maybe to use it with some actual heating device with a use of 
 
 You can make similar projects with different tags for example: Automatic lights, Mold fighter.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/thermostat_example.png
+   :align: center
+   :scale: 80%
 
 *********
 LED Stips
@@ -207,13 +242,17 @@ Download the neopixel extension just as you downloaded the HARDWARIO extension a
 Exploring the extension
 ***********************
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/extension_neopixel.png
+   :align: center
+   :scale: 80%
 
 You can use all of those blocks with our LED strip, there are a lot of possibilities.
 
 Only thing you need to do is to set up the strip to the **PIN P1** and number of LEDs based on the strip, aslo set the type to **RGB+W**.
 
-IMAGE
+.. image:: ../_static/hardware/about_microbit_module/neopixel_example.png
+   :align: center
+   :scale: 80%
 
 With this done you can use all the other blocks from extension and start experimenting with all the colors and effects.
 

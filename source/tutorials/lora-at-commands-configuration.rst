@@ -7,7 +7,7 @@ This document does not explain project-specific firmware commands and functions.
 
 .. note::
 
-    This guide applies to all firmwares in the HARDWARIO Playground which has prefix ``bcf-lora``
+    This guide applies to all firmware in the HARDWARIO Playground which has prefix ``bcf-lora``
 
 ******************
 LoRa Configuration
@@ -24,11 +24,13 @@ terminal application (`Hterm <http://der-hammer.info/pages/terminal.html>`_, put
 HTerm
 *****
 
-You can downlaod `Hterm <http://der-hammer.info/pages/terminal.html>`_ for Windows and Linux.
+You can download `Hterm <http://der-hammer.info/pages/terminal.html>`_ for Windows and Linux.
 It also supports macros and sequences in the left panel for most used commands.
 Type the command and press **ENTER**. Not the ASend button.
 
-IMAGE
+.. image:: ../_static/tutorials/lora-at-commands-configuration/hterm.png
+   :align: center
+   :scale: 80%
 
 *******
 Picocom
@@ -101,7 +103,7 @@ OTAA - Over-the-Air Activation
 ******************************
 
 OTAA means that the session keys (the ones with **S** in the name) are generated on the server and
-transfered to your LoRa Module automatically after the **JOIN** command.
+transferred to your LoRa Module automatically after the **JOIN** command.
 If your backend does not support OTAA, follow the **ABP** chapter below.
 If you're not sure which activation type to use, start with ``OTAA``.
 
