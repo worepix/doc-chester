@@ -35,11 +35,11 @@ The Blynk gives you two options either create account by email or use OAuth2 log
 
     If you do not want to share your email, which we would consider quite safe in this case, then just create a testing email account for this purpose.
 
-Step 1: If you do not want to share your email, which I would consider quite safe in this case, then just create a testing email account for this purpose.
-**********************************************************************************************************************************************************
+If you do not want to share your email, which I would consider quite safe in this case, then just create a testing email account for this purpose.
+**************************************************************************************************************************************************
 
-Step 2: After starting the app you have to create account. No email confirmation is needed, it is up to you to be careful when filling in the email address, typos might lead to unrecoverable account. The email address is used for token distribution, thus pretty important.
-********************************************************************************************************************************************************************************************************************************************************************************
+After starting the app you have to create account. No email confirmation is needed, it is up to you to be careful when filling in the email address, typos might lead to unrecoverable account. The email address is used for token distribution, thus pretty important.
+************************************************************************************************************************************************************************************************************************************************************************
 
 .. tip::
 

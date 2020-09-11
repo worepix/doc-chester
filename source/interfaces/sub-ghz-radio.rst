@@ -60,8 +60,9 @@ Radio Pairing
 *************
 Pairing process is very straightforward procedure:
 
-Step 1: The gateway device needs to be in the pairing mode
-**********************************************************
+The gateway device needs to be in the pairing mode
+**************************************************
+
 .. note::
 
     The MQTT command for this operation is described in the document :doc:`MQTT Topics <mqtt-topics>`.
@@ -69,14 +70,16 @@ Step 1: The gateway device needs to be in the pairing mode
     If you are using Playground, you can start it in the **Devices** Tab
 
 
-Step 2: The node device has to transmit the pairing request
-***********************************************************
+The node device has to transmit the pairing request
+***************************************************
+
 This is done by cycling the power on the **node device**. On battery-operated node, you simple remove the batteries,
 wait a few seconds (to get the capacitors discharged) and insert the batteries back.
 The pairing request is sent on the boot.
 
-Step 3: Once all node devices are enrolled, you have to exit the pairing mode
-*****************************************************************************
+Once all node devices are enrolled, you have to exit the pairing mode
+*********************************************************************
+
 .. note::
 
     The MQTT command for this operation is described in the document :doc:`MQTT Topics <mqtt-topics>`.

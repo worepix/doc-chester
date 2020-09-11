@@ -47,8 +47,9 @@ Connect hardware
 
 .. _flash-firmware:
 
-Step 1: Flash firmware
-**********************
+Flash firmware
+**************
+
 We have installed HomeKit plugin to Node-RED. Now open `HARDWARIO Playground <https://www.hardwario.com/download/>`_ on your computer.
 Prepare microUSB cable, `Core Module <https://shop.hardwario.com/core-module/>`_
 and battery module (`standard <https://shop.hardwario.com/battery-module/>`_ or `mini <https://shop.hardwario.com/mini-battery-module/>`_).
@@ -60,8 +61,9 @@ use hardwario/bcf-radio-push-button and Click Flash.
    :scale: 51%
    :alt: Playground Flash Firmware
 
-Step 2: Pair Hardware
-*********************
+Pair Hardware
+*************
+
 Open HARDWARIO Hub page in browser same as in chapter Instalation and select **Device** tab in menu and click on **Start pairing** button.
 
 .. image:: ../_static/integrations/homekit_siri/playgroud_pair_hardware.PNG
@@ -69,8 +71,9 @@ Open HARDWARIO Hub page in browser same as in chapter Instalation and select **D
    :scale: 51%
    :alt: Playground Pair Hardware
 
-Step 3: Assembly Hardware
-*************************
+Assembly Hardware
+*****************
+
 Now unplug Core Module from microUSB cable and connect it to battery module (standart or mini).
 
 .. image:: ../_static/integrations/homekit_siri/homekit-and-siri_Core-standart-battery.jpg
@@ -78,8 +81,9 @@ Now unplug Core Module from microUSB cable and connect it to battery module (sta
    :scale: 51%
    :alt: Core Module with Battery Module
 
-Step 4: Ending
-**************
+Ending
+******
+
 You have to see connected device now. You can look at **Messages** tab and see that temperature is incomming now.
 
 IMAGE
@@ -88,8 +92,8 @@ IMAGE
 Make it functional
 ******************
 
-Step 1: Open Functions tab in menu. Open Hamburger menu, select Import > Clipboard and paste following code
-***********************************************************************************************************
+Open Functions tab in menu. Open Hamburger menu, select Import > Clipboard and paste following code
+***************************************************************************************************
 
 .. code-block:: json
 
@@ -102,18 +106,19 @@ So flow should looks like following:
    :scale: 51%
    :alt: Flow Basic
 
-Step 2: Place Homekit node from advanced group and connect it to template node in flow
-**************************************************************************************
+Place Homekit node from advanced group and connect it to template node in flow
+******************************************************************************
 
 IMAGE
 
-Step 3: Double-click on HomeKit node in flow, settings should popup
-*******************************************************************
+Double-click on HomeKit node in flow, settings should popup
+***********************************************************
 
 IMAGE
 
-Step 4: Setup bridge
-********************
+Setup bridge
+************
+
 Let's setup bridge. Bridge is basically, bridge, between our Hardware sensors and your iPhones,
 iPads, Macs, etc... So Click on little pencil icon next to the bridge chapter of setting and fill it as following and click Add:
 
@@ -122,16 +127,17 @@ iPads, Macs, etc... So Click on little pencil icon next to the bridge chapter of
    :scale: 51%
    :alt: Bridge Settings
 
-Step 5: Fill the rest of the settings according to the screenshot below. Click Done and Deploy
-**********************************************************************************************
+Fill the rest of the settings according to the screenshot below. Click Done and Deploy
+**************************************************************************************
 
 .. image:: ../_static/integrations/homekit_siri/home_kit_settings.PNG
    :align: center
    :scale: 51%
    :alt: HomeKit Settings
 
-Step 6: Pairing
-***************
+Pairing
+*******
+
 Now as you can see on your screen and screenshot bellow. Device is waiting for pairing with code 111-11-111.
 So open Home app on your iPhone or iPad and click Add Accessory > Don't Have a Code or Can't Scan > HARDWRIO bridge.
 Add anyway on next screen. In screen where you have to input code, input just 1 to all boxes:
@@ -141,8 +147,9 @@ Add anyway on next screen. In screen where you have to input code, input just 1 
    :scale: 51%
    :alt: Pairing Home Kit
 
-Step 7: Setup
-*************
+Setup
+*****
+
 Now just setup where is your bridge and temperature sensor and your sensor is added!
 
 .. image:: ../_static/integrations/homekit_siri/homekit-and-siri_iPhones-screens-2.png

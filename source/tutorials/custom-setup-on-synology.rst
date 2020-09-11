@@ -48,18 +48,18 @@ Synology can use BTRFS filesystem which is immune to failure of one or many hard
 Installation
 ************
 
-Step 1: Install `Virtual Machine Manager <https://www.synology.com/en-global/dsm/packages/Virtualization>`_​
-**************************************************************************************************************
+Install `Virtual Machine Manager <https://www.synology.com/en-global/dsm/packages/Virtualization>`_​
+******************************************************************************************************
 
 .. image:: ../_static/tutorials/custom-setup-on-synology/vmm-install.png
    :align: center
    :scale: 80%
 
-Step 2: Download latest `Ubuntu Server <https://ubuntu.com/download/server>`_. The 64 bit is important because Grafana do not release 32 bit versions anymore
-***************************************************************************************************************************************************************
+Download latest `Ubuntu Server <https://ubuntu.com/download/server>`_. The 64 bit is important because Grafana do not release 32 bit versions anymore
+*******************************************************************************************************************************************************
 
-Step 3: Open Virtual Machine Manager and create a new virtual machine. The parameters below are the minimal which were tested
-******************************************************************************************************************************
+Open Virtual Machine Manager and create a new virtual machine. The parameters below are the minimal which were tested
+**********************************************************************************************************************
 
 - **Generic** tab
     - **1 CPU Core**
@@ -71,11 +71,11 @@ Step 3: Open Virtual Machine Manager and create a new virtual machine. The param
     - **Virtual USB driver** - USB 2.0 or 3.0 (**you can change this only when a virtual machine is turned off**)
     - **USB Device** - select the Radio Dongle which is connected to you Synology NAS now, or later after you install virtual machine.
 
-Step 4: Confirm virtual machine creation, turn on the virtual machine and press Connectso noVNC virtual console is opened in your browser, follow the installation steps to install the Ubuntu
-***********************************************************************************************************************************************************************************************
+Confirm virtual machine creation, turn on the virtual machine and press Connectso noVNC virtual console is opened in your browser, follow the installation steps to install the Ubuntu
+***************************************************************************************************************************************************************************************
 
-Step 5: If you did not already inserted Radio Dongle, do it now. Open virtual machine configuration on the Other tab and in the USB device list select Future Technology Devices International
-***********************************************************************************************************************************************************************************************
+If you did not already inserted Radio Dongle, do it now. Open virtual machine configuration on the Other tab and in the USB device list select Future Technology Devices International
+***************************************************************************************************************************************************************************************
 
 .. caution::
 
@@ -85,11 +85,11 @@ Step 5: If you did not already inserted Radio Dongle, do it now. Open virtual ma
    :align: center
    :scale: 80%
 
-Step 6: Follow steps :doc:`Custom Setup on Ubuntu <custom-setup-on-ubuntu>` to install all the tools and services
-******************************************************************************************************************
+Follow steps :doc:`Custom Setup on Ubuntu <custom-setup-on-ubuntu>` to install all the tools and services
+**********************************************************************************************************
 
-Step 7: Now you have Node-RED, Grafana and all the tools running on your Synology NAS
-**************************************************************************************
+Now you have Node-RED, Grafana and all the tools running on your Synology NAS
+******************************************************************************
 
 .. image:: ../_static/tutorials/custom-setup-on-synology/grafana.png
    :align: center

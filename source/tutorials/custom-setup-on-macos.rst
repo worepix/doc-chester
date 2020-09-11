@@ -22,30 +22,30 @@ Playground Setup on Ubuntu
 
 - open **Terminal** application
 
-Step 1: Install the driver for the HARDWARIO Radio Dongle
-*********************************************************
+Install the driver for the HARDWARIO Radio Dongle
+*************************************************
 
 - `Download & Install drivers from FTDI <http://www.ftdichip.com/Drivers/VCP/MacOSX/FTDIUSBSerialDriver_v2_4_2.dmg>`_
 
-Step 2: Restart your computer
-*****************************
+Restart your computer
+*********************
 
-Step 3: Install `Homebrew <https://brew.sh>`_
-**********************************************
+Install `Homebrew <https://brew.sh>`_
+**************************************
 
 .. code-block:: console
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-Step 4: Upgrade all packages
-****************************
+Upgrade all packages
+********************
 
 .. code-block:: console
 
     brew update && brew upgrade
 
-Step 5: Install Mosquitto server and clients
-********************************************
+Install Mosquitto server and clients
+************************************
 
 .. code-block:: console
 
@@ -55,21 +55,22 @@ Step 5: Install Mosquitto server and clients
 
     brew services start mosquitto
 
-Step 3: Install Node.js version 6 (required by Node-RED)
-********************************************************
+Install Node.js version 6 (required by Node-RED)
+************************************************
 
 .. code-block:: console
 
     brew install node
 
-Step 4: Install Node-RED
-************************
+Install Node-RED
+****************
 
 .. code-block:: console
 
     sudo npm install -g --unsafe-perm node-red
 
-Step 5: Install node-red-dashboard for graphs, gauges, buttons
+Install node-red-dashboard for graphs, gauges, buttons
+******************************************************
 
 .. code-block:: console
 
@@ -79,8 +80,8 @@ Step 5: Install node-red-dashboard for graphs, gauges, buttons
 
     npm i node-red-dashboard
 
-Step 7: Install PM2
-*******************
+Install PM2
+***********
 
 .. code-block:: console
 
@@ -90,15 +91,15 @@ Step 7: Install PM2
 
     **PM2** is a process manager that will help you to start **Node-RED** and other processes on boot.
 
-Step 7: Tell PM2 to run Node-RED
-********************************
+Tell PM2 to run Node-RED
+************************
 
 .. code-block:: console
 
     pm2 start `which node-red`
 
-Step 8: Tell PM2 to run on boot
-*******************************
+Tell PM2 to run on boot
+***********************
 
 .. code-block:: console
 
@@ -112,39 +113,39 @@ Step 8: Tell PM2 to run on boot
 
     Now you must follow the instructions provided by the command *pm2 startup systemd*.
 
-Step 8: Install Python 3 (required by the HARDWARIO Firmware Tool and HARDWARIO Gateway)
-****************************************************************************************
+Install Python 3 (required by the HARDWARIO Firmware Tool and HARDWARIO Gateway)
+********************************************************************************
 
 .. code-block:: console
 
     brew install python3
 
-Step 9: Update pip (Python Package Manager) to the latest version
-*****************************************************************
+Update pip (Python Package Manager) to the latest version
+*********************************************************
 
 .. code-block:: console
 
     sudo pip3 install --upgrade --no-cache-dir pip
 
-Step 10: Install the HARDWARIO Firmware Tool
-********************************************
+Install the HARDWARIO Firmware Tool
+***********************************
 
 .. code-block:: console
 
     sudo pip3 install --upgrade --no-cache-dir bcf
 
-Step 11: Install the HARDWARIO Gateway
-**************************************
+Install the HARDWARIO Gateway
+*****************************
 
 .. code-block:: console
 
     sudo pip3 install --upgrade --no-cache-dir bcg
 
-Step 12: Plug the HARDWARIO Radio Dongle into a USB port
-********************************************************
+Plug the HARDWARIO Radio Dongle into a USB port
+***********************************************
 
-Step 13: List the available devices
-***********************************
+List the available devices
+**************************
 
 .. code-block:: console
 
@@ -154,8 +155,8 @@ Step 13: List the available devices
 
     You can use ``-v`` parameter to see verbose information about the connected devices (possibly helping you to identify them).
 
-Step 15: Upload the latest firmware into the HARDWARIO Radio Dongle
-*******************************************************************
+Upload the latest firmware into the HARDWARIO Radio Dongle
+**********************************************************
 
 .. code-block:: console
 
@@ -165,8 +166,8 @@ Step 15: Upload the latest firmware into the HARDWARIO Radio Dongle
 
     bcf flash hardwario/bcf-gateway-usb-dongle:latest
 
-Step 16: Start the HARDWARIO Gateway as PM2 service
-***************************************************
+Start the HARDWARIO Gateway as PM2 service
+******************************************
 
 .. code-block:: console
 
@@ -181,8 +182,8 @@ Step 16: Start the HARDWARIO Gateway as PM2 service
     If you want to update firmware in the **Radio Dongle**, first you have to stop **bcg** by the command ``pm2 stop bcg-ud``.
     After update, restart the service by the command ``pm2 restart bcg-ud``.
 
-Step 17: Open your web browser with the URL
-*******************************************
+Open your web browser with the URL
+**********************************
 
 - http://localhost:1880/
 

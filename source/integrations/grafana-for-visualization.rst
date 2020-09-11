@@ -30,21 +30,22 @@ You will need these components to make it work:
 Installing InfluxDB on Linux
 ****************************
 
-Step 1: Install dependency packages
-***********************************
+Install dependency packages
+***************************
 
 .. code-block:: console
 
     sudo apt install apt-transport-https curl -y
 
-Step 2: Add repository key
-**************************
+Add repository key
+******************
+
 .. code-block:: console
 
     curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
 
-Step 3: Add repository to source list
-*************************************
+Add repository to source list
+*****************************
 
 .. content-tabs::
 
@@ -62,14 +63,16 @@ Step 3: Add repository to source list
 
             echo "deb https://repos.influxdata.com/ubuntu/ xenial stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
 
-Step 4: Update the package list and install the packages
-********************************************************
+Update the package list and install the packages
+************************************************
+
 .. code-block:: console
 
     sudo apt update && sudo apt install influxdb
 
-Step 5: Now you can start the InfluxDB service
-**********************************************
+Now you can start the InfluxDB service
+**************************************
+
 .. code-block:: console
 
     sudo systemctl start influxdb
@@ -78,14 +81,16 @@ Step 5: Now you can start the InfluxDB service
 Installing Grafana on Linux
 ***************************
 
-Step 1: Install dependencies
-****************************
+Install dependencies
+********************
+
 .. code-block:: console
 
     sudo apt install adduser libfontconfig -y
 
-Step 2: Based on your target platform, select the appropriate procedure
-***********************************************************************
+Based on your target platform, select the appropriate procedure
+***************************************************************
+
 .. content-tabs::
 
     .. tab-container:: tab1
@@ -125,20 +130,23 @@ Step 2: Based on your target platform, select the appropriate procedure
 
                 sudo apt update && sudo apt install grafana -y
 
-Step 3: Reload the systemd configuration
-****************************************
+Reload the systemd configuration
+********************************
+
 .. code-block:: console
 
     sudo systemctl daemon-reload
 
-Step 4: Enable Grafana on boot
-******************************
+Enable Grafana on boot
+**********************
+
 .. code-block:: console
 
     sudo systemctl enable grafana-server
 
-Step 5: Now you can start the Grafana server
-********************************************
+Now you can start the Grafana server
+************************************
+
 .. code-block:: console
 
     sudo systemctl start grafana-server
@@ -149,21 +157,21 @@ Continue in the section :ref:`Connect Mosquitto and InfluxDB. <connect-mosquitto
 Installing InfluxDB on macOS
 ****************************
 
-Step 1: Open the Terminal application.
-**************************************
+Open the Terminal application.
+******************************
 
-Step 2: Make sure you have `Homebrew <https://brew.sh>`_ installed.
-*******************************************************************
+Make sure you have `Homebrew <https://brew.sh>`_ installed.
+***********************************************************
 
-Step 3: Install InfluxDB
-************************
+Install InfluxDB
+****************
 
 .. code-block:: console
 
     brew install influxdb
 
-Step 4: Enable InfluxDB service
-*******************************
+Enable InfluxDB service
+***********************
 
 .. code-block:: console
 
@@ -173,21 +181,21 @@ Step 4: Enable InfluxDB service
 Installing Grafana on macOS
 ***************************
 
-Step 1: Open the Terminal application.
-**************************************
+Open the Terminal application.
+******************************
 
-Step 2: Make sure you have `Homebrew <https://brew.sh>`_ installed.
-*******************************************************************
+Make sure you have `Homebrew <https://brew.sh>`_ installed.
+***********************************************************
 
-Step 3: Install Grafana
-***********************
+Install Grafana
+***************
 
 .. code-block:: console
 
     brew install grafana
 
-Step 4: Enable Grafana service
-******************************
+Enable Grafana service
+**********************
 
 .. code-block:: console
 
@@ -199,22 +207,22 @@ Step 4: Enable Grafana service
 Connect Mosquitto and InfluxDB
 ******************************
 
-Step 1: Install the MQTT to InfluxDB service
-********************************************
+Install the MQTT to InfluxDB service
+************************************
 
 .. code-block:: console
 
     sudo pip3 install --upgrade mqtt2influxdb
 
-Step 2: Create the ``/etc/hardwario`` directory
-***********************************************
+Create the ``/etc/hardwario`` directory
+***************************************
 
 .. code-block:: console
 
     sudo mkdir /etc/hardwario
 
-Step 3: Open the configuration file
-***********************************
+Open the configuration file
+***************************
 
 .. tip::
     For text editing, we use nano editor. You can save changes by pressing key combination ``Ctrl + O`` and exit editor by pressing ``Ctrl + X``.
@@ -223,8 +231,9 @@ Step 3: Open the configuration file
 
     sudo nano /etc/hardwario/mqtt2influxdb.yml
 
-Step 4: Paste this snippet to the configuration file
-****************************************************
+Paste this snippet to the configuration file
+********************************************
+
 Configuration possibilities and structure are described at article about :ref:`mqtt2influxdb <configure-mqtt2influxdb>`.
 
 .. code-block:: yaml
@@ -292,22 +301,22 @@ Configuration possibilities and structure are described at article about :ref:`m
                 id: $.topic[1]
                 channel: $.topic[3]
 
-Step 5: Configuration file test
-*******************************
+Configuration file test
+***********************
 
 .. code-block:: console
 
     mqtt2influxdb -c /etc/hardwario/mqtt2influxdb.yml --test
 
-Step 6: Start the MQTT to InfluxDB service
-******************************************
+Start the MQTT to InfluxDB service
+**********************************
 
 .. code-block:: console
 
     pm2 start `which python3` --name "mqtt2influxdb" -- `which mqtt2influxdb` -c /etc/hardwario/mqtt2influxdb.yml
 
-Step 7: Save the PM2 state (so it will start after reboot)
-**********************************************************
+Save the PM2 state (so it will start after reboot)
+**************************************************
 
 .. code-block:: console
 
@@ -330,14 +339,14 @@ Step 7: Save the PM2 state (so it will start after reboot)
 Configure Grafana
 *****************
 
-Step 1: Open the Grafana web interface at http://localhost:3000/ or http://hub.local:3000/ or http://ip:3000/ and log in
-************************************************************************************************************************
+Open the Grafana web interface at http://localhost:3000/ or http://hub.local:3000/ or http://ip:3000/ and log in
+****************************************************************************************************************
 
 - Enter the **User** ``admin``
 - Enter the **Password** ``admin``
 
-Step 2: Create a data source
-****************************
+Create a data source
+********************
 
 Select **Add data source** and then:
 
@@ -354,31 +363,32 @@ the message **Data source is working.**
    :scale: 51%
    :alt: Grafana Data Source Check
 
-Step 3: Download ``dashboard.json`` or copy the content of this file to clipboard
-*********************************************************************************
+Download ``dashboard.json`` or copy the content of this file to clipboard
+*************************************************************************
+
 :download:`dashboard.json <../_static/integrations/grafana/doc/dashboard.json>`
 
-Step 4: Import the visualization dashboards, click the Grafana icon (top left button), select Dashboards in the menu, then choose Import
-****************************************************************************************************************************************
+Import the visualization dashboards, click the Grafana icon (top left button), select Dashboards in the menu, then choose Import
+********************************************************************************************************************************
 
 .. image:: ../_static/integrations/grafana/grafana-for-visualization_menu-import-dashboard.png
    :align: center
    :scale: 51%
    :alt: Grafana Menu Import
 
-Step 5: Upload the ``dashboard.json`` file or paste the JSON from clipboard
-***************************************************************************
+Upload the ``dashboard.json`` file or paste the JSON from clipboard
+*******************************************************************
 
-Step 6: Choose node as a data source and click on Import
-********************************************************
+Choose node as a data source and click on Import
+************************************************
 
 .. image:: ../_static/integrations/grafana/grafana-for-visualization_import-dashboard-select-datasource.png
    :align: center
    :scale: 51%
    :alt: Grafana Select Datasource
 
-Step 7: Result for `Wireless Climate Monitor <https://www.hackster.io/jakub-smejkal/radio-climate-monitor-96de57>`__ and `Wireless CO2 Monitor <https://www.hackster.io/jakub-smejkal/radio-co2-monitor-311d2c>`_​_
-*********************************************************************************************************************************************************************************************************************
+Result for `Wireless Climate Monitor <https://www.hackster.io/jakub-smejkal/radio-climate-monitor-96de57>`__ and `Wireless CO2 Monitor <https://www.hackster.io/jakub-smejkal/radio-co2-monitor-311d2c>`_​_
+*************************************************************************************************************************************************************************************************************
 
 .. image:: ../_static/integrations/grafana/_integrations_grafana-for-visualization_demo-dashboard.png
    :align: center

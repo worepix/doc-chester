@@ -10,22 +10,22 @@ Service connects to InfluxDB and MQTT broker and by users config subscribe MQTT 
 Installation
 ************
 
-Step 1: Install the MQTT to InfluxDB service
-********************************************
+Install the MQTT to InfluxDB service
+************************************
 
 .. code-block:: console
 
     sudo pip3 install --upgrade mqtt2influxdb
 
-Step 2: Create the ``/etc/hardwario`` directory
-***********************************************
+Create the ``/etc/hardwario`` directory
+***************************************
 
 .. code-block:: console
 
     sudo mkdir /etc/hardwario
 
-Step 3: Open the configuration file
-***********************************
+Open the configuration file
+***************************
 
 .. tip::
 
@@ -35,8 +35,8 @@ Step 3: Open the configuration file
 
     sudo nano /etc/hardwario/mqtt2influxdb.yml
 
-Step 4: Paste this snippet to the configuration file
-****************************************************
+Paste this snippet to the configuration file
+********************************************
 
 .. code-block:: console
     :linenos:
@@ -120,22 +120,22 @@ points:
 
     In the section tags you can use identifiers, e.g.: ``tags: room: bedroom``
 
-Step 5: Configuration file test
-*******************************
+Configuration file test
+***********************
 
 .. code-block:: console
 
     mqtt2influxdb -c /etc/hardwario/mqtt2influxdb.yml --test
 
-Step 6: Start the MQTT to InfluxDB service
-******************************************
+Start the MQTT to InfluxDB service
+**********************************
 
 .. code-block:: console
 
     pm2 start `which python3` --name "mqtt2influxdb" -- `which mqtt2influxdb` -c /etc/hardwario/mqtt2influxdb.yml
 
-Step 7: Save the PM2 state (so it will start after reboot)
-**********************************************************
+Save the PM2 state (so it will start after reboot)
+**************************************************
 
 .. code-block:: console
 

@@ -151,22 +151,22 @@ There are two bootloaders in MCU ROM:
 
 Firmware upload can be done using the ``bcf flash`` command. The firmware can be obtained from 3 different sources:
 
-Step 1: Source firmware package, for instance
-*********************************************
+Source firmware package, for instance
+*************************************
 
 .. code-block:: console
 
     bcf flash hardwario/bcf-radio-push-button:latest
 
-Step 2: Source local disk file, for instance
-********************************************
+Source local disk file, for instance
+************************************
 
 .. code-block:: console
 
     bcf flash firmware.bin
 
-Step 3: Source file from the specified URL, for instance
-********************************************************
+Source file from the specified URL, for instance
+************************************************
 
 .. code-block:: console
 
@@ -209,11 +209,11 @@ If you want to clean the cache of the firmware package list and all the download
 Create Blank Firmware Project
 *****************************
 
-Step 1: Go to the directory where you want to create a firmware directory
-*************************************************************************
+Go to the directory where you want to create a firmware directory
+*****************************************************************
 
-Step 2: Create a blank project
-******************************
+Create a blank project
+**********************
 
 .. code-block:: console
 
@@ -223,8 +223,8 @@ Step 2: Create a blank project
 
     The starting point for developing your own firmware is the file app/application.c.
 
-Step 3: The bcf program cloned the basic firmware skeleton, which is ready to build immediately (see description below)
-***********************************************************************************************************************
+The bcf program cloned the basic firmware skeleton, which is ready to build immediately (see description below)
+***************************************************************************************************************
 
 **************
 Build Firmware
@@ -247,11 +247,11 @@ There are 2 target configurations to build the firmware:
 
 You can build the firmware by following these steps:
 
-Step 1: Go to the firmware directory you want to build
-******************************************************
+Go to the firmware directory you want to build
+**********************************************
 
-Step 2: Run the build command
-*****************************
+Run the build command
+*********************
 
 .. code-block:: console
 
@@ -262,8 +262,8 @@ Step 2: Run the build command
     Build process can be accelerated by specifying the number of parallel compiler processes through the parameter ``-j <number>``.
     The number should match the number of cores in your processor. Example: ``make -j4``
 
-Step 3: Upon successful completion of the build process, you will receive a similar listing at the end
-******************************************************************************************************
+Upon successful completion of the build process, you will receive a similar listing at the end
+**********************************************************************************************
 
 .. code-block:: console
     :linenos:
@@ -274,8 +274,8 @@ Step 3: Upon successful completion of the build process, you will receive a simi
         74332    2776    7328   84436   149d4 out/debug/firmware.elf
     Creating out/debug/firmware.bin from out/debug/firmware.elf...
 
-Step 4: The program called linker created two important files
-*************************************************************
+The program called linker created two important files
+*****************************************************
 
 - ``out/debug/firmware.elf``
 
@@ -285,8 +285,8 @@ Step 4: The program called linker created two important files
 
     This is the binary image necessary for programming (the ELF file also contains this binary image).
 
-Step 5: In order to build the firmware in release configuration, use this command
-*********************************************************************************
+In order to build the firmware in release configuration, use this command
+*************************************************************************
 
 .. code-block:: console
 

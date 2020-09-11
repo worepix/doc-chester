@@ -17,24 +17,24 @@ from which you want to save data.
 Google Sheets setup
 *******************
 
-Step 1: Create a new Google Sheet (You can use `sheets.new <sheets.new>`_) or open an existing one
-**************************************************************************************************
+Create a new Google Sheet (You can use `sheets.new <sheets.new>`_) or open an existing one
+******************************************************************************************
 
-Step 2: Sheets
-**************
+Sheets
+******
 
 Create separe sheet for each value you want to log. Match the name exactly, because we refer to it later in the code.
  Also, **set the A column format from Automatic to Number** in each sheet.
 
 
 
-Step 3: Open Script editor
-**************************
+Open Script editor
+******************
 
 Click on **Tools** and then on **Script editor**, this will open up a new tab, where you can write Google Apps Script code.
 
-Step 4: Paste script
-********************
+Paste script
+************
 
 Paste following code inside the editor and press **Ctrl+S** to save.
 
@@ -61,73 +61,68 @@ Paste following code inside the editor and press **Ctrl+S** to save.
     sheet.appendRow([e.parameter.val, new Date()]);
     }
 
-Step 5: Name the project and confirm
-************************************
-
-
-
-Step 6: Press Publish and then Deploy as web app
-************************************************
-
-
-
-
-Step 7: Set up authorization
+Name the project and confirm
 ****************************
 
-Dialog will pop up, change the **Who has access to the app** parameter to *Anyone, even anonymous*, to easily access the sheets from **Node-RED**.
 
 
-
-
-
-Step 8: Deploy
-**************
-
-Press **Deploy** to confirm and now we need to authorize the script, press **Review Permissions**, then pick the account connected with the Sheets.
-
-
-
-Step 9: Press Advanced
-**********************
-
-
-
-
-Step 10: Press Go to (Your project name)
+Press Publish and then Deploy as web app
 ****************************************
 
 
 
 
-Step 11: Grant access to neccessary APIs with Allow
-***************************************************
+Set up authorization
+********************
+
+Dialog will pop up, change the **Who has access to the app** parameter to *Anyone, even anonymous*, to easily access the sheets from **Node-RED**.
+
+
+Deploy
+******
+
+Press **Deploy** to confirm and now we need to authorize the script, press **Review Permissions**, then pick the account connected with the Sheets.
+
+Press Advanced
+**************
 
 
 
-Step 12: Finally, copy the URL
-******************************
+
+Press Go to (Your project name)
+*******************************
+
+
+
+
+Grant access to neccessary APIs with Allow
+******************************************
+
+
+
+Finally, copy the URL
+*********************
 
 
 **************
 Node-RED setup
 **************
 
-Step 1: Open Node-RED in your HARDWARIO Playground
+Open Node-RED in your HARDWARIO Playground
+******************************************
+
+
+
+You can use either existing flow or create new one
 **************************************************
 
-
-
-Step 2: You can use either existing flow or create new one
-**********************************************************
-
-Step 3: Install plugin
-**********************
+Install plugin
+**************
 
 *node-red-contrib-https* package (using **Menu -> Manage pallete -> Install -> input node-red-contrib-https -> Install**)
 
-Step 4: Create flow
-*******************
+Create flow
+***********
 
 Insert the following snippet in the flow (using **Menu -> Import -> Clipboard**) and click in Flow tab to paste the code
 
@@ -142,8 +137,8 @@ It will look like this:
 
     This snippet sends data to Google Sheets
 
-Step 5: Create https request
-****************************
+Create https request
+********************
 
 Open the **https request** node. In the* URL field* paste your URL, append following snippet and press Done.
 
@@ -159,8 +154,8 @@ Your URL now should look like this:
     https://script.google.com/macros/s/AKfycbxHZXypk24YVRKZMzJkau46fd6PF7ytmaiYSlTN1DT/exec?value={{{payload}}}
 
 
-Step 6: Deploy the flow using the Deploy button in the top-right corner.
-************************************************************************
+Deploy the flow using the Deploy button in the top-right corner.
+****************************************************************
 
 *********
 Finishing
