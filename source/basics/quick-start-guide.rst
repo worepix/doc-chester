@@ -35,19 +35,19 @@ Get Ready
 In our world it means to prepare a center of your IoT system - the Hub. In QUICK START GUIDE we will use your computer as a Hub. Just follow these steps:
 
 
-1. Delivery
-***********
+Delivery
+********
 
 In delivered box find a **Radio Dongle** and plug it to any USB port of your computer.
 
 
-2. Download the latest Playground
-*********************************
+Download the latest Playground
+******************************
 
 - Go to the `HARDWARIO Playground Download page. <https://www.hardwario.com/download/>`_
 
-3. Run the HARDWARIO Playground
-*******************************
+Run the HARDWARIO Playground
+****************************
 
 Go to the **Devices** tab, choose the **Radio Dongle** serial port and click **Connect**
 
@@ -77,15 +77,15 @@ As mentioned, delivered kits are already programmed with a right firmware.
 If you would like to change it to another firmware in the Core Module, please follow this :ref:`firmware flash chapter. <flash-firmware>`
 
 
-1. Radio Pairing
-****************
+Radio Pairing
+*************
 
 As mentioned, kits delivered together with Radio Dongle are already paired and should be visible in Playground's **Devices** tab.
 In case you need to pair new devices, please follow these :ref:`radio pairing instructions. <pairing-new-devices>`
 
 
-2. Playground's Messages
-************************
+Playground's Messages
+*********************
 
 Switch to Playground's **Messages** tab and put batteries to your kit, you should see incoming messages.
 Every kit sends different messages. Here the **Button kit** sends temperature, voltage, event-count (everytime you press the button) and other messages.
@@ -93,8 +93,8 @@ Every kit sends different messages. Here the **Button kit** sends temperature, v
 IMAGE
 
 
-3. 3D-printed enclosure
-***********************
+3D-printed enclosure
+********************
 
 Put modules to the 3D-printed enclosure and fix it with O-rings.
 
@@ -106,8 +106,8 @@ Now it's time to give your system a logic and connect it with desired platforms.
 
 In **QUICK START GUIDE** we will create a simple dashboard with a temperature gauge. Again, just follow these steps:
 
-1. Messages
-***********
+Messages
+********
 
 Switch to the **Messages**, you should see incoming messages from the previous step.
 Copy the **bold** text (called **topic**) that ends with *temperature* **to the clipboard**.
@@ -121,8 +121,8 @@ You can also copy any other topic that your module supports from the :doc:`MQTT 
 
 IMAGE
 
-2. Function
-***********
+Function
+********
 
 Switch to the **Functions** tab and from the color blocks on the left side drag and drop **mqtt input** block and
 **gauge** block to the **flow** in the middle of the screen. The color blocks are called **nodes**.
@@ -139,8 +139,8 @@ You have to click on the **Deploy** everytime you make changes in your flow.
 
 IMAGE
 
-3. Dashboard
-************
+Dashboard
+*********
 
 Go to Playground's **Dashboard** tab and you should see a gauge with the temperature of the selected device.
 

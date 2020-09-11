@@ -15,7 +15,19 @@ The most significant change is that R2 has only single button. This is the ``B``
 It has moved and you can use it for your program.
 The ``R`` reset button is not necessary anymore because communication and firmware flashing is now done automatically over **FTDI** chip.
 
-!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!
+.. |core-r1| thumbnail:: ../_static/hardware/core_module_r1_and_r2_comparison/core-module-r1.png
+    :width: 300em
+    :height: 300em
+
+.. |core-r2| thumbnail:: ../_static/hardware/core_module_r1_and_r2_comparison/core-module-r2.png
+    :width: 300em
+    :height: 300em
+
++-----------+-----------+-----------+
+| Model     | Core R1   | Core R2   |
++===========+===========+===========+
+| Look      | |core-r1| | |core-r2| |
++-----------+-----------+-----------+
 
 The new **Core Module 2** is not using DFU mode anymore.
 We have added new flashing over FTDI chip and virtual serial port over USB.
@@ -49,7 +61,7 @@ Step 3: Upload firmware with following command
 
     bcf flash --device dfu [firmware]:[version]
 
-Example which flashing wireless-motion-detector firmware from Wireless Motion Detector project: !!!TODO!!!!!!!!!!!!!!!
+Example which flashes wireless-motion-detector firmware from `Radio Motion Detector project <https://www.hackster.io/filip-hanel/smart-photo-trap-with-climate-data-in-terrarium-7e4e8f>`_:
 
 .. code-block:: console
 
@@ -66,7 +78,7 @@ Step 1: Flash firmware with following command
 
     bcf flash [firmware]:[version]
 
-Example which flashing wireless-motion-detector firmware from Radio Motion Detector project: !!!!!!!!!TODO!!!!!!!!!!!!!!!!!!
+Example which flashes wireless-motion-detector firmware from `Radio Motion Detector project <https://www.hackster.io/filip-hanel/smart-photo-trap-with-climate-data-in-terrarium-7e4e8f>`_:
 
 .. code-block:: console
 

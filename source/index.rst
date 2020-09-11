@@ -22,6 +22,7 @@ Where to Begin
 
 .. toctree::
    :caption: Basics
+   :numbered:
    :maxdepth: 2
    :hidden:
 

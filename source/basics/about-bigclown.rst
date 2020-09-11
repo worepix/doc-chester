@@ -15,8 +15,8 @@ Basic Features
 
 HARDWARIO offers a unique set of features that makes it different from other platforms...
 
-Feature #1: HARDWARIO is open-source
-************************************
+HARDWARIO is open-source
+************************
 
 Open-source is our passion, so we share everything what we do. We have an `organization at GitHub <https://github.com/hardwario>`_.
 
@@ -25,8 +25,8 @@ so anytime you have a chance to see the amount of care, passion and quality we p
 
 As we grow and build the community, we sincerely appreciate every single contribution from it. Why wouldn't you join us today?
 
-Feature #2: HARDWARIO is wireless
-*********************************
+HARDWARIO is wireless
+*********************
 
 With HARDWARIO, you can build a radio network for your devices.
 The radio network uses a sub-GHz communication technology (868/915 MHz),
@@ -35,8 +35,8 @@ which is a great choice for home automation applications, security alarms, smart
 The devices in your network will be able to communicate up to 500 meters line-of-sight distance.
 Speaking the indoor range, in most cases you will be able to achieve a full house coverage from a single point.
 
-Feature #3: HARDWARIO is modular
-********************************
+HARDWARIO is modular
+********************
 
 Why would you constantly reinvent the wheel? We take no shortcomings when it comes down to **modularity and reusability**.
 
@@ -48,8 +48,8 @@ The equal level of modularity has been also taken on the software level.
 Either on a device side, anyone can master creating the firmware with the properly documented APIs and examples,
 or - the distributed system approach of **MQTT messages** on the side of **hub**.
 
-Feature #4: HARDWARIO is low-power
-**********************************
+HARDWARIO is low-power
+**********************
 
 From the very beginning, HARDWARIO has been been optimized for **long service time from batteries**.
 Most devices can operate without a need for battery replacement for **more than 2 years**.
@@ -57,8 +57,8 @@ Most devices can operate without a need for battery replacement for **more than 
 We have achieved that thanks to our long-time experience designing ultra-low-power devices and utilizing modern hardware components
 that offer very low standby and/or operation currents.
 
-Feature #5: HARDWARIO is secure
-*******************************
+HARDWARIO is secure
+*******************
 
 HARDWARIO uses simple, yet proven security mechanisms for data **encryption and authentication** in the radio communication.
 
@@ -82,8 +82,8 @@ Design Decisions
 
 We believe in doing things the right way, so we have taken the following design decisions...
 
-Decision #1: Radio Frequency
-****************************
+Radio Frequency
+***************
 
 We use the 868/915 MHz frequency for radio communication.
 This is a license-free band designated for short signal messages.
@@ -91,8 +91,8 @@ Abusing your IoT devices with a 2.4 GHz band and fighting streaming WiFi, Blueto
 It is also about basic rules from physics - with higher frequency, you get worse penetration through the walls and other obstacles.
 Also the power consumption efficiency is better at lower frequency. As stated earlier - low-power designs are our goal!
 
-Decision #2: Programming Language
-*********************************
+Programming Language
+********************
 
 Most developers have somewhat biased opinions about their favorite programming language and we fully hear those.
 However, in the embedded world if you want to get most from your platform that has to run
@@ -107,8 +107,8 @@ you will always do worse in terms of consumed resources and execution time, than
 On the other hand, we have created a framework - a firmware SDK - that makes your own firmware development easy
 and working with the API feels like working in a high-level language.
 
-Decision #3: Asynchronous Architecture
-**************************************
+Asynchronous Architecture
+*************************
 
 We have taken some really innovative technique to embedded level - the most notable one is asynchronous-like programming pattern.
 The built-in scheduler simplifies your life with tasks and platform's power management - it is done for you automatically
@@ -117,8 +117,8 @@ and you focus on the application development rather than low-level internals.
 Also on the hub side, the MQTT follow asynchronous concepts as well.
 That's a great opportunity to design your own IoT system in one, uniform, asynchronous concept.
 
-Decision #4: CLI-First Approach
-*******************************
+CLI-First Approach
+******************
 
 Command Line Interface (CLI) is the first class citizen in the HARDWARIO system.
 This is where we differ from most other embedded IoT platforms. We emphasize CLI approach in the very first place.
