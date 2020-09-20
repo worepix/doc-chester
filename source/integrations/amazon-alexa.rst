@@ -21,8 +21,6 @@ Click on Hamburger menu in top right corner > Manage palette > Install and searc
 You should see alexa category with ``alexa home`` and ``alexa home response`` in nodes under the **alexa** category.
 
 .. image:: ../_static/integrations/alexa/node_red_alexa_category.png
-   :align: center
-   :scale: 51%
    :alt: Alexa Nodes
 
 
@@ -41,23 +39,17 @@ Login in on Node-RED Alexa Home Skill Bridge and click on devices. Click add dev
 
 
 .. image:: ../_static/integrations/alexa/alexa_screen-4.PNG
-   :align: center
-   :scale: 51%
    :alt: Alexa Screen
 
 Then click Ok. Go to Alexa app or desktop app and click on Smart Home > Devices > Discover and you should see your device you've just added.
 
 .. image:: ../_static/integrations/alexa/alexa_screen-5.PNG
-   :align: center
-   :scale: 51%
    :alt: Alexa Screen
 
 Now place an ``alexa home`` node to flow and double-click on it. You should see setting page.
 Click on little pencil next to the account and login in with account you've just created in Installing part.
 
 .. image:: ../_static/integrations/alexa/alexa_screen-3.PNG
-   :align: center
-   :scale: 51%
    :alt: Alexa Screen
 
 If you click on refresh icon, you would be able to choose devices you added on Node-RED Alexa Home Skill Bridge website and click Done.
@@ -73,8 +65,6 @@ Choose hardwario/bcf-radio-power-controller and version depends on your LED stri
 I bought **rgbw144** and click **Flash firmware**.
 
 .. image:: ../_static/integrations/alexa/playground_flash_firmware.PNG
-   :align: center
-   :scale: 51%
    :alt: Flash Firmware
 
 Now open your **Devices** tab (on HARDWARIO Hub if you want to have Alexa there) and Click start pairing.
@@ -85,15 +75,11 @@ Assembly hardware like in following video, plug it in to electricity and plug in
 You should see connected device in device section on Hub or your computer. Do not forget to click **Stop pairing!**
 
 .. image:: ../_static/integrations/alexa/playground_devices_paired_device.png
-   :align: center
-   :scale: 51%
    :alt: Devices Tab
 
 Now click **Functions** tab and you should see ``alexa home`` node from previous section.
 
 .. image:: ../_static/integrations/alexa/playground_functions_alexa_home.png
-   :align: center
-   :scale: 51%
    :alt: Functions Tab
 
 Now click hamburger menu in top right corner > Import > Clipboard and copy following code there:
@@ -103,8 +89,6 @@ Now click hamburger menu in top right corner > Import > Clipboard and copy follo
     [{"id":"70cb2802.0f4e08","type":"switch","z":"3abb2073.f7b74","name":"color switch","property":"payload.hue","propertyType":"msg","rules":[{"t":"eq","v":"0x0","vt":"str"},{"t":"eq","v":"0x78","vt":"str"},{"t":"eq","v":"0xf0","vt":"str"}],"checkall":"true","repair":false,"outputs":3,"x":450,"y":260,"wires":[["1c18841e.37453c"],["e925ec80.33ace"],["53fd3cc4.1f87a4"]]},{"id":"1c18841e.37453c","type":"change","z":"3abb2073.f7b74","name":"red","rules":[{"t":"set","p":"payload","pt":"msg","to":"\"#ff0000\"","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":650,"y":160,"wires":[["ccaf0313.3f267"]]},{"id":"ccaf0313.3f267","type":"mqtt out","z":"3abb2073.f7b74","name":"","topic":"node/power-controller:0/led-strip/-/color/set","qos":"","retain":"","broker":"29fba84a.b2af58","x":1190,"y":200,"wires":[]},{"id":"e925ec80.33ace","type":"change","z":"3abb2073.f7b74","name":"green","rules":[{"t":"set","p":"payload","pt":"msg","to":"\"#008000\"","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":650,"y":220,"wires":[["ccaf0313.3f267"]]},{"id":"6beeac02.679194","type":"switch","z":"3abb2073.f7b74","name":"off switch","property":"payload","propertyType":"msg","rules":[{"t":"false"}],"checkall":"true","repair":false,"outputs":1,"x":440,"y":340,"wires":[["d0dbd430.16a4d8"]]},{"id":"d0dbd430.16a4d8","type":"change","z":"3abb2073.f7b74","name":"off","rules":[{"t":"set","p":"payload","pt":"msg","to":"\"#000000(00)\"","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":650,"y":340,"wires":[["ccaf0313.3f267"]]},{"id":"53fd3cc4.1f87a4","type":"change","z":"3abb2073.f7b74","name":"blue","rules":[{"t":"set","p":"payload","pt":"msg","to":"\"#0000ff\"","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":650,"y":280,"wires":[["ccaf0313.3f267"]]},{"id":"29fba84a.b2af58","type":"mqtt-broker","z":"","broker":"127.0.0.1","port":"1883","clientid":"","usetls":false,"compatmode":true,"keepalive":"60","cleansession":true,"birthTopic":"","birthQos":"0","birthPayload":"","willTopic":"","willQos":"0","willPayload":""}]
 
 .. image:: ../_static/integrations/alexa/playground_functions_imported_flow.PNG
-   :align: center
-   :scale: 51%
    :alt: Functions Tab
 
 Connected with your node to functions you imported and deploy.

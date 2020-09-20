@@ -59,8 +59,6 @@ Windows
 - Download the `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_ program.
 
 .. image:: ../_static/tutorials/raspberry-pi-login/putty_login.png
-   :align: center
-   :scale: 80%
 
 Then log in with following login:
 

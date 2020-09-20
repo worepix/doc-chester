@@ -222,10 +222,17 @@ Sigfox Module
 micro:bit Module
 ****************
 
-.. image:: ../_static/basics/module_overview/microbit-module.jpg
-   :align: center
-   :scale: 51%
-   :alt: Playground Device
+.. |microbit| thumbnail:: ../_static/basics/module_overview/microbit-module.png
+
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| |microbit|             | | Let's measure and influence your environment with HARDWARIO micro:bit bundle.                                                                  |
+|                        | | It contains everything you need to start using sensors from Industrial IoT Kit in micro:bit environment.                                       |
+|                        | |                                                                                                                                                |
+|                        | | Run the device on batteries. Measure temperature, humidity, carbon dioxide (CO2), atmospheric pressure, light intensity,                       |
+|                        | | volatile organic compounds (VOCs), motion or control other devices using a Relay Module.                                                       |
+|                        | |                                                                                                                                                |
+|                        | | The bundle also includes a 1-hour STEM webinar.                                                                                                |
++------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ----------------------------------------------------------------------------------------------
 

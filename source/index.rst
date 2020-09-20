@@ -22,7 +22,6 @@ Where to Begin
 
 .. toctree::
    :caption: Basics
-   :numbered:
    :maxdepth: 2
    :hidden:
 
@@ -37,8 +36,8 @@ Where to Begin
     :caption: Tutorials
     :maxdepth: 2
     :hidden:
-    :numbered:
 
+    tutorials/quick-tutorial
     tutorials/raspberry-pi-installation
     tutorials/raspberry-pi-login
     tutorials/custom-setup-on-ubuntu
@@ -55,7 +54,6 @@ Where to Begin
    :caption: Interfaces
    :maxdepth: 2
    :hidden:
-   :numbered:
 
    interfaces/mqtt-protocol
    interfaces/mqtt-topics
@@ -69,7 +67,6 @@ Where to Begin
    :caption: Integrations
    :maxdepth: 2
    :hidden:
-   :numbered:
 
    integrations/grafana-for-visualization
    integrations/blynk-mobile-app-builder
@@ -178,7 +175,6 @@ Where to Begin
    :caption: Tools
    :maxdepth: 2
    :hidden:
-   :numbered:
 
    tools/bigclown-firmware-flashing-tool
    tools/bigclown-gateway

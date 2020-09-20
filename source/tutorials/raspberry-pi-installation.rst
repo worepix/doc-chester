@@ -98,6 +98,3 @@ To find out Raspberry Pi IP you can follow :doc:`these instructions <raspberry-p
 
     If Start pairing button is disabled and you cannot press it. Please make sure you first connect Radio Dongle and then apply the power to Rasberry Pi.
 
-.. image:: ../_static/tutorials/raspberry-pi-installation/example.png
-   :align: center
-   :scale: 80%

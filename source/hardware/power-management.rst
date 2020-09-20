@@ -68,13 +68,9 @@ Implementation
 This is the example of the electronic circuit of the battery energizer:
 
 .. image:: ../_static/hardware/power_management/energizer-circuit-battery.png
-   :align: center
-   :scale: 51%
    :alt: Energizer Circuit Battery
 
 This is the example of the eletronics circuit of the **energizer** powered from an external power supply:
 
 .. image:: ../_static/hardware/power_management/energizer-circuit-external.png
-   :align: center
-   :scale: 51%
    :alt: Energizer Circuit External

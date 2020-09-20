@@ -72,7 +72,6 @@ We all know that the "security by obscurity" approach does not work in long-term
 System Concept
 **************
 .. image:: ../_static/basics/about_hardwario_kit/system-concept.png
-   :align: center
    :scale: 100%
    :alt: System Concept
 

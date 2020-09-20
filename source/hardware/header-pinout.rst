@@ -11,8 +11,6 @@ Core Module pinout
 ******************
 
 .. image:: ../_static/hardware/pinout/core-module-2-pinout.png
-   :align: center
-   :scale: 51%
    :alt: Core Module Pinout
 
 *************
@@ -20,8 +18,6 @@ Cloony pinout
 *************
 
 .. image:: ../_static/hardware/pinout/cloony-pinout.png
-   :align: center
-   :scale: 51%
    :alt: Cloony Pinout
 
 ***********************
@@ -36,8 +32,6 @@ Module Drawing & Pinout - Standard
 **********************************
 
 .. image:: ../_static/hardware/pinout/pinout_module.png
-   :align: center
-   :scale: 51%
    :alt: Standard Pinout
 
 *******************************
@@ -45,8 +39,6 @@ Module Drawing & Pinout - Large
 *******************************
 
 .. image:: ../_static/hardware/pinout/pinout_module-large.png
-   :align: center
-   :scale: 51%
    :alt: Large Pinout
 
 **************
@@ -185,8 +177,6 @@ Tag Drawing & Pinout
 ********************
 
 .. image:: ../_static/hardware/pinout/pinout_tag.png
-   :align: center
-   :scale: 51%
    :alt: Tag Pinout
 
 ***********

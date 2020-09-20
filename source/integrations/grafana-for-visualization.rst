@@ -6,8 +6,6 @@ Grafana for Visualization
 It allows you to create a nice looking dashboards that will give you quick insights into your sensor data.
 
 .. image:: ../_static/integrations/grafana/grafana-for-visualization_grafana.png
-   :align: center
-   :scale: 51%
    :alt: Grafana Visualization
 
 ************
@@ -47,16 +45,16 @@ Add repository key
 Add repository to source list
 *****************************
 
-.. content-tabs::
+.. tabs::
 
-    .. tab-container:: tab1
+    .. tab:: Debian
         :title: Debian/Raspbian
 
         .. code-block:: console
 
             echo "deb https://repos.influxdata.com/debian stretch stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
 
-    .. tab-container:: tab2
+    .. tab:: Ubuntu
         :title: Ubuntu
 
         .. code-block:: console
@@ -91,9 +89,9 @@ Install dependencies
 Based on your target platform, select the appropriate procedure
 ***************************************************************
 
-.. content-tabs::
+.. tabs::
 
-    .. tab-container:: tab1
+    .. tab:: Rpi
         :title: Raspberry Pi and Omnia LXC
 
             **Step 1: You can manualy download latest version from `Grafana <https://github.com/fg2it/grafana-on-raspberry/releases/latest>`_, or you can use the following helper to download it for you**
@@ -109,7 +107,7 @@ Based on your target platform, select the appropriate procedure
                 sudo dpkg -i grafana.deb
 
 
-    .. tab-container:: tab2
+    .. tab:: Desktop
         :title: Desktop (Ubuntu and Debian)
 
             **Step 1: Add repository key**
@@ -359,8 +357,6 @@ Finish by clicking on the **Add** button. At this moment **Grafana** will try to
 the message **Data source is working.**
 
 .. image:: ../_static/integrations/grafana/grafana-for-visualization_datasource.png
-   :align: center
-   :scale: 51%
    :alt: Grafana Data Source Check
 
 Download ``dashboard.json`` or copy the content of this file to clipboard
@@ -372,8 +368,6 @@ Import the visualization dashboards, click the Grafana icon (top left button), s
 ********************************************************************************************************************************
 
 .. image:: ../_static/integrations/grafana/grafana-for-visualization_menu-import-dashboard.png
-   :align: center
-   :scale: 51%
    :alt: Grafana Menu Import
 
 Upload the ``dashboard.json`` file or paste the JSON from clipboard
@@ -383,14 +377,10 @@ Choose node as a data source and click on Import
 ************************************************
 
 .. image:: ../_static/integrations/grafana/grafana-for-visualization_import-dashboard-select-datasource.png
-   :align: center
-   :scale: 51%
    :alt: Grafana Select Datasource
 
 Result for `Wireless Climate Monitor <https://www.hackster.io/jakub-smejkal/radio-climate-monitor-96de57>`__ and `Wireless CO2 Monitor <https://www.hackster.io/jakub-smejkal/radio-co2-monitor-311d2c>`_​_
 *************************************************************************************************************************************************************************************************************
 
 .. image:: ../_static/integrations/grafana/_integrations_grafana-for-visualization_demo-dashboard.png
-   :align: center
-   :scale: 51%
    :alt: Grafana Test Results

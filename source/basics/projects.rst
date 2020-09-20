@@ -28,26 +28,6 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1168234/_Wzp9sGnOkv.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/vladimirm/soil-humidity-monitoring-using-lorawan-and-hardwario-d0ddbb">Soil humidity monitoring using LoRaWAN and Hardwario</a></h3>
-                                        <p>Using a Soil sensor with a Lora module from Hardwario I can control irrigation system in a greenhouse only when it's actually needed.</p>
-                                </div>
-                        </td>
-                </tr>
-
-                <tr>
-                        <td>
-                                <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1096331/_K1JrbnCod6.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/plouc68000/ardutester-millenium-the-ultimate-uno-mega-versions-c81db4">ArduTester Millenium, the ultimate UNO & MEGA Versions</a></h3>
-                                        <p>With modern I2C Protocol for the LCD, minimizing the wiring. A Basic Version with the Arduino UNO and a feature rich Version with the MEGA.</p>
-                                </div>
-                        </td>
-                </tr>
-
-                <tr>
-                        <td>
-                                <div>
                                         <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/774572/text4303-3_CUFUO1vNSd.png?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
                                         <h3><a href="https://www.hackster.io/hubmartin/low-power-lora-node-with-1-wire-temperature-sensors-4f3930">Low-Power LoRa Node with 1-Wire Temperature Sensors</a></h3>
                                         <p>Connect multiple Dallas 1-Wire temperature sensors. They are auto detected. Configure LoRa keys over USB serial port, no programming needed.</p>
@@ -68,9 +48,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="" width="70%"></p>
+                                        <p style="float: left;"> </p>
                                         <h3><a href="https://www.hackster.io/117975/scary-iot-pumpkin-with-motion-triggered-servo-dbdce5">Scary IoT Pumpkin with Motion-Triggered Servo</a></h3>
-                                        <p>Pumkin with smart LED strip, PIR motion detector and servo motor to scare even more people. It's wireless and easy to control with Node-RED.</p>
+                                        <p style="float: left;">Pumkin with smart LED strip, PIR motion detector and servo motor to scare even more people. It's wireless and easy to control with Node-RED.</p>
                                 </div>
                         </td>
                 </tr>
@@ -78,9 +58,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="" width="70%"></p>
+                                        <p style="float: left;"></p>
                                         <h3><a href="https://www.hackster.io/hubmartin/display-text-or-video-on-bigclown-lcd-module-over-usb-2c9c95">Display Text or Video on BigClown LCD Module Over USB</a></h3>
-                                        <p>Useful for Raspberry Pi to display network, system or weather status. Video can be also streamed to this display.</p>
+                                        <p style="float: left; width: 300px;">Useful for Raspberry Pi to display network, system or weather status. Video can be also streamed to this display.</p>
                                 </div>
                         </td>
                 </tr>
@@ -91,16 +71,6 @@ Projects
                                         <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1130246/_GUE2ZpEzig.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
                                         <h3><a href="https://www.hackster.io/332208/covid-19-project-idea-matrix-ir-contactless-thermometer-63fa0c">Covid-19 Project Idea: Matrix IR Contactless Thermometer</a></h3>
                                         <p>Inspiration for inventors of tomorrow: An accessible way of contactless skin temperature measurement. Join us to improve this project.</p>
-                                </div>
-                        </td>
-                </tr>
-
-                <tr>
-                        <td>
-                                <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1069794/_DgowxIvAlm.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/friedl-basson/pump-control-and-monitor-1b3dab">Pump Control and Monitor</a></h3>
-                                        <p>Control any high voltage (240V, 15A) load whilst monitoring two external sensors and current drawn by load. No additional PSU needed.</p>
                                 </div>
                         </td>
                 </tr>
@@ -128,9 +98,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="" width="70%"></p>
+                                        <p style="float: left; width: 300px;"></p>
                                         <h3><a href="https://www.hackster.io/hubmartin/wireless-led-matrix-display-with-raspberrypi-node-red-mqtt-0f44a8">Wireless LED Matrix Display with RaspberryPi, Node-RED, MQTT</a></h3>
-                                        <p>Universal wireless display, control text and intensity over MQTT from Node-RED or your phone. Display weather, notifications, time.</p>
+                                        <p style="float: left; width: 300px;">Universal wireless display, control text and intensity over MQTT from Node-RED or your phone. Display weather, notifications, time.</p>
                                 </div>
                         </td>
                 </tr>
@@ -148,9 +118,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/895362/cat_FwKAUlEEya.jpg?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/vladimirm/motion-controlled-water-fountain-for-a-cat-7b21f0">Motion Controlled Water Fountain for a Cat</a></h3>
-                                        <p>A quick way to control a water fountain for a cat only when the cat is nearby using BigClown and Home Assistant.</p>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1078352/_aa7TozKdYO.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/hubmartin/soil-sensor-with-arduino-esp8266-esp32-2bc942">Soil Sensor with Arduino / ESP8266 / ESP32</a></h3>
+                                        <p>Soil Moisture Sensor is a modern, completely sealed capacitive 1-Wire moisture sensor with temperature sensor. How to use it with Arduino?</p>
                                 </div>
                         </td>
                 </tr>
@@ -158,9 +128,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1078352/_aa7TozKdYO.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/hubmartin/soil-sensor-with-arduino-esp8266-esp32-2bc942">Soil Sensor with Arduino / ESP8266 / ESP32</a></h3>
-                                        <p>Soil Moisture Sensor is a modern, completely sealed capacitive 1-Wire moisture sensor with temperature sensor. How to use it with Arduino?</p>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/895362/cat_FwKAUlEEya.jpg?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/vladimirm/motion-controlled-water-fountain-for-a-cat-7b21f0">Motion Controlled Water Fountain for a Cat</a></h3>
+                                        <p>A quick way to control a water fountain for a cat only when the cat is nearby using BigClown and Home Assistant.</p>
                                 </div>
                         </td>
                 </tr>
@@ -178,9 +148,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="" width="70%"></p>
+                                        <p style="float: left; width: 300px;"></p>
                                         <h3><a href="https://www.hackster.io/119238/lights-up-step-by-step-guide-to-alexa-controlled-led-strip-44ac5c">Lights Up! Step-by-Step Guide to Alexa-Controlled LED Strip</a></h3>
-                                        <p>Use your voice commands to control BigClown programmable LED strip (Neopixel compatible) by Amazon Alexa and Raspberry Pi.</p>
+                                        <p style="float: left; width: 300px;">Use your voice commands to control BigClown programmable LED strip (Neopixel compatible) by Amazon Alexa and Raspberry Pi.</p>
                                 </div>
                         </td>
                 </tr>
@@ -238,9 +208,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="" width="70%"></p>
+                                        <p style="float: left; width: 300px;"></p>
                                         <h3><a href="https://www.hackster.io/hubmartin/night-lamp-with-wireless-buttons-and-motion-detector-1c32e8">Night Lamp with Wireless Buttons and Motion Detector</a></h3>
-                                        <p>Put smart LED strip to the lamp, under bed. Control intensity with a knob or wirelessly with push button or motion detector.</p>
+                                        <p style="float: left; width: 300px;">Put smart LED strip to the lamp, under bed. Control intensity with a knob or wirelessly with push button or motion detector.</p>
                                 </div>
                         </td>
                 </tr>
@@ -258,9 +228,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="" width="70%"></p>
+                                        <p style="float: left; width: 300px;"></p>
                                         <h3><a href="https://www.hackster.io/hubmartin/wireless-shock-sensor-sense-opening-doors-or-windows-020105">Wireless Shock Sensor - Sense Opening Doors or Windows</a></h3>
-                                        <p>Low Power Core Module sends event to the Node-RED in Raspberry Pi tu turn IKEA TRADFRI lightbulb on.</p>
+                                        <p style="float: left; width: 300px;">Low Power Core Module sends event to the Node-RED in Raspberry Pi tu turn IKEA TRADFRI lightbulb on.</p>
                                 </div>
                         </td>
                 </tr>
@@ -348,9 +318,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1050354/_H2VdmaupoU.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/153060/key-code-door-entry-system-with-hardwario-iot-kit-b01e37">Key Code Door Entry System with HARDWARIO IoT Kit</a></h3>
-                                        <p>Secure any building with this safe and easy solution.</p>
+                                        <p style="float: left; width: 300px;"></p>
+                                        <h3><a href="https://www.hackster.io/157908/adafruit-uncanny-eyes-with-accelerometer-and-hardwario-kit-4ac9cd">Adafruit Uncanny Eyes with Accelerometer and HARDWARIO Kit</a></h3>
+                                        <p style="float: left; width: 300px;">This is the famous Adafruit "Uncanny Eyes" project ported to HARDWARIO Iot Kit Core Module. You can control eyes with the accelerometer.</p>
                                 </div>
                         </td>
                 </tr>
@@ -358,9 +328,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/157908/adafruit-uncanny-eyes-with-accelerometer-and-hardwario-kit-4ac9cd">Adafruit Uncanny Eyes with Accelerometer and HARDWARIO Kit</a></h3>
-                                        <p>This is the famous Adafruit "Uncanny Eyes" project ported to HARDWARIO Iot Kit Core Module. You can control eyes with the accelerometer.</p>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1050354/_H2VdmaupoU.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/153060/key-code-door-entry-system-with-hardwario-iot-kit-b01e37">Key Code Door Entry System with HARDWARIO IoT Kit</a></h3>
+                                        <p>Secure any building with this safe and easy solution.</p>
                                 </div>
                         </td>
                 </tr>
@@ -388,29 +358,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/630893/adastra_image_ooyx7teyGD.png?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/119222/iot-toilet-and-how-we-digitize-it-in-adastra-b6e4e9">IoT Toilet And How We Digitize it in Adastra</a></h3>
-                                        <p>It started with complaints on constant occupancy of toilets. Later there were some suggestions about developing a smartphone app.</p>
-                                </div>
-                        </td>
-                </tr>
-
-                <tr>
-                        <td>
-                                <div>
                                         <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1039782/_NnkNa5CdeS.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
                                         <h3><a href="https://www.hackster.io/hubmartin/mqtt-controlled-modbus-relay-over-radio-cf89b3">MQTT Controlled Modbus Relay Over Radio</a></h3>
                                         <p>Use RS-485 Module to control MODBUS relays. You can control them over radio with MQTT commands from Node-RED</p>
-                                </div>
-                        </td>
-                </tr>
-
-                <tr>
-                        <td>
-                                <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1050366/_TtbY6sZnSM.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/jakub-smejkal/radio-co2-monitor-311d2c">Radio CO2 Monitor</a></h3>
-                                        <p>Monitor your workspace or your home with this simple solution that sends all the data by radio so you can work with them.</p>
                                 </div>
                         </td>
                 </tr>
@@ -428,9 +378,19 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1114744/_njuMFRBeXa.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/au_chrismor/arduino-controlled-hydroponic-installation-6990c1">Arduino Controlled Hydroponic Installation</a></h3>
-                                        <p>Everyone's got a hydro garden. Here's how to make yours much cooler than the rest</p>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/630893/adastra_image_ooyx7teyGD.png?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/119222/iot-toilet-and-how-we-digitize-it-in-adastra-b6e4e9">IoT Toilet And How We Digitize it in Adastra</a></h3>
+                                        <p>It started with complaints on constant occupancy of toilets. Later there were some suggestions about developing a smartphone app.</p>
+                                </div>
+                        </td>
+                </tr>
+
+                <tr>
+                        <td>
+                                <div>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1050366/_TtbY6sZnSM.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/jakub-smejkal/radio-co2-monitor-311d2c">Radio CO2 Monitor</a></h3>
+                                        <p>Monitor your workspace or your home with this simple solution that sends all the data by radio so you can work with them.</p>
                                 </div>
                         </td>
                 </tr>
@@ -538,9 +498,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1050361/_d61Iu6dTDX.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/161479/wireless-presenter-with-accelerometer-962318">Wireless Presenter with Accelerometer</a></h3>
-                                        <p>Have your own presenter always with you. You can make wireless one with HARDWARIO and their Push Button Kit. Just follow these instructions.</p>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1050331/_kyWExBMKLd.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/152814/smart-wireless-hardwario-iot-kit-mp3-player-765d86">Smart Wireless HARDWARIO IoT Kit MP3 Player</a></h3>
+                                        <p>With this project you can play any sound from your SD card on your audio system. Only wire you will need is 3.5mm jack.</p>
                                 </div>
                         </td>
                 </tr>
@@ -548,9 +508,9 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1050331/_kyWExBMKLd.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/152814/smart-wireless-hardwario-iot-kit-mp3-player-765d86">Smart Wireless HARDWARIO IoT Kit MP3 Player</a></h3>
-                                        <p>With this project you can play any sound from your SD card on your audio system. Only wire you will need is 3.5mm jack.</p>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1050361/_d61Iu6dTDX.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/161479/wireless-presenter-with-accelerometer-962318">Wireless Presenter with Accelerometer</a></h3>
+                                        <p>Have your own presenter always with you. You can make wireless one with HARDWARIO and their Push Button Kit. Just follow these instructions.</p>
                                 </div>
                         </td>
                 </tr>
@@ -638,9 +598,19 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="" width="70%"></p>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1168234/_Wzp9sGnOkv.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/vladimirm/soil-humidity-monitoring-using-lorawan-and-hardwario-d0ddbb">Soil humidity monitoring using LoRaWAN and Hardwario</a></h3>
+                                        <p>Using a Soil sensor with a Lora module from Hardwario I can control irrigation system in a greenhouse only when it's actually needed.</p>
+                                </div>
+                        </td>
+                </tr>
+
+                <tr>
+                        <td>
+                                <div>
+                                        <p style="float: left; width: 300px;"></p>
                                         <h3><a href="https://www.hackster.io/158970/hardwario-iot-kit-color-game-e70dfb">HARDWARIO IoT Kit Color Game</a></h3>
-                                        <p>Teach your kids colors in different languages with HARDWARIO IoT Kit, LED lights and this simple color game.</p>
+                                        <p style="float: left; width: 300px;">Teach your kids colors in different languages with HARDWARIO IoT Kit, LED lights and this simple color game.</p>
                                 </div>
                         </td>
                 </tr>
@@ -708,16 +678,6 @@ Projects
                 <tr>
                         <td>
                                 <div>
-                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1138147/_EL5ilSyMh8.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
-                                        <h3><a href="https://www.hackster.io/ahmed-abdallah2/eco-food-dehydrators-6980cb">ECO food dehydrators</a></h3>
-                                        <p>ECO enables farmers dehydrate unmarketable crops at home level to extend shelf life for later sell, or consumption by their families</p>
-                                </div>
-                        </td>
-                </tr>
-
-                <tr>
-                        <td>
-                                <div>
                                         <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1130276/_OgwSCd6Ph1.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
                                         <h3><a href="https://www.hackster.io/jakub-smejkal/hardwario-non-invasive-heat-monitoring-with-infra-grid-2f1ea8">Hardwario non-invasive Heat Monitoring with Infra Grid</a></h3>
                                         <p>You can monitor heat on your production line or your air conditioning to detect overheating in your factory with the Infragrid module.</p>
@@ -751,6 +711,16 @@ Projects
                                         <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1138094/_SoGFfRZxgt.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
                                         <h3><a href="https://www.hackster.io/matejus/watt-meter-with-bigclown-a0ec12">Watt-Meter with BigClown</a></h3>
                                         <p>Simple "non-invasive" remote Watt Meter based on electromagnetic induction... and sorry it's long text :)</p>
+                                </div>
+                        </td>
+                </tr>
+
+                <tr>
+                        <td>
+                                <div>
+                                        <p style="float: left;"><img src="https://hackster.imgix.net/uploads/attachments/1022605/_OvI6O64YTo.blob?auto=compress%2Cformat&w=350&h=262.5&fit=min&dpr=1" width="70%"></p>
+                                        <h3><a href="https://www.hackster.io/presti/motivating-lights-9ed0e8">Motivating lights</a></h3>
+                                        <p>Lights that make better atmosphere at work and increasing people's working efficiency</p>
                                 </div>
                         </td>
                 </tr>

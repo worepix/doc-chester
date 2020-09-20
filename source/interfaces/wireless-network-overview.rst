@@ -30,7 +30,7 @@ Every Core Module has a SPIRIT1 radio module on it. This radio works up to 400 m
 
 **References:**
 
-- `HARDWARIO Radio Projects on GitHub <github.com/hardwario?q=radio>`_
+- `HARDWARIO Radio Projects on GitHub <https://www.github.com/hardwario?q=radio>`_
 
 LoRa Network
 ************
@@ -54,7 +54,7 @@ or use the community `The Things Network <https://www.thethingsnetwork.org>`_ (`
 
 **References:**
 
-- `HARDWARIO LoRa Projects on GitHub <github.com/hardwario?q=lora>`_
+- `HARDWARIO LoRa Projects on GitHub <https://www.github.com/hardwario?q=lora>`_
 
 Sigfox Network
 **************
@@ -76,7 +76,7 @@ Check `Sigfox coverage map <https://www.sigfox.com/en/coverage>`_ to see if your
 
 **References:**
 
-- `Sigfox Projects on GitHub <github.com/hardwario?q=sigfox>`_
+- `Sigfox Projects on GitHub <https://www.github.com/hardwario?q=sigfox>`_
 
 NB-IoT network
 **************

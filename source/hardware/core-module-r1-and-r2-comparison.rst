@@ -23,11 +23,11 @@ The ``R`` reset button is not necessary anymore because communication and firmwa
     :width: 300em
     :height: 300em
 
-+-----------+-----------+-----------+
-| Model     | Core R1   | Core R2   |
-+===========+===========+===========+
-| Look      | |core-r1| | |core-r2| |
-+-----------+-----------+-----------+
++-----------+-----------+
+| Core R1   | Core R2   |
++===========+===========+
+| |core-r1| | |core-r2| |
++-----------+-----------+
 
 The new **Core Module 2** is not using DFU mode anymore.
 We have added new flashing over FTDI chip and virtual serial port over USB.
@@ -51,8 +51,8 @@ Flashing Core Module R1
 Connect the Micro USB cable to the Core Module and your computer.
 *****************************************************************
 
-You have to switch to :ref:`Core Module to the DFU mode. <switch-to-dfu-mode>` !!!!!!!!!!!!TODO!!!!!!!!!!
-*********************************************************************************************************
+You have to switch to :ref:`Core Module to the DFU mode. <switch-to-dfu>`
+*************************************************************************
 
 Upload firmware with following command
 **************************************

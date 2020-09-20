@@ -29,14 +29,14 @@ Open command line
 Install firebase plugin to Node-RED via
 ***************************************
 
-.. content-tabs::
+.. tabs::
 
-    .. tab-container:: tab1
+    .. tab:: Node-RED
         :title: Node-RED
 
             Install Firebase plugin in Node-RED **Menu > Manage palette** and search for ``node-red-contrib-firebase``.
 
-    .. tab-container:: tab2
+    .. tab:: Command-line
         :title: Command Line
 
             .. code-block:: console
@@ -53,15 +53,15 @@ Install firebase plugin to Node-RED via
 Open Node-RED
 *************
 
-.. content-tabs::
+.. tabs::
 
-    .. tab-container:: tab1
+    .. tab:: Playground
         :title: HARDWARIO Playground
 
             In HARDWARIO Playground just open **Functions tab**.
 
 
-    .. tab-container:: tab1
+    .. tab:: Hub
         :title: HARDWARIO Hub
 
             Connect to your HARDWARIO Hub via :ref:`IP address <ip-adress-login>` or :ref:`DNS name <dns-name-login>`.

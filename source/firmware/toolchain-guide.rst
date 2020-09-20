@@ -294,5 +294,124 @@ In order to build the firmware in release configuration, use this command
 
 This command generates the file ``out/release/firmware.bin``.
 
+.. _switch-to-dfu:
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+***********************************
+Switching Core Module into DFU Mode
+***********************************
+
+To program the **Core Module**, we must first enter the DFU mode.
+
+We can do this by following this procedure
+
+Check that the USB cable is plugged into the Core Module and your computer
+**************************************************************************
+
+Press and hold the BOOT button on the Core Module
+*************************************************
+
+.. tip::
+
+    The BOOT button is on the right and is marked with a letter ``B``.
+
+Press and release the RESET button on the Core Module. At this point, you still have to hold the BOOT button
+************************************************************************************************************
+
+.. tip::
+
+    The RESET button is on the left and is marked with a letter ``9``.
+
+Release the BOOT button
+************************
+
+.. note::
+
+    Now the **Core Module** is connected to your computer as a DFU USB device and is ready for programming.
+
+**********************************
+Windows DFU Driver Troubleshooting
+**********************************
+
+Incorrect DFU Driver
+********************
+
+In case you get ``Cannot open DFU device 0483:df11`` while running the **bcf flash --device dfu** command, you have the incorrect DFU drivers installed.
+
+.. image:: ../_static/firmware/toolchain_guide/windows-dfu-wrong-driver.png
+
+Execute ``zadig`` from Toolchain or Playground shell (from cmd.exe HARDWARIO window)
+====================================================================================
+
+.. caution::
+
+    Keep the **Core Module** connected with the DFU mode activated.
+
+Allow admin rigths in the User Acess Control pop-up
+===================================================
+
+Select Options -> List All Devices
+==================================
+
+.. image:: ../_static/firmware/toolchain_guide/windows-zadig-list-all-devices.png
+
+Choose STM32 BOOTLOADER
+=======================
+
+.. image:: ../_static/firmware/toolchain_guide/windows-zadig-select.png
+
+Choose WinUSB
+=============
+
+.. image:: ../_static/firmware/toolchain_guide/windows-zadig-winusb.png
+
+Click on Replace Driver
+=======================
+
+.. image:: ../_static/firmware/toolchain_guide/windows-zadig-replace.png
+
+.. important::
+
+    You will get The driver was installed successfully notification.
+
+.. image:: ../_static/firmware/toolchain_guide/windows-zadig-installed.png
+
+Exit Zadig and get back to firmware flashing. The DFU driver repair procedure is finished
+=========================================================================================
+
+You can check DFU readiness using the ``dfu-util -l`` command from HARDWARIO Toolchain Prompt
+=============================================================================================
+
+.. image:: ../_static/firmware/toolchain_guide/windows-dfu-list.png
+
+No DFU Device Found
+*******************
+
+There is not ``Cannot open DFU device 0483:df11`` between:
+
+.. code-block:: console
+    :linenos:
+
+    A valid DFU suffix will be required in a future dfu-util release!!!
+    No DFU capable USB device available
+
+.. image:: ../_static/firmware/toolchain_guide/windows-dfu-no-device.png
+
+There can be various reasons:
+
+DFU mode is not activated on the Core Module
+============================================
+
+Follow the instructions in the chapter :ref:`Switching Core Module into DFU Mode <switch-to-dfu>`.
+
+Defective USB cable, USB hub, USB port or Core Module
+=====================================================
+
+- Try different hardware.
+- Try connection without a USB hub.
+- Make sure the USB cable used has data wires (some USB cables are for powering only).
+
+Connection mismatch - the Core Module is connected to different host than where bcf is executed
+===============================================================================================
+
+- Connect the **Core Module** to the right host.
+

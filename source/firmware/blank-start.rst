@@ -81,7 +81,7 @@ Normally, the development cycle is the repetition of the following 4 steps:
 .. caution::
 
     | **Flashing Core Module R1 & R2**
-    | For differences of flashing older **Core Module 1** and newer **Core Module 2** please read **Core Module R1 and R2 comparison** in the **Hardware** section
+    | For differences of flashing older **Core Module 1** and newer **Core Module 2** please read :doc:`Core Module R1 and R2 comparison <../hardware/core-module-r1-and-r2-comparison>`
 
 If you need to debug your application, please follow the document :doc:`Debugging <debugging>`.
 

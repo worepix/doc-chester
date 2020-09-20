@@ -35,6 +35,8 @@ Open the configuration file
 
     sudo nano /etc/hardwario/mqtt2influxdb.yml
 
+.. _step-four:
+
 Paste this snippet to the configuration file
 ********************************************
 
@@ -157,11 +159,9 @@ Save the PM2 state (so it will start after reboot)
 Configuration file structure and possibilities
 **********************************************
 
-In Step 2 we paste the configuration file, here will be described possibilities in the configuration.
+In :ref:`Step 4 <step-four>` we paste the configuration file, here will be described possibilities in the configuration.
 In configuration you can use `JSONPath <https://goessner.net/articles/JsonPath/>`_.
-For example in measurement you can identify tag id from MQTT topic by syntax $.topic[1] as you can see in Step 4.
-
-!!!!!!!!!!!!!!!!!!!!!TODO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+For example in measurement you can identify tag id from MQTT topic by syntax $.topic[1] as you can see in :ref:`Step 4 <step-four>`.
 
 MQTT
 ****

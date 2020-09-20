@@ -53,8 +53,6 @@ Launch the downloaded installer and choose the destination directory
 ********************************************************************
 
 .. image:: ../_static/firmware/toolchain_setup/windows-location.png
-   :align: center
-   :scale: 100%
    :alt: Windows location
 
 
@@ -62,16 +60,12 @@ Now you can adjust the desired Path environment variable (we recommend to leave 
 ***************************************************************************************************************************************************
 
 .. image:: ../_static/firmware/toolchain_setup/setup_windows-paths.png
-   :align: center
-   :scale: 100%
    :alt: Windows PATH
 
 The FTDI driver setup will launch automatically during the installation - install it
 ************************************************************************************
 
 .. image:: ../_static/firmware/toolchain_setup/setup_windows-ftdi.png
-   :align: center
-   :scale: 100%
    :alt: FTDI
 
 After finishing the installation, launch the HARDWARIO Toolchain using one these 3 ways
@@ -86,8 +80,6 @@ After finishing the installation, launch the HARDWARIO Toolchain using one these
     The advantage of the context menu is to open the HARDWARIO Toolchain directly in the directory location you need to work with.
 
 .. image:: ../_static/firmware/toolchain_setup/setup_windows-toolchain.png
-   :align: center
-   :scale: 100%
    :alt: CMD Toolchain
 
 
@@ -111,8 +103,6 @@ Uninstall on Windows
 Uninstall **Apps & features**:
 
 .. image:: ../_static/firmware/toolchain_setup/setup_windows-uninstall.png
-   :align: center
-   :scale: 100%
    :alt: Windows Uninstall
 
 .. _macos-setup:

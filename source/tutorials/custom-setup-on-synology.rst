@@ -6,8 +6,6 @@ You can have HARDWARIO Gateway running on Raspberry Pi, but if you have any kind
 why not take advantage of it? You will save a tiny bit on electricity bill and also get more durable system.
 
 .. image:: ../_static/tutorials/custom-setup-on-synology/synology.jpg
-   :align: center
-   :scale: 80%
 
 If you need more permanent solution than **HARDWARIO Playground** you can install all the services yourself in your system.
 This guide will help you to install and configure these services:
@@ -52,8 +50,6 @@ Install `Virtual Machine Manager <https://www.synology.com/en-global/dsm/package
 ******************************************************************************************************
 
 .. image:: ../_static/tutorials/custom-setup-on-synology/vmm-install.png
-   :align: center
-   :scale: 80%
 
 Download latest `Ubuntu Server <https://ubuntu.com/download/server>`_. The 64 bit is important because Grafana do not release 32 bit versions anymore
 *******************************************************************************************************************************************************
@@ -82,8 +78,6 @@ If you did not already inserted Radio Dongle, do it now. Open virtual machine co
     If you disconnect **Radio Dongle** from the USB then this **USB device** configuration **must be set again!**
 
 .. image:: ../_static/tutorials/custom-setup-on-synology/vmm-usb.png
-   :align: center
-   :scale: 80%
 
 Follow steps :doc:`Custom Setup on Ubuntu <custom-setup-on-ubuntu>` to install all the tools and services
 **********************************************************************************************************
@@ -92,10 +86,6 @@ Now you have Node-RED, Grafana and all the tools running on your Synology NAS
 ******************************************************************************
 
 .. image:: ../_static/tutorials/custom-setup-on-synology/grafana.png
-   :align: center
-   :scale: 80%
 
 .. image:: ../_static/tutorials/custom-setup-on-synology/node-red.png
-   :align: center
-   :scale: 80%
 
