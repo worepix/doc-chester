@@ -73,7 +73,6 @@ Where to Begin
    integrations/anemone-platform
    integrations/ubidots
    integrations/homekit-and-siri
-   integrations/amazon-alexa
    integrations/google-assistant
    integrations/firebase
    integrations/google-sheets
