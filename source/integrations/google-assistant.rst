@@ -68,12 +68,14 @@ Install Node-RED package
 
 Select **Manage pallete** from the right menu
 
-.. image:: ../_static/integrations/google_assistant/manage_pallete.PNG
+.. thumbnail:: ../_static/integrations/google_assistant/manage_pallete.PNG
+   :width: 60%
    :alt: Manage Pallete
 
 Click on **install tab** and type *hardwario* into the search field. Confirm *@hardwario/node-red-contrib-hardwario-voice* by pressing install.
 
-.. image:: ../_static/integrations/google_assistant/home_existing.jpg
+.. thumbnail:: ../_static/integrations/google_assistant/home_existing.jpg
+   :width: 60%
    :alt: Home Existing
 
 Import flow
@@ -81,7 +83,9 @@ Import flow
 
 Open the right **Menu -> Import -> Examples** and select HARDWARIO Google Assistant from the package folder
 
-.. image:: ../_static/integrations/google_assistant/manage_pallete_examples.png
+.. thumbnail:: ../_static/integrations/google_assistant/manage_pallete_examples.png
+   :width: 60%
+
 
 Or import following JSON:
 
@@ -91,7 +95,9 @@ Or import following JSON:
 
 It will look like this:
 
-.. image:: ../_static/integrations/google_assistant/imported_flow.PNG
+.. thumbnail:: ../_static/integrations/google_assistant/imported_flow.PNG
+   :width: 40%
+
 
 .. note::
 
@@ -103,7 +109,9 @@ Get your Auth token
 Go to `HARDWARIO Auth page <https://ga.hardwario.com>`_ and sign in using a Google Account which you are using with Google Assistant.
 In your email, you will receive an **Auth token**.
 
-.. image:: ../_static/integrations/google_assistant/hardwario_auth.png
+.. thumbnail:: ../_static/integrations/google_assistant/hardwario_auth.png
+   :width: 60%
+
 
 Check your email address associated with the Google account you used to sign in.
 
@@ -119,7 +127,9 @@ Deploy the flow using the **Deploy** button in the top-right corner.
 
 The nodes should after a few seconds show the connected status like this:
 
-.. image:: ../_static/integrations/google_assistant/imported_flow_deployed.PNG
+.. thumbnail:: ../_static/integrations/google_assistant/imported_flow_deployed.PNG
+   :width: 40%
+
 
 Possible errors
 ***************
@@ -159,17 +169,23 @@ Add service
 
 Press the **+** button in the top left corner to add a new service.
 
-.. image:: ../_static/integrations/google_assistant/home_main.jpg
+.. thumbnail:: ../_static/integrations/google_assistant/home_main.jpg
+   :width: 60%
+
 
 Tap on *Setup device*, then select *Have something already setup?*
 
-.. image:: ../_static/integrations/google_assistant/home_add.jpg
+.. thumbnail:: ../_static/integrations/google_assistant/home_add.jpg
+   :width: 60%
+
 
 Search for **HARDWARIO** a pick it from the list.
 You will see a website, use it to Sign in with either your Google account or token.
 This has to be a same account/token as you used before.
 
-.. image:: ../_static/integrations/google_assistant/home_search.jpg
+.. thumbnail:: ../_static/integrations/google_assistant/home_search.jpg
+   :width: 60%
+
 
 Test your devices
 *****************
@@ -208,17 +224,23 @@ Use a scene node to create custom commands that you can activate using Google As
 
 Set up the Scene node with Scene config and connect it to either MQTT node or as an input to Voice node.
 
-.. image:: ../_static/integrations/google_assistant/scene_setup.png
+.. thumbnail:: ../_static/integrations/google_assistant/scene_setup.png
+   :width: 60%
+
 
 Fill out the Scene node config:
 
-.. image:: ../_static/integrations/google_assistant/scene_config.png
+.. thumbnail:: ../_static/integrations/google_assistant/scene_config.png
+   :width: 60%
+
 
 Save the changes to the config and press **Deploy**
 
 Now you can use the button left to the Scene node to send the update.
 
-.. image:: ../_static/integrations/google_assistant/setup_updated.png
+.. thumbnail:: ../_static/integrations/google_assistant/setup_updated.png
+   :width: 60%
+
 
 Your node is node updated and you can activate it by saying *"Hey Google, activate {scene name}"* if you choose to make it reversible,
 different commands will be sent by saying *"Hey Google, deactivate {scene name}"*
@@ -229,7 +251,9 @@ Dynamic scenes
 You can set up dynamic scenes, which are set based on some conditions in real-time.
 You can do this by importing the following nodes as an example.
 
-.. image:: ../_static/integrations/google_assistant/scene_dynamic.png
+.. thumbnail:: ../_static/integrations/google_assistant/scene_dynamic.png
+   :width: 60%
+
 
 .. code-block:: json
 
@@ -248,7 +272,9 @@ Place the switch node between the MQTT out and Google Assistant node and connect
 
 Fill out all the message topics that you don't want to be sent.
 
-.. image:: ../_static/integrations/google_assistant/filter.PNG
+.. thumbnail:: ../_static/integrations/google_assistant/filter.PNG
+   :width: 40%
+
 
 Change the number of batteries
 ******************************
@@ -299,4 +325,6 @@ You can use this message to create conditions and flow to limit the Motion Detec
 
 Feel free to modify the example you can get from **Menu -> Import -> Examples -> Package name -> Alarm example**
 
-.. image:: ../_static/integrations/google_assistant/alarm_setup.PNG
+.. thumbnail:: ../_static/integrations/google_assistant/alarm_setup.PNG
+   :width: 60%
+

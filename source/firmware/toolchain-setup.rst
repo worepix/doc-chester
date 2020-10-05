@@ -52,20 +52,23 @@ Download the current version of the HARDWARIO Toolchain Windows installer
 Launch the downloaded installer and choose the destination directory
 ********************************************************************
 
-.. image:: ../_static/firmware/toolchain_setup/windows-location.png
+.. thumbnail:: ../_static/firmware/toolchain_setup/windows-location.png
+   :width: 40%
    :alt: Windows location
 
 
 Now you can adjust the desired Path environment variable (we recommend to leave the default settings if in doubt) and proceed with the installation
 ***************************************************************************************************************************************************
 
-.. image:: ../_static/firmware/toolchain_setup/setup_windows-paths.png
+.. thumbnail:: ../_static/firmware/toolchain_setup/setup_windows-paths.png
+   :width: 40%
    :alt: Windows PATH
 
 The FTDI driver setup will launch automatically during the installation - install it
 ************************************************************************************
 
-.. image:: ../_static/firmware/toolchain_setup/setup_windows-ftdi.png
+.. thumbnail:: ../_static/firmware/toolchain_setup/setup_windows-ftdi.png
+   :width: 40%
    :alt: FTDI
 
 After finishing the installation, launch the HARDWARIO Toolchain using one these 3 ways
@@ -79,7 +82,8 @@ After finishing the installation, launch the HARDWARIO Toolchain using one these
 
     The advantage of the context menu is to open the HARDWARIO Toolchain directly in the directory location you need to work with.
 
-.. image:: ../_static/firmware/toolchain_setup/setup_windows-toolchain.png
+.. thumbnail:: ../_static/firmware/toolchain_setup/setup_windows-toolchain.png
+   :width: 60%
    :alt: CMD Toolchain
 
 
@@ -102,7 +106,8 @@ Uninstall on Windows
 
 Uninstall **Apps & features**:
 
-.. image:: ../_static/firmware/toolchain_setup/setup_windows-uninstall.png
+.. thumbnail:: ../_static/firmware/toolchain_setup/setup_windows-uninstall.png
+   :width: 60%
    :alt: Windows Uninstall
 
 .. _macos-setup:

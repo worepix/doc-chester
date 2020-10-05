@@ -18,7 +18,8 @@ All hardware design is done using **EAGLE** from **Autodesk**.
 We use **EAGLE** because it is cross-platform, easy-to-use and features open XML file format,
 which perfectly fits for the Git version control system and team workflow.
 
-.. image:: ../_static/hardware/basic/eagle.png
+.. thumbnail:: ../_static/hardware/basic/eagle.png
+   :width: 60%
    :alt: Eagle
 
 You will find released schematic and assembly drawings in our GitHub repository `bc-hardware <https://github.com/hardwario/bc-hardware>`_.
@@ -29,7 +30,8 @@ Enclosures
 
 We also design and maintain the whole range of 3D enclosures that are optimized for 3D printing.
 
-.. image:: ../_static/hardware/basic/enclosure_showcase.png
+.. thumbnail:: ../_static/hardware/basic/enclosure_showcase.png
+   :width: 60%
    :alt: Enclosure
 
 You can view and download **ready-to-print** models (in STL format) from our GitHub repository `bc-enclosures <https://github.com/hardwario/bc-enclosures>`_.

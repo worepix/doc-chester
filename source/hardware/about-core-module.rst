@@ -22,7 +22,8 @@ About Core Module
     For differences of flashing older **Core Module 1** and newer **Core Module 2**
     please read :doc:`Core Module R1 and R2 comparison <../hardware/core-module-r1-and-r2-comparison>`
 
-.. image:: ../_static/hardware/about_core/core-module-2-pinout.png
+.. thumbnail:: ../_static/hardware/about_core/core-module-2-pinout.png
+   :width: 60%
    :alt: Core Module Pinout
 
 Core Module **R2** is the new revision.

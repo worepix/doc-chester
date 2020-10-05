@@ -61,4 +61,6 @@ html_css_files = [
     'css/custom.css',
 ]
 
+html_favicon = '_static/general/favicon.png'
+
 highlight_language = 'none'

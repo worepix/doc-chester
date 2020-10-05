@@ -16,7 +16,7 @@ Windows
 
 #. Download and Install `VSCode IDE <https://code.visualstudio.com/>`__ first
 #. Download and Install `HARDWARIO Toolchain <https://github.com/hardwario/bch-toolchain-windows/releases>`_,  keep the default install options if in doubt (:ref:`details <windows-setup>`)
-#. Create HARDWARIO folder where all your HARDWARIO projects will be located and right-click on that folder and choose Open with Toolchain????????
+#. Create HARDWARIO folder where all your HARDWARIO projects will be located and right-click on that folder and choose Open with Toolchain
 #. Create a new project skeleton using bcf by typing ``bcf create my_project``
 #. Go to the new created folder by typing ``cd my_project``
 #. Run VSCode by typing ``code .`` (note the dot ".")

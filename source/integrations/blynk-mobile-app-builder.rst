@@ -19,7 +19,8 @@ Blynk example projects with HARDWARIO
 Blynk app
 *********
 
-.. image:: ../_static/integrations/blynk/blynk-for-mobile-applications_blynk.png
+.. thumbnail:: ../_static/integrations/blynk/blynk-for-mobile-applications_blynk.png
+   :width: 60%
    :alt: Blynk App Example
 
 ***************
@@ -80,16 +81,20 @@ Paste this code to the Playground.
 
 You will see this node
 
-.. image:: ../_static/integrations/blynk/nodered.png
+.. thumbnail:: ../_static/integrations/blynk/nodered.png
+   :width: 60%
+
 
 Now you are ready to scan the QR code to the Blynk app
 
-.. image:: ../_static/integrations/blynk/led-strip_blynk-qr.png
+.. thumbnail:: ../_static/integrations/blynk/led-strip_blynk-qr.png
+   :width: 40%
+
 
 The Blynk project should look like this
 
-.. image:: ../_static/integrations/blynk/led-strip_blynk-3.png
-    :scale: 40%
+.. thumbnail:: ../_static/integrations/blynk/led-strip_blynk-3.png
+   :width: 40%
 
 .. code-block:: javascript
     :linenos:

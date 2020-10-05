@@ -100,7 +100,9 @@ HARDWARIO Playground
 Download the latest HARDWARIO Playground from :ref:`Quick Start Guide <download-playground>` and open it.
 Navigate to Firmware, connect Core Module via USB to computer and choose firmware to flash.
 
-.. image:: ../_static/tutorials/quick-tutorial/hardwario-playground.PNG
+.. thumbnail:: ../_static/tutorials/quick-tutorial/hardwario-playground.PNG
+   :width: 60%
+
 
 Command-line tool
 *****************
@@ -218,7 +220,9 @@ You can run it in your web browser and display, process measured values and then
 
 Please type the ``hub.local:1880`` address to your web browser.
 
-.. image:: ../_static/tutorials/quick-tutorial/node-red.png
+.. thumbnail:: ../_static/tutorials/quick-tutorial/node-red.png
+   :width: 60%
+
 
 On the left panel you choose the building blocks which you place by dragging and dropping to the middle to the **flow**.
 Blocks are divided to several sections, the most important are **input, output, function** and **dashboard**.
@@ -248,20 +252,26 @@ After that select and place from the **output** section the **debug** block.
 Now you need to connect these blocks by the mouse.
 This way you have created your first flow.
 
-.. image:: ../_static/tutorials/quick-tutorial/mqtt-all-flow.png
+.. thumbnail:: ../_static/tutorials/quick-tutorial/mqtt-all-flow.png
+   :width: 30%
+
 
 Now it is necessary to configure **mqtt** block. By double clicking on the block open the setting and set these parameters:
 
 - server: localhost:1883
 - topic: #
 
-.. image:: ../_static/tutorials/quick-tutorial/mqtt-configure.png
+.. thumbnail:: ../_static/tutorials/quick-tutorial/mqtt-configure.png
+   :width: 30%
+
 
 After you save the block settings you have to apply the changes by the **deploy** button.
 After deploying switch to the **debug** tab and after few moments you'll see incoming messages from connected **Core Module**.
 You can also press ``B`` button on the **Core Module** and this event will also appear in the **debug** log.
 
-.. image:: ../_static/tutorials/quick-tutorial/mqtt-all-debug.png
+.. thumbnail:: ../_static/tutorials/quick-tutorial/mqtt-all-debug.png
+   :width: 30%
+
 
 Displaying the temperature
 **************************
@@ -273,7 +283,9 @@ We need to change ``#`` to the ``node/core-module:0/thermometer/0:1/temperature`
 For the graphical representation of received values you can use **Node-RED dashboard**.
 Please insert the **gauge** block, which is in the left list of the block at the bottom. This block needs to be configured.
 
-.. image:: ../_static/tutorials/quick-tutorial/gauge-flow.png
+.. thumbnail:: ../_static/tutorials/quick-tutorial/gauge-flow.png
+   :width: 60%
+
 
 Double click on the **gauge** block for configuration.
 First create the new dashboard group by clicking the pencil symbol at the **Add new ui_group** field.
@@ -282,8 +294,6 @@ Now confirm both opened dialogs and the default dashboard tab and group is creat
 Before closing the **gauge** settings change the **Range** of the **gauge** to values from **0** to **40** and confirm this last opened dialog.
 Press the **deploy** to apply the changes and open the dashboard.
 
-IMAGE
-
 .. tip::
 
     For battery-saving reasons the temperature is only send when there's a change.
@@ -291,7 +301,9 @@ IMAGE
 
 The dashboard can be opened in the right **dashboard** tab by clicking on the arrow symbol or by typing the ``hub.local:1880/ui`` address to your browser.
 
-.. image:: ../_static/tutorials/quick-tutorial/gauge-dashboard.png
+.. thumbnail:: ../_static/tutorials/quick-tutorial/gauge-dashboard.png
+   :width: 30%
+
 
 Here's the complete flow in case of any issues.
 
@@ -307,8 +319,6 @@ It's possible to connect the `Humidity Tag <https://shop.hardwario.com/humidity-
 as displayed in the picture or you can use also `Tag Module <https://shop.hardwario.com/tag-module/>`_ which can hold many more sensor tags.
 Also the `Battery Module <https://shop.hardwario.com/battery-module/>`_ contains spare connector for sensor tag.
 
-IMAGE
-
 .. note::
 
     This procedure can be used also for other conencted sensors or `Climate Module <https://shop.hardwario.com/climate-module/>`_.
@@ -318,7 +328,6 @@ Then you can use debug nodes in **Node-RED** to get the right MQTT topic and cop
 
 The MQTT topic will have the format ``node/core-module:0/hygrometer/0:2/relative-humidity``.
 
-IMAGE
 
 Extending to control the relay
 ******************************
@@ -333,7 +342,6 @@ Based on selected module with relay you have to change the topic.
 
 Then you send ``true`` or ``false`` as a payload.
 
-IMAGE
 
 The **Relay Module** has also command to make a single pulse with set duration and relay direction.
 
@@ -342,8 +350,6 @@ Topic is ``node/core-module:0/relay/0:0/pulse/set`` and you have to publish this
 .. code-block:: console
 
     mosquitto_pub -t "node/core-module:0/relay/0:0/pulse/set" -m "{ \"duration\": 500, \"direction\": true}"
-
-IMAGE
 
 .. _wireles-network:
 
@@ -445,7 +451,9 @@ Then the red LED will start blinking.
 
 Radio Dongle do not have pairing button and the pairing process needs to be started in the **Playground** or in the **Hub**.
 
-.. image:: ../_static/tutorials/quick-tutorial/playground-devices-start-pairing.PNG
+.. thumbnail:: ../_static/tutorials/quick-tutorial/playground-devices-start-pairing.PNG
+   :width: 60%
+
 
 In command line you enable pairing by commands below.
 

@@ -5,7 +5,9 @@ Custom Setup on Synology
 You can have HARDWARIO Gateway running on Raspberry Pi, but if you have any kind of NAS already running 24/7 in your network,
 why not take advantage of it? You will save a tiny bit on electricity bill and also get more durable system.
 
-.. image:: ../_static/tutorials/custom-setup-on-synology/synology.jpg
+.. thumbnail:: ../_static/tutorials/custom-setup-on-synology/synology.jpg
+   :width: 60%
+
 
 If you need more permanent solution than **HARDWARIO Playground** you can install all the services yourself in your system.
 This guide will help you to install and configure these services:
@@ -49,7 +51,9 @@ Installation
 Install `Virtual Machine Manager <https://www.synology.com/en-global/dsm/packages/Virtualization>`_​
 ******************************************************************************************************
 
-.. image:: ../_static/tutorials/custom-setup-on-synology/vmm-install.png
+.. thumbnail:: ../_static/tutorials/custom-setup-on-synology/vmm-install.png
+   :width: 60%
+
 
 Download latest `Ubuntu Server <https://ubuntu.com/download/server>`_. The 64 bit is important because Grafana do not release 32 bit versions anymore
 *******************************************************************************************************************************************************
@@ -77,7 +81,9 @@ If you did not already inserted Radio Dongle, do it now. Open virtual machine co
 
     If you disconnect **Radio Dongle** from the USB then this **USB device** configuration **must be set again!**
 
-.. image:: ../_static/tutorials/custom-setup-on-synology/vmm-usb.png
+.. thumbnail:: ../_static/tutorials/custom-setup-on-synology/vmm-usb.png
+   :width: 60%
+
 
 Follow steps :doc:`Custom Setup on Ubuntu <custom-setup-on-ubuntu>` to install all the tools and services
 **********************************************************************************************************
@@ -85,7 +91,11 @@ Follow steps :doc:`Custom Setup on Ubuntu <custom-setup-on-ubuntu>` to install a
 Now you have Node-RED, Grafana and all the tools running on your Synology NAS
 ******************************************************************************
 
-.. image:: ../_static/tutorials/custom-setup-on-synology/grafana.png
+.. thumbnail:: ../_static/tutorials/custom-setup-on-synology/grafana.png
+   :width: 60%
 
-.. image:: ../_static/tutorials/custom-setup-on-synology/node-red.png
+
+.. thumbnail:: ../_static/tutorials/custom-setup-on-synology/node-red.png
+   :width: 60%
+
 

@@ -20,7 +20,8 @@ About Cloony
 | |shopping-cart| `E-Shop <https://shop.hardwario.com/cloony/>`_ | |microchip| `Schematic drawing <https://github.com/hardwario/bc-hardware/tree/master/out/bc-cloony>`_  | |book| `Projects <https://www.hackster.io/hardwario/projects?part_id=74081>`_  |
 +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
 
-.. image:: ../_static/hardware/about_cloony/cloony-pinout.png
+.. thumbnail:: ../_static/hardware/about_cloony/cloony-pinout.png
+   :width: 60%
    :alt: Cloony Pinout
 
 ----------------------------------------------------------------------------------------------

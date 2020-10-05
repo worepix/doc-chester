@@ -50,7 +50,8 @@ Run the HARDWARIO Playground
 
 Go to the **Devices** tab, choose the **Radio Dongle** serial port and click **Connect**
 
-.. image:: ../_static/basics/quick-start-guide/playground-devices-tab.PNG
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-devices-tab.PNG
+    :width: 60%
 
 .. tip::
 
@@ -59,7 +60,9 @@ Go to the **Devices** tab, choose the **Radio Dongle** serial port and click **C
 Radio kits delivered together with your `Radio Dongle <https://shop.hardwario.com/radio-dongle/>`_ are already programmed and paired,
 please check that out in the image below.
 
-.. image:: ../_static/basics/quick-start-guide/playground-devices-paired.PNG
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-devices-paired.PNG
+    :width: 60%
+
 
 *************
 Build devices
@@ -74,7 +77,9 @@ Do not put batteries to the battery module yet.
 
     Be careful how you connect Mini Battery Module to the other modules. Look at the image below so you know how to do it.
 
-.. image:: ../_static/basics/quick-start-guide/mini-battery-module-orientation.png
+.. thumbnail:: ../_static/basics/quick-start-guide/mini-battery-module-orientation.png
+    :width: 60%
+
 
 As mentioned, delivered kits are already programmed with a right firmware.
 If you would like to change it to another firmware in the Core Module, please follow this :ref:`firmware flash chapter. <flash-firmware>`
@@ -93,7 +98,9 @@ Playground's Messages
 Switch to Playground's **Messages** tab and put batteries to your kit, you should see incoming messages.
 Every kit sends different messages. Here the **Button kit** sends temperature, voltage, event-count (everytime you press the button) and other messages.
 
-.. image:: ../_static/basics/quick-start-guide/playground-messages.PNG
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-messages.PNG
+    :width: 60%
+
 
 
 3D-printed enclosure
@@ -122,7 +129,9 @@ Copy the **bold** text (called **topic**) that ends with *temperature* **to the 
 Your **topic** could be different based on your kit name.
 You can also copy any other topic that your module supports from the :doc:`MQTT topics list. <../interfaces/mqtt-topics>`
 
-.. image:: ../_static/basics/quick-start-guide/playground-messages-topic.png
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-messages-topic.png
+    :width: 60%
+
 
 Function
 ********
@@ -131,25 +140,35 @@ Switch to the **Functions** tab and from the color blocks on the left side drag 
 **gauge** block to the **flow** in the middle of the screen. The color blocks are called **nodes**.
 You can use the ``filter nodes`` text box to find the right block. Connect the two created nodes together.
 
-.. image:: ../_static/basics/quick-start-guide/playground-functions-tab.PNG
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-functions-tab.PNG
+    :width: 60%
 
-.. image:: ../_static/basics/quick-start-guide/playground-functions-connected.PNG
+
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-functions-connected.PNG
+    :width: 60%
+
 
 
 You have to modify the mqtt node and add the broker. Double click on it and then click on the little pencil on the right.
 
-.. image:: ../_static/basics/quick-start-guide/playground-functions-mqtt-edit-server.PNG
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-functions-mqtt-edit-server.PNG
+    :width: 60%
+
 
 After that you just have to type in the **localhost** or any of your MQTT broker addresses and then click **Add**. Finally click **Done**.
 
-.. image:: ../_static/basics/quick-start-guide/playground-functions-mqtt-edit-server-localhost.png
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-functions-mqtt-edit-server-localhost.png
+    :width: 60%
+
 
 Double click on the **gauge** node. Change **Label**, **Units** and **Range** to your needs.
 Then click **Done**. Double click on the **mqtt node** and paste the previously copied topic from the clipboard.
 Make sure there are not any spaces before and after the copied text. Then click **Done** and **Deploy** button.
 You have to click on the **Deploy** everytime you make changes in your flow.
 
-.. image:: ../_static/basics/quick-start-guide/playground-functions-mqtt-node.PNG
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-functions-mqtt-node.PNG
+    :width: 60%
+
 
 Dashboard
 *********
@@ -160,7 +179,9 @@ Go to Playground's **Dashboard** tab and you should see a gauge with the tempera
 
     The temperature can take a while to appear. You can breathe on the module or reconnect batteries for immediate update.
 
-.. image:: ../_static/basics/quick-start-guide/playground-dashboard.PNG
+.. thumbnail:: ../_static/basics/quick-start-guide/playground-dashboard.PNG
+    :width: 60%
+
 
 *****
 Share

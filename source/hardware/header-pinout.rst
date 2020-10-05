@@ -10,14 +10,16 @@ HARDWARIO sticks to a well-known and widely accepted standard - the so-called **
 Core Module pinout
 ******************
 
-.. image:: ../_static/hardware/pinout/core-module-2-pinout.png
+.. thumbnail:: ../_static/hardware/pinout/core-module-2-pinout.png
+   :width: 60%
    :alt: Core Module Pinout
 
 *************
 Cloony pinout
 *************
 
-.. image:: ../_static/hardware/pinout/cloony-pinout.png
+.. thumbnail:: ../_static/hardware/pinout/cloony-pinout.png
+   :width: 60%
    :alt: Cloony Pinout
 
 ***********************
@@ -31,14 +33,16 @@ software which contains **Standard Module** and **Cloony** format.
 Module Drawing & Pinout - Standard
 **********************************
 
-.. image:: ../_static/hardware/pinout/pinout_module.png
+.. thumbnail:: ../_static/hardware/pinout/pinout_module.png
+   :width: 30%
    :alt: Standard Pinout
 
 *******************************
 Module Drawing & Pinout - Large
 *******************************
 
-.. image:: ../_static/hardware/pinout/pinout_module-large.png
+.. thumbnail:: ../_static/hardware/pinout/pinout_module-large.png
+   :width: 40%
    :alt: Large Pinout
 
 **************
@@ -176,7 +180,8 @@ Format **tag** defines:
 Tag Drawing & Pinout
 ********************
 
-.. image:: ../_static/hardware/pinout/pinout_tag.png
+.. thumbnail:: ../_static/hardware/pinout/pinout_tag.png
+   :width: 10%
    :alt: Tag Pinout
 
 ***********

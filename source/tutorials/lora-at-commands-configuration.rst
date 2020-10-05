@@ -28,7 +28,9 @@ You can download `Hterm <http://der-hammer.info/pages/terminal.html>`_ for Windo
 It also supports macros and sequences in the left panel for most used commands.
 Type the command and press **ENTER**. Not the ASend button.
 
-.. image:: ../_static/tutorials/lora-at-commands-configuration/hterm.png
+.. thumbnail:: ../_static/tutorials/lora-at-commands-configuration/hterm.png
+   :width: 60%
+
 
 *******
 Picocom
